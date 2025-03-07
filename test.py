@@ -44,6 +44,42 @@ def get_research_areas():
     
     return research_area_urls
 
+def get_institutes_and_centers():
+    driver.get(base_url)
+    res = []
+    try:
+        # Wait for the <ul> element to be present
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, "/html/body/main/div/ul"))
+        )
+
+        # Find all <li> elements that contain an <a> tag at any level
+        list_items = driver.find_elements(By.XPATH, "/html/body/main/div/ul/li[.//a]")
+
+        # Extract and print text from <a> and <span> inside each <li>
+        for li in list_items:
+            try:
+                span_text = li.find_element(By.TAG_NAME, "span").text  # Extract span text
+            except:
+                span_text = "No span text"  # Handle cases where <span> is missing
+            
+            try:
+                link_element = li.find_element(By.TAG_NAME, "a")  # Find <a> tag
+                href = link_element.get_attribute("href")  # Extract href attribute
+            except:
+                href = "No href"  # Handle cases where <a> is missing
+
+            print(f"Span Text: {span_text}, Href: {href}")
+            res.append({
+                "title": span_text,
+                "url": href
+            })
+
+    except Exception as e:
+        print("Error:", e)
+    
+    return res
+
 # Function to get professors by research area
 def get_professors_by_area(area_name, area_url):
     print(f'Navigating to: {area_url}')
@@ -71,13 +107,57 @@ def get_professors_by_area(area_name, area_url):
     
     return profs_list
 
+def get_current_research_hightlights():
+    # Locate all target divs under the given XPath
+    driver.get(base_url)
+    div_elements = driver.find_elements(By.XPATH, "/html/body/main/div/div[6]/div[2]/div/div/div/div")
+    # Dictionary to store extracted data
+    data = []
+
+    for _, div in enumerate(div_elements):
+        try:
+            # Extract h2 text
+            h2_text = div.find_element(By.TAG_NAME, "h2").text.strip()
+        except:
+            h2_text = ""
+
+        try:
+            # Click on the card header or toggle button to expand the card
+            toggle_button = div.find_element(By.XPATH, ".//button")  # Adjust XPath if needed
+            toggle_button.click()
+
+            # Wait for the content to become visible
+            WebDriverWait(driver, 10).until(
+                EC.visibility_of_element_located((By.XPATH, ".//p"))
+            )
+
+            # Extract p text
+            p_text = div.find_element(By.XPATH, ".//p").text.strip()
+        except:
+            p_text = ""
+
+        try:
+            # Extract href (assuming it's inside an <a> tag somewhere in the div)
+            link_element = div.find_element(By.XPATH, ".//a")  # Finds first <a> inside div
+            href = link_element.get_attribute("href")
+        except:
+            href = ""
+
+        # Store in dictionary using h2 as the key
+        data.append({"title":h2_text,"description": p_text, "link": href})
+  
+    return data
+
 try:
     # Step 1: Get all research area URLs
     research_area_urls = get_research_areas()
-
+    data['research_areas'] = research_area_urls
+    data['institutes_and_centers'] = get_institutes_and_centers()
+    data['research_hightlights'] = get_current_research_hightlights()
     # Step 2: Visit each research area and get professor details
+    data['research_profs'] = {}
     for area_name, area_url in research_area_urls.items():
-        data[area_name] = get_professors_by_area(area_name, area_url)
+        data['research_profs'][area_name] = get_professors_by_area(area_name, area_url)
 
 except Exception as e:
     print('Error:', e)
@@ -88,5 +168,5 @@ finally:
     driver.quit()
 
 # Save the organized data to a JSON file
-with open('research_area_professors.json', 'w') as outfile:
+with open('data_dump.json', 'w') as outfile:
     json.dump(data, outfile, indent=4)
