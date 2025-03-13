@@ -7,10 +7,19 @@
       "base_url": "https://www.khoury.northeastern.edu/research_areas/"
     },
     "Research_landing": {
-        "base_url": "https://www.khoury.northeastern.edu/research/"
+      "base_url": "https://www.khoury.northeastern.edu/research/"
     },
     "Research_areas": {
       "base_url": "https://www.khoury.northeastern.edu/research_areas/"
+    },
+    "Research_spaces": {
+      "base_url": "https://www.khoury.northeastern.edu/research-spaces/"
+    },
+    "Labs_groups": {
+      "base_url": "https://www.khoury.northeastern.edu/research/labs-groups/"
+    },
+    "Institutes_and_centers": {
+      "base_url": "https://www.khoury.northeastern.edu/research/institutes-and-centers/"
     },
     "location": "BOSTON"
   },
