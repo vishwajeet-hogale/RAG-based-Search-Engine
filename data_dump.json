@@ -22,36 +22,44 @@
     },
     "institutes_and_centers": [
         {
-            "title": "Center for Inclusive Computing",
-            "url": "https://cic.northeastern.edu/"
+            "name": "Center for Inclusive Computing",
+            "description": "Founded in 2019, the Center for Inclusive Computing at Northeastern University partners with colleges and universities to increase the representation of female computing graduates. These partnerships focus on addressing and removing the institutional barriers that exclude women of all races and ethnicities from discovering and thriving in computing programs.",
+            "href": "https://cic.northeastern.edu"
         },
         {
-            "title": "Cybersecurity and Privacy Institute",
-            "url": "https://cyber.northeastern.edu/"
+            "name": "Cybersecurity and Privacy Institute",
+            "description": "By collaborating with experts in industry, government, and academia around the world, the Cybersecurity and Privacy Institute\u2019s faculty and students research, develop, and enhance technologies on which the world relies.",
+            "href": "https://cyber.northeastern.edu"
         },
         {
-            "title": "Network Science Institute",
-            "url": "https://www.networkscienceinstitute.org/"
+            "name": "Network Science Institute",
+            "description": "The Network Science Institute (NetSI) at Northeastern University is a multidisciplinary research community that supports innovative research and training in network science. Its researchers work to discover and inspire fundamentally new ways to measure, model, predict, and visualize meaningful interactions and interconnectivity of social, physical, and technological systems.",
+            "href": "https://www.networkscienceinstitute.org/"
         },
         {
-            "title": "Institute of Information Assurance",
-            "url": "https://iia.ccs.neu.edu/"
+            "name": "Institute of Information Assurance",
+            "description": "A multidisciplinary effort created in 2005, the Institute of Information Assurance (IIA) is a crucial part of Northeastern University\u2019s commitment to advancing cybersecurity through research and education. The IIA draws on talent and knowledge in three colleges at Northeastern: Khoury College, the College of Engineering\u2019s Department of Electrical and Computer Engineering, and the College of Social Sciences and Humanities.",
+            "href": "https://iia.ccs.neu.edu/"
         },
         {
-            "title": "Center for Generative AI",
-            "url": "https://genai.khoury.northeastern.edu/"
+            "name": "Center for Generative AI",
+            "description": "In conjunction with its $9 million NSF grant for a National Deep Inference Fabric (NDIF) \u2014 a revolutionary project aimed at unlocking the inner workings of large language models \u2014 Khoury College launched the Center for Generative AI to enhance and grow partnerships, and to foster collaboration between industry members and interdisciplinary researchers.",
+            "href": "https://genai.khoury.northeastern.edu/"
         },
         {
-            "title": "The Internet Democracy Initiative",
-            "url": "https://idi.provost.northeastern.edu/"
+            "name": "The Internet Democracy Initiative",
+            "description": "The Internet Democracy Initiative studies problems that have widespread implications for information and social media, thus improving our understanding the role of the internet in democracy, society, and markets.",
+            "href": "https://idi.provost.northeastern.edu/"
         },
         {
-            "title": "National Internet Observatory",
-            "url": "https://nationalinternetobservatory.org/"
+            "name": "National Internet Observatory",
+            "description": "Supported by a grant from the National Science Foundation, the National Internet Observatory aims to help researchers understand how people behave online and how platforms structure what people see.",
+            "href": "https://nationalinternetobservatory.org/"
         },
         {
-            "title": "Institute for Experiential Robotics",
-            "url": "https://robotics.northeastern.edu/"
+            "name": "Institute for Experiential Robotics",
+            "description": "The Institute for Experiential Robotics develops robots that learn and adaptively execute autonomous behaviors from human partners and other robots. Experiential robotics identifies and studies use-driven research problems at the intersection of collective human\u2013robot experience.",
+            "href": "https://robotics.northeastern.edu/"
         }
     ],
     "research_highlights": [

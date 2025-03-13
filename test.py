@@ -9,12 +9,14 @@ with open("./metadata.json", 'r') as f:
 # Get base URLs from metadata
 base_url = metadata["Khoury College of Computer Science"]["Research_landing"]["base_url"]
 research_url = metadata["Khoury College of Computer Science"]["Research_areas"]["base_url"]
+institutes_and_centers_url = metadata["Khoury College of Computer Science"]["Institutes_and_centers"]["base_url"]
 
 # Store the results
 data = {}
 
 # Function to get all research area URLs
 def get_research_areas():
+    print(f"Getting research areas")
     response = requests.get(base_url)
     soup = BeautifulSoup(response.text, 'html.parser')
     
@@ -31,30 +33,42 @@ def get_research_areas():
 
 # Function to get institutes and centers
 def get_institutes_and_centers():
-    response = requests.get(base_url)
-    soup = BeautifulSoup(response.text, 'html.parser')
+    print(f"Getting institutes and centers")
+    research_data = []
+    try:
+        # Fetch the page content
+        response = requests.get(institutes_and_centers_url)
+        if response.status_code != 200:
+            print("Failed to fetch page")
+            exit()
+
+        # Parse HTML with BeautifulSoup
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        # Extract institute names (assumed to be in <h3>)
+        institute_names = soup.select("main > div > div")
+
+        if not institute_names:
+            print("No institute names found")
+
+        # Loop through each h3 and extract its next <p> sibling as description
+        for name_tag in institute_names[1:]:
+            name = name_tag.find("h3").text.strip()
+            description_tag = name_tag.find("p")  # Get the paragraph next to h3
+            a_element = name_tag.find("a")
+            href = a_element['href'] if a_element and a_element.has_attr('href') else ""
+            institute_data = {
+                "name": name,
+                "description": description_tag.text.strip() if description_tag else "",
+                "href": href
+            }
+            research_data.append(institute_data)
+
+    except Exception as e:
+        print(f"Error: {e}")
     
-    res = []
-    
-    # Select all <li> elements inside <ul> within <main> > <div>
-    list_items = soup.select("main > div > ul > li")
+    return research_data
 
-    for li in list_items:
-        try:
-            # Extract <span> text
-            span_element = li.find("span")
-            span_text = span_element.text.strip() if span_element else "No span text"
-
-            # Extract <a> tag and its href
-            a_element = li.find("a")
-            href = a_element['href'] if a_element and a_element.has_attr('href') else "No href"
-
-            res.append({"title": span_text, "url": href})
-        
-        except Exception as e:
-            print(f"Error processing list item: {e}")
-
-    return res
 
 
 def get_professor_details(prof_url):
@@ -133,6 +147,7 @@ import requests
 from bs4 import BeautifulSoup
 
 def get_current_research_highlights():
+    print(f"Getting research highlights")
     response = requests.get(base_url)  # Fetch the webpage
     soup = BeautifulSoup(response.text, "html.parser")  # Parse HTML
 
@@ -188,4 +203,3 @@ except Exception as e:
 # Save the organized data to a JSON file
 with open('data_dump.json', 'w') as outfile:
     json.dump(data, outfile, indent=4)
-    
