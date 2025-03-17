@@ -3,6 +3,7 @@ import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import pandas as pd
 
 # Set up undetected ChromeDriver in headless mode
 options = uc.ChromeOptions()
@@ -19,6 +20,8 @@ with open("./metadata.json", 'r') as f:
 # Get base URLs from metadata
 base_url = metadata["Khoury College of Computer Science"]["Research_landing"]["base_url"]
 research_url = metadata["Khoury College of Computer Science"]["Research_areas"]["base_url"]
+research_spaces_url = metadata["Khoury College of Computer Science"]["Research_spaces"]["base_url"]
+labs_url = metadata["Khoury College of Computer Science"]["Labs_groups"]["base_url"]
 
 # Store the results
 data = {}
@@ -71,22 +74,63 @@ def get_professors_by_area(area_name, area_url):
     
     return profs_list
 
-try:
-    # Step 1: Get all research area URLs
-    research_area_urls = get_research_areas()
+# Function to get all research spaces URLs
+def get_research_spaces():
+    # Store the results
+    data = {}
+    research_spaces_df = []
+    driver.get(research_spaces_url)
+    try:
+        # Using CSS Selector to handle class names with spaces
+        research_spaces = WebDriverWait(driver, 30).until(
+            EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.wp-block-column.is-layout-flow.wp-block-column-is-layout-flow'))
+        )
+        
+        print(f"Found {len(research_spaces)} research spaces.")
 
-    # Step 2: Visit each research area and get professor details
-    for area_name, area_url in research_area_urls.items():
-        data[area_name] = get_professors_by_area(area_name, area_url)
+        for research in research_spaces:
+            try:
+                title = research.find_element(By.TAG_NAME, 'h3').text
+                description = research.find_element(By.TAG_NAME, 'p').text
 
-except Exception as e:
-    print('Error:', e)
+                # Find the nested div that contains the <a> tag
+                link_element = research.find_element(By.TAG_NAME, 'a')
+                link = link_element.get_attribute('href')
 
-finally:
-    # Close and quit the driver at the end
-    driver.close()
-    driver.quit()
+                research_spaces_df.append([title, description, link])
+            except Exception as e:
+                print(f"Error extracting a research space: {e}")
 
-# Save the organized data to a JSON file
-with open('research_area_professors.json', 'w') as outfile:
-    json.dump(data, outfile, indent=4)
+    except Exception as e:
+        print('Timeout while collecting research area URLs:', e)
+    
+    return pd.DataFrame(research_spaces_df, columns=["Lab", "Description", "Link"])
+
+def main():
+    try:
+        # Step 1: Get all research area URLs
+        research_area_urls = get_research_areas()
+
+        # Step 2: Visit each research area and get professor details
+        for area_name, area_url in research_area_urls.items():
+            data[area_name] = get_professors_by_area(area_name, area_url)
+        rs_df = get_research_spaces()
+        rs_df.to_csv("Research_spaces.csv")
+
+    except Exception as e:
+        print('Error:', e)
+
+    finally:
+        # Close and quit the driver at the end
+        driver.close()
+        driver.quit()
+
+    # Save the organized data to a JSON file
+    with open('research_area_professors.json', 'w') as outfile:
+        json.dump(data, outfile, indent=4)
+        
+        
+        
+if __name__ == "__main__":
+    main()
+
