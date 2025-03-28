@@ -266,6 +266,42 @@ def get_current_research_highlights():
     df.to_csv("../modules/data/current_research_highlights.csv", index=False)
     return data
 
+def get_labs_links():
+    print(f"Getting labs")
+    lab_links = []
+    names = []
+    areas = []
+
+    for area, url in data['research_areas'].items():
+        try:
+            response = requests.get(url)
+            response.raise_for_status()
+
+            soup = BeautifulSoup(response.text, 'html.parser')
+            items = soup.select('.wp-block-khoury-link-list-item a')
+
+            for tag in items:
+                href = tag.get('href')
+                text = tag.get_text(strip=True)
+                if href:
+                    lab_links.append(href)
+                    names.append(text)
+                    areas.append(area)  # Optionally store which research area this lab is under
+
+        except Exception as e:
+            print(f"Error fetching for area '{area}': {e}")
+
+    # Convert to DataFrame
+    df = pd.DataFrame({
+        "Lab Name": names,
+        "Link": lab_links,
+        "Research Area": areas
+    })
+
+    # Save to CSV
+    df.to_csv("../modules/data/labs.csv", index=False)
+    return df
+
 def main():
     try:
         data['research_areas'] = get_research_areas()
@@ -278,6 +314,7 @@ def main():
         save_publications_per_row(data['research_profs'])        
         rs_df = get_research_spaces()
         rs_df.to_csv("../modules/data/research_spaces.csv")
+        labs_df = get_labs_links()
 
     except Exception as e:
         print('Error:', e)
