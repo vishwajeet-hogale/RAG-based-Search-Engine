@@ -114,6 +114,8 @@ def main():
         # Step 2: Visit each research area and get professor details
         for area_name, area_url in research_area_urls.items():
             data[area_name] = get_professors_by_area(area_name, area_url)
+            
+        
         rs_df = get_research_spaces()
         rs_df.to_csv("Research_spaces.csv")
 
