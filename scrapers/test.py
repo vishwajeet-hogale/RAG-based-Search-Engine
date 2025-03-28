@@ -9,7 +9,7 @@ import requests
 import pandas as pd
 
 # Load metadata from JSON file
-with open("../metadata.json", 'r') as f:
+with open("./metadata.json", 'r') as f:
     metadata = json.load(f)
 
 # Get base URLs from metadata
