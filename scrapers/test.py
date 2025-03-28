@@ -16,6 +16,8 @@ with open("./metadata.json", 'r') as f:
 base_url = metadata["Khoury College of Computer Science"]["Research_landing"]["base_url"]
 research_url = metadata["Khoury College of Computer Science"]["Research_areas"]["base_url"]
 institutes_and_centers_url = metadata["Khoury College of Computer Science"]["Institutes_and_centers"]["base_url"]
+research_spaces_url = metadata["Khoury College of Computer Science"]["Research_spaces"]["base_url"]
+labs_url = metadata["Khoury College of Computer Science"]["Labs_groups"]["base_url"]
 
 # Initialize Chrome driver
 options = uc.ChromeOptions()
@@ -48,7 +50,7 @@ def get_research_areas():
         research_area_urls[area_name] = new_url
 
     df = pd.DataFrame(list(research_area_urls.items()), columns=['Area', 'URL'])
-    df.to_csv('../data_dump/research_areas.csv', index=False)
+    df.to_csv('../modules/data/research_areas.csv', index=False)
     return research_area_urls
 
 # Function to get institutes and centers (Using Selenium)
@@ -80,7 +82,7 @@ def get_institutes_and_centers():
         research_data.append(institute_data)
     
     df = pd.DataFrame(research_data)
-    df.to_csv("../data_dump/institutes_and_centers.csv", index=False)
+    df.to_csv("../modules/data/institutes_and_centers.csv", index=False)
     return research_data
 
 # Function to get professor details (Using Selenium for expandable sections)
@@ -137,7 +139,7 @@ def get_professor_details(prof_url):
         print(f"Error fetching professor details: {e}")
         return {}
 
-def save_publications_per_row(data, filename="../data_dump/professor_details.csv"):
+def save_publications_per_row(data, filename="../modules/data/professor_details.csv"):
     rows = []
 
     for area, profs in data.items():
@@ -172,6 +174,38 @@ def save_publications_per_row(data, filename="../data_dump/professor_details.csv
     df.to_csv(filename, index=False)
     # print(f"Saved {len(rows)} publication records to {filename}")
 
+# Function to get all research spaces URLs
+def get_research_spaces():
+    print(f"Getting research spaces")
+    # Store the results
+    data = {}
+    research_spaces_df = []
+    driver.get(research_spaces_url)
+    try:
+        # Using CSS Selector to handle class names with spaces
+        research_spaces = WebDriverWait(driver, 30).until(
+            EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.wp-block-column.is-layout-flow.wp-block-column-is-layout-flow'))
+        )
+        
+        print(f"Found {len(research_spaces)} research spaces.")
+
+        for research in research_spaces:
+            try:
+                title = research.find_element(By.TAG_NAME, 'h3').text
+                description = research.find_element(By.TAG_NAME, 'p').text
+
+                # Find the nested div that contains the <a> tag
+                link_element = research.find_element(By.TAG_NAME, 'a')
+                link = link_element.get_attribute('href')
+
+                research_spaces_df.append([title, description, link])
+            except Exception as e:
+                print(f"Error extracting a research space: {e}")
+
+    except Exception as e:
+        print('Timeout while collecting research area URLs:', e)
+    
+    return pd.DataFrame(research_spaces_df, columns=["Lab", "Description", "Link"])
 
 # Function to get professors by research area
 def get_professors_by_area(area_name, area_url):
@@ -229,26 +263,33 @@ def get_current_research_highlights():
         })
 
     df = pd.DataFrame(data)
-    df.to_csv("../data_dump/current_research_highlights.csv", index=False)
+    df.to_csv("../modules/data/current_research_highlights.csv", index=False)
     return data
 
-# Main execution
-try:
-    data['research_areas'] = get_research_areas()
-    data['institutes_and_centers'] = get_institutes_and_centers()
-    data['research_highlights'] = get_current_research_highlights()
-    
-    data['research_profs'] = {}
-    for area_name, area_url in data['research_areas'].items():
-        data['research_profs'][area_name] = get_professors_by_area(area_name, area_url)
-    save_publications_per_row(data['research_profs'])
+def main():
+    try:
+        data['research_areas'] = get_research_areas()
+        data['institutes_and_centers'] = get_institutes_and_centers()
+        data['research_highlights'] = get_current_research_highlights()
+        
+        data['research_profs'] = {}
+        for area_name, area_url in data['research_areas'].items():
+            data['research_profs'][area_name] = get_professors_by_area(area_name, area_url)
+        save_publications_per_row(data['research_profs'])        
+        rs_df = get_research_spaces()
+        rs_df.to_csv("../modules/data/research_spaces.csv")
 
-except Exception as e:
-    print('Error:', e)
+    except Exception as e:
+        print('Error:', e)
 
-finally:
-    driver.quit()  # Close the browser when done
+    finally:
+        # Close and quit the driver at the end
+        driver.close()
+        driver.quit()
 
-# Save the organized data to a JSON file
-with open('../data_dump/data_dump.json', 'w') as outfile:
-    json.dump(data, outfile, indent=4)
+    # Save the organized data to a JSON file
+    with open('../modules/data/data_dump.json', 'w') as outfile:
+        json.dump(data, outfile, indent=4)
+           
+if __name__ == "__main__":
+    main()
