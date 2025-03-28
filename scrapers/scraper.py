@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
+import time
 
 # Set up undetected ChromeDriver in headless mode
 options = uc.ChromeOptions()
@@ -90,6 +91,7 @@ def get_research_spaces():
 
         for research in research_spaces:
             try:
+                # print(research.text)
                 title = research.find_element(By.TAG_NAME, 'h3').text
                 description = research.find_element(By.TAG_NAME, 'p').text
 
@@ -106,6 +108,83 @@ def get_research_spaces():
     
     return pd.DataFrame(research_spaces_df, columns=["Lab", "Description", "Link"])
 
+def get_professor_info(data):
+    df = []
+    for interest, professors in data.items():
+        for professor in professors:
+            print("Professor : ", professor)
+            base_info = [interest, professor["name"], professor["url"]]
+
+            driver.get(professor["url"])
+
+            # --- Education ---
+            try:
+                edu_btn = WebDriverWait(driver, 30).until(
+                    EC.presence_of_element_located((By.ID, "tab0-0"))
+                )
+                driver.execute_script("arguments[0].click();", edu_btn)
+                time.sleep(1)
+                edu_panel = WebDriverWait(driver, 30).until(
+                    EC.visibility_of_element_located((By.ID, "panel0-0"))
+                )
+                education = edu_panel.text.strip()
+            except:
+                education = ""
+
+            # --- Biography ---
+            try:
+                bio_btn = WebDriverWait(driver, 30).until(
+                    EC.presence_of_element_located((By.ID, "tab1-0"))
+                )
+                driver.execute_script("arguments[0].click();", bio_btn)
+                time.sleep(1)
+                bio_panel = WebDriverWait(driver, 30).until(
+                    EC.visibility_of_element_located((By.ID, "panel1-0"))
+                )
+                biography = bio_panel.text.strip()
+            except:
+                biography = ""
+
+            # --- Publications ---
+            try:
+                publications = WebDriverWait(driver, 10).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, '.wp-block-khoury-content-cards'))
+                )
+                all_publications = publications.find_elements(By.CSS_SELECTOR, "li.cards-list__listitem")
+
+                for i, pub in enumerate(all_publications):
+                    print("Publication:", i + 1)
+                    try:
+                        pub_date = pub.find_element(By.CSS_SELECTOR, "time.text-card__date").get_attribute("datetime")
+                    except:
+                        pub_date = ""
+                    try:
+                        pub_title = pub.find_element(By.CSS_SELECTOR, "h3.text-card__title a").get_attribute("textContent").strip()
+                    except:
+                        pub_title = ""
+                    try:
+                        pub_desc = pub.find_element(By.CSS_SELECTOR, "div.text-card__citation").get_attribute("textContent").strip()
+                    except:
+                        pub_desc = ""
+
+                    row = base_info + [education, biography, pub_date, pub_title, pub_desc]
+                    df.append(row)
+
+            except:
+                # If no publications found, still include professor with empty pub fields
+                row = base_info + [education, biography, "", "", ""]
+                df.append(row)
+
+    columns = ["Research Area", "Professor Name", "Profile URL", "Education", "Biography",
+               "Publication Date", "Publication Title", "Publication Desc"]
+
+    return pd.DataFrame(df, columns=columns)
+
+                
+            
+            
+        
+    
 def main():
     try:
         # Step 1: Get all research area URLs
@@ -114,9 +193,12 @@ def main():
         # Step 2: Visit each research area and get professor details
         for area_name, area_url in research_area_urls.items():
             data[area_name] = get_professors_by_area(area_name, area_url)
+            
         rs_df = get_research_spaces()
         rs_df.to_csv("Research_spaces.csv")
 
+        prof_info_df = get_professor_info(data)
+        prof_info_df.to_csv("Professor_info.csv")
     except Exception as e:
         print('Error:', e)
 
@@ -128,7 +210,6 @@ def main():
     # Save the organized data to a JSON file
     with open('research_area_professors.json', 'w') as outfile:
         json.dump(data, outfile, indent=4)
-        
         
         
 if __name__ == "__main__":
