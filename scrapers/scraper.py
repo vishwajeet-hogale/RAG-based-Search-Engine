@@ -180,10 +180,6 @@ def get_professor_info(data):
 
     return pd.DataFrame(df, columns=columns)
 
-                
-            
-            
-        
     
 def main():
     try:
@@ -213,5 +209,6 @@ def main():
         
         
 if __name__ == "__main__":
-    main()
+    # main()
+    pass
 
