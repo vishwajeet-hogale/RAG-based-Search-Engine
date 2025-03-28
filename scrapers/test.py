@@ -9,7 +9,7 @@ import requests
 import pandas as pd
 
 # Load metadata from JSON file
-with open("./metadata.json", 'r') as f:
+with open("../metadata.json", 'r') as f:
     metadata = json.load(f)
 
 # Get base URLs from metadata
@@ -48,7 +48,7 @@ def get_research_areas():
         research_area_urls[area_name] = new_url
 
     df = pd.DataFrame(list(research_area_urls.items()), columns=['Area', 'URL'])
-    df.to_csv('research_areas.csv', index=False)
+    df.to_csv('../data_dump/research_areas.csv', index=False)
     return research_area_urls
 
 # Function to get institutes and centers (Using Selenium)
@@ -80,7 +80,7 @@ def get_institutes_and_centers():
         research_data.append(institute_data)
     
     df = pd.DataFrame(research_data)
-    df.to_csv("institutes_and_centers.csv", index=False)
+    df.to_csv("../data_dump/institutes_and_centers.csv", index=False)
     return research_data
 
 # Function to get professor details (Using Selenium for expandable sections)
@@ -137,7 +137,7 @@ def get_professor_details(prof_url):
         print(f"Error fetching professor details: {e}")
         return {}
 
-def save_publications_per_row(data, filename="professor_details.csv"):
+def save_publications_per_row(data, filename="../data_dump/professor_details.csv"):
     rows = []
 
     for area, profs in data.items():
@@ -229,7 +229,7 @@ def get_current_research_highlights():
         })
 
     df = pd.DataFrame(data)
-    df.to_csv("current_research_highlights.csv", index=False)
+    df.to_csv("../data_dump/current_research_highlights.csv", index=False)
     return data
 
 # Main execution
@@ -250,5 +250,5 @@ finally:
     driver.quit()  # Close the browser when done
 
 # Save the organized data to a JSON file
-with open('data_dump.json', 'w') as outfile:
+with open('../data_dump/data_dump.json', 'w') as outfile:
     json.dump(data, outfile, indent=4)
