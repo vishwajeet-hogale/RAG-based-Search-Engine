@@ -3,14 +3,13 @@ import re
 from gensim.models import Word2Vec
 from nltk.tokenize import word_tokenize
 import nltk
+import json
 
 nltk.download('punkt')
 
 
 
 df = pd.read_csv("modules/data/professor_details.csv")
-
-print(df.columns)
 
 # use columns -> publication title, Research area
 
@@ -25,22 +24,21 @@ def train_word2vec(df):
     model = Word2Vec(sentences=df["tokenized_corpus"], vector_size=100, window =5, min_count = 2, workers=4)
     return model
 
-def similarity_words(model, df, threshold=0.90, output_file="similar_words.txt"):
+def similarity_words(model, df, threshold=0.90, output_file="similar_words.json"):
     unique_words=set([word for sentence in df["tokenized_corpus"] for word in sentence])
-    results=[]
+    results={}
 
     for word in unique_words:
         try:
             similar_words = model.wv.most_similar(word, topn=10)
-            for similar_word, similarity in similar_words:
-                if similarity>threshold:
-                    #results.append(f"{word} - {similar_word}\n")
-                    results.append(f"{word}: {', '.join(map(str,similar_words))}\n")
+            filtered_words = [similar_word for similar_word, similarity in similar_words if similarity > threshold]
+            if filtered_words:
+                results[word] = filtered_words
         except KeyError:
             pass
 
     with open(output_file, "w") as f:
-        f.writelines(results)
+        json.dump(results, f, indent=4)
 
     print(f"Words saved")
 
