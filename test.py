@@ -47,6 +47,8 @@ def get_research_areas():
         new_url = research_url + formatted_text
         research_area_urls[area_name] = new_url
 
+    df = pd.DataFrame(list(research_area_urls.items()), columns=['Area', 'URL'])
+    df.to_csv('research_areas.csv', index=False)
     return research_area_urls
 
 # Function to get institutes and centers (Using Selenium)
@@ -77,6 +79,8 @@ def get_institutes_and_centers():
         }
         research_data.append(institute_data)
     
+    df = pd.DataFrame(research_data)
+    df.to_csv("institutes_and_centers.csv", index=False)
     return research_data
 
 # Function to get professor details (Using Selenium for expandable sections)
@@ -113,13 +117,17 @@ def get_professor_details(prof_url):
             elif section_name == "Recent publications":
                 publications = []
                 for pub in section.select("ul li"):
-                    time_tag = pub.find("time")
+                    time_tag = pub.find("time", class_="text-card__date")
                     date = time_tag.text.strip() if time_tag else ""
 
                     a_tag = pub.find("a")
                     pub_name = a_tag.text.strip() if a_tag else "Unknown Publication"
                     pub_link = a_tag["href"] if a_tag and a_tag.has_attr("href") else ""
-                    publications.append({"date": date, "publication": pub_name, "link": pub_link})
+
+                    citation_div = pub.find("div", class_="text-card__citation")
+                    citation_text = citation_div.text.strip().split("Citation:")[1] if citation_div else ""
+
+                    publications.append({"date": date, "publication": pub_name, "link": pub_link, "citation": citation_text})
 
                 prof_data["sections"][section_name] = publications
 
@@ -154,7 +162,8 @@ def save_publications_per_row(data, filename="professor_details.csv"):
                     "Education": education,
                     "Publication Date": pub.get("date", "").split("Published: ")[1],
                     "Publication Title": pub.get("publication", ""),
-                    "Publication Link": pub.get("link", "")
+                    "Publication Link": pub.get("link", ""),
+                    "Citation": pub.get("citation", "")
                 }
                 rows.append(row)
 
@@ -190,7 +199,7 @@ def get_current_research_highlights():
     
     soup = BeautifulSoup(driver.page_source, "html.parser")
 
-    highlight_divs = soup.select("main > div > div:nth-of-type(5) > div:nth-of-type(2) > div > div > div > div")
+    highlight_divs = soup.select("main > div > div:nth-of-type(6) > div:nth-of-type(2) > div > div > div > div")
 
     data = []
 
@@ -219,6 +228,8 @@ def get_current_research_highlights():
             "link": href
         })
 
+    df = pd.DataFrame(data)
+    df.to_csv("current_research_highlights.csv", index=False)
     return data
 
 # Main execution
@@ -228,9 +239,9 @@ try:
     data['research_highlights'] = get_current_research_highlights()
     
     data['research_profs'] = {}
-    for area_name, area_url in data['research_areas'].items():
-        data['research_profs'][area_name] = get_professors_by_area(area_name, area_url)
-    save_publications_per_row(data['research_profs'])
+    # for area_name, area_url in data['research_areas'].items():
+    #     data['research_profs'][area_name] = get_professors_by_area(area_name, area_url)
+    # save_publications_per_row(data['research_profs'])
 
 except Exception as e:
     print('Error:', e)
