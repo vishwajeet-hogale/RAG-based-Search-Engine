@@ -62,33 +62,7 @@
             "href": "https://robotics.northeastern.edu/"
         }
     ],
-    "research_highlights": [
-        {
-            "title": "National Deep Inference Fabric (NDIF)",
-            "description": "Through National Science Foundation funding, Khoury is leading a new national-scale computing infrastructure project that will enable researchers to delve into the mysteries of large-scale AI systems and address the gulf between the efficacy of machine learning and scientists\u2019 ability to explain it. This work will help unlock the mysteries of these \u201cblack boxes\u201d and ensure this powerful technology is used safely and effectively.",
-            "link": "https://www.khoury.northeastern.edu/national-deep-inference-fabric-ndif-to-advance-the-science-of-ai-address-gap-between-machine-learning-and-scientists-ability-to-explain-it/"
-        },
-        {
-            "title": "Reinventing the future of work for workers",
-            "description": "Researchers at Khoury\u2019s Civic AI Lab are working to bring better computer tools to serve the workers in the gig economy (estimated to be 60% of the workforce by 2027). These workers are typically managed by platforms that give companies constant surveillance data and can disempower workers. Khoury College is building tools, using methodologies like value-sensitive design (VS), to give workers power over their own data and means to fight back against the surveillance and advance equitable working conditions.",
-            "link": "https://civicai.khoury.northeastern.edu"
-        },
-        {
-            "title": "Enabling more secure search",
-            "description": "How could we do a search without the site knowing what we are searching for? Khoury faculty are researching how to encrypt data, and still work within it, while not providing information to third parties. This has the potential to provide secure search and other computing functions, vastly increasing the privacy protections on the Internet with the potential that someday you could use a search engine that wouldn\u2019t see \u2014 or be able to track \u2014 what you\u2019re doing.",
-            "link": "https://neucrypt.github.io"
-        },
-        {
-            "title": "Relational Agents Group",
-            "description": "Khoury researchers are building the next generation of relational agents, computer programs designed to build and maintain long-term relationships with users. Health is a key focus, and Khoury labs have created tools for health promotion, mental health counseling, and palliative care, among other topics.",
-            "link": "http://relationalagents.com/index.html"
-        },
-        {
-            "title": "Creating new tools for mobility data science",
-            "description": "Modern applications create massive amounts of data about how people and objects move \u2013 from packages we order, GPS that guides our cars, or fitness trackers that map a walk or run. Such mobility data presents unique challenges for programs; Khoury researchers are collaborating on new tools to work with it while investigating ways to preserve privacy in mobility data sets and also integrate it with AI approaches.",
-            "link": ""
-        }
-    ],
+    "research_highlights": [],
     "research_profs": {
         "Algorithms and Theory": [
             {
@@ -198,7 +172,16 @@
                 "url": "https://www.khoury.northeastern.edu/people/mahsa-derakhshan/",
                 "info": {
                     "sections": {
-                        "Biography": "Bio coming soon!",
+                        "Research interests": [
+                            "Online algorithms",
+                            "Algorithms for stochastic graphs",
+                            "Algorithmic game theory",
+                            "Mechanism design"
+                        ],
+                        "Education": [
+                            "PhD in Computer Science, University of Maryland"
+                        ],
+                        "Biography": "No biography available",
                         "Recent publications": [
                             {
                                 "date": "Published: January 12th, 2025",
@@ -307,7 +290,29 @@
                             "PhD in Computer Science, Johns Hopkins University",
                             "BS in Information and Computing Science, Fudan University \u2014 China"
                         ],
-                        "Biography": "Zhengzhong Jin is an assistant professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston. He is a member of the Cybersecurity and Privacy Institute."
+                        "Biography": "Zhengzhong Jin is an assistant professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston. He is a member of the Cybersecurity and Privacy Institute.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: June 11th, 2024",
+                                "publication": "SNARGs under LWE via Propositional Proofs",
+                                "link": "https://doi.org/10.1145/3618260.3649770"
+                            },
+                            {
+                                "date": "Published: November 21st, 2023",
+                                "publication": "Scalable Multiparty Garbling",
+                                "link": "https://doi.org/10.1145/3576915.3623132"
+                            },
+                            {
+                                "date": "Published: August 9th, 2023",
+                                "publication": "A Note on Non-interactive Zero-Knowledge from CDH",
+                                "link": "https://doi.org/10.1007/978-3-031-38551-3_23"
+                            },
+                            {
+                                "date": "Published: August 9th, 2023",
+                                "publication": "Correlation Intractability and SNARGs from Sub-exponential DDH",
+                                "link": "https://doi.org/10.1007/978-3-031-38551-3_20"
+                            }
+                        ]
                     }
                 }
             },
@@ -804,11 +809,6 @@
                                 "link": "https://doi.org/10.1007/978-3-031-30545-0_4"
                             },
                             {
-                                "date": "Published: April 16th, 2023",
-                                "publication": "Speak Much, Remember Little: Cryptography in the Bounded Storage Model, Revisited",
-                                "link": "https://doi.org/10.1007/978-3-031-30545-0_4"
-                            },
-                            {
                                 "date": "Published: October 12th, 2022",
                                 "publication": "Nearly Optimal Property Preserving Hashing",
                                 "link": "https://doi.org/10.1007/978-3-031-15982-4_16"
@@ -932,7 +932,29 @@
                             "PhD in computer science, Rutgers University",
                             "Graduate certificate in cognitive science, Rutgers University"
                         ],
-                        "Biography": "Malihe Alikhani is an assistant professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston."
+                        "Biography": "Malihe Alikhani is an assistant professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: November 1st, 2024",
+                                "publication": "Studying and Mitigating Biases in Sign Language Understanding Models",
+                                "link": "https://aclanthology.org/2024.emnlp-main.17"
+                            },
+                            {
+                                "date": "Published: December 1st, 2023",
+                                "publication": "SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization",
+                                "link": "https://doi.org/10.18653/v1/2023.emnlp-main.799"
+                            },
+                            {
+                                "date": "Published: July 1st, 2023",
+                                "publication": "Learning to Generate Equitable Text in Dialogue from Biased Training Data",
+                                "link": "https://doi.org/10.18653/v1/2023.acl-long.163"
+                            },
+                            {
+                                "date": "Published: June 28th, 2022",
+                                "publication": "Cross-Modal Coherence for Text-to-Image Retrieval",
+                                "link": "https://doi.org/10.1609/aaai.v36i10.21285"
+                            }
+                        ]
                     }
                 }
             },
@@ -1081,14 +1103,14 @@
                                 "link": "https://doi.org/10.1145/3487553.3524879"
                             },
                             {
+                                "date": "Published: June 6th, 2021",
+                                "publication": "On the Impact of Random Seeds on the Fairness of Clinical Classifiers",
+                                "link": "https://doi.org/10.18653/v1/2021.naacl-main.299"
+                            },
+                            {
                                 "date": "Published: April 22nd, 2021",
                                 "publication": "Demographic Representation and Collective Storytelling in the Me Too Twitter Hashtag Activism Movement",
                                 "link": "https://doi.org/10.1145/3449181"
-                            },
-                            {
-                                "date": "Published: January 1st, 2021",
-                                "publication": "On the Impact of Random Seeds on the Fairness of Clinical Classifiers",
-                                "link": "https://doi.org/10.18653/v1/2021.naacl-main.299"
                             }
                         ]
                     }
@@ -1346,7 +1368,24 @@
                             "MS in Electrical and Computer engineering, Purdue University",
                             "BS in Electrical Engineering, University of the Philippines"
                         ],
-                        "Biography": "Jennifer G. Dy is an associate professor in the College of Engineering at Northeastern University, with a courtesy appointment in the Khoury College of Computer Sciences."
+                        "Biography": "Jennifer G. Dy is an associate professor in the College of Engineering at Northeastern University, with a courtesy appointment in the Khoury College of Computer Sciences.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: March 28th, 2022",
+                                "publication": "Deep Layer-wise Networks Have Closed-Form Weights",
+                                "link": "https://proceedings.mlr.press/v151/tzu-wu22a.html"
+                            },
+                            {
+                                "date": "Published: February 23rd, 2021",
+                                "publication": "Using Undersampling with Ensemble Learning to Identify Factors Contributing to Preterm Birth",
+                                "link": "https://doi.org/10.1109/ICMLA51294.2020.00124"
+                            },
+                            {
+                                "date": "Published: December 1st, 2020",
+                                "publication": "Instance-wise Feature Grouping",
+                                "link": "https://proceedings.neurips.cc/paper/2020/hash/9b10a919ddeb07e103dc05ff523afe38-Abstract.html"
+                            }
+                        ]
                     }
                 }
             },
@@ -1504,6 +1543,11 @@
                                 "date": "Published: August 18th, 2023",
                                 "publication": "Modeling self-propagating malware with epidemiological models",
                                 "link": "https://doi.org/10.1007/s41109-023-00578-z"
+                            },
+                            {
+                                "date": "Published: June 23rd, 2023",
+                                "publication": "Social AI and the Challenges of the Human-AI Ecosystem",
+                                "link": "https://doi.org/10.48550/arXiv.2306.13723"
                             },
                             {
                                 "date": "Published: May 30th, 2023",
@@ -1759,7 +1803,29 @@
                         "Education": [
                             "PhD in Electrical Engineering and Computer Science, Massachusetts Institute of Technology"
                         ],
-                        "Biography": "Wengong Jin is an assistant professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston."
+                        "Biography": "Wengong Jin is an assistant professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: December 10th, 2024",
+                                "publication": "Protein-Nucleic Acid Complex Modeling with Frame Averaging Transformer",
+                                "link": "http://papers.nips.cc/paper_files/paper/2024/hash/e6114e62fdb36d6d91ff43334e763a0e-Abstract-Conference.html"
+                            },
+                            {
+                                "date": "Published: May 1st, 2024",
+                                "publication": "Generative Enzyme Design Guided by Functionally Important Sites and Small-Molecule Substrates",
+                                "link": "https://openreview.net/forum?id=ATvN9JnqZ8"
+                            },
+                            {
+                                "date": "Published: May 1st, 2024",
+                                "publication": "RNAFlow: RNA Structure & Sequence Design via Inverse Folding-Based Flow Matching",
+                                "link": "https://openreview.net/forum?id=jxvqvZLBuU"
+                            },
+                            {
+                                "date": "Published: May 1st, 2024",
+                                "publication": "SurfPro: Functional Protein Design Based on Continuous Surface",
+                                "link": "https://openreview.net/forum?id=a8QpoEJCRI"
+                            }
+                        ]
                     }
                 }
             },
@@ -1868,6 +1934,11 @@
                                 "link": "https://doi.org/10.48550/arXiv.2408.03586"
                             },
                             {
+                                "date": "Published: March 25th, 2024",
+                                "publication": "Building an Open-Source Community to Enhance Autonomic Nervous System Signal Analysis: DBDP-Autonomic",
+                                "link": "https://doi.org/10.48550/arXiv.2403.17165"
+                            },
+                            {
                                 "date": "Published: March 11th, 2024",
                                 "publication": "SOSW: Stress Sensing With Off-the-Shelf Smartwatches in the Wild",
                                 "link": "https://doi.org/10.1109/JIOT.2024.3375299"
@@ -1926,7 +1997,29 @@
                             "MSc in Computer Science, University of Florida",
                             "BE in Information Technology (Computer Engineering), University of Tehran \u2014 Iran"
                         ],
-                        "Biography": "Mahsan Nourani is a research assistant professor in the Khoury College of Computer Sciences at Northeastern University, based at the Roux Institute in Portland, Maine."
+                        "Biography": "Mahsan Nourani is a research assistant professor in the Khoury College of Computer Sciences at Northeastern University, based at the Roux Institute in Portland, Maine.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: December 8th, 2023",
+                                "publication": "Explainable Activity Recognition in Videos using Deep Learning and Tractable Probabilistic Models",
+                                "link": "https://doi.org/10.1145/3626961"
+                            },
+                            {
+                                "date": "Published: March 17th, 2023",
+                                "publication": "An Evaluation of View Rotation Techniques for Seated Navigation in Virtual Reality",
+                                "link": "https://doi.org/10.1109/TVCG.2023.3258693"
+                            },
+                            {
+                                "date": "Published: December 12th, 2022",
+                                "publication": "On the Importance of User Backgrounds and Impressions: Lessons Learned from Interactive AI Applications",
+                                "link": "https://doi.org/10.1145/3531066"
+                            },
+                            {
+                                "date": "Published: August 24th, 2022",
+                                "publication": "DETOXER: A Visual Debugging Tool With Multiscope Explanations for Temporal Multilabel Classification",
+                                "link": "https://doi.org/10.1109/MCG.2022.3201465"
+                            }
+                        ]
                     }
                 }
             },
@@ -1962,6 +2055,11 @@
                                 "date": "Published: January 16th, 2024",
                                 "publication": "Chameleon: Increasing Label-Only Membership Leakage with Adaptive Poisoning",
                                 "link": "https://openreview.net/forum?id=4DoSULcfG6"
+                            },
+                            {
+                                "date": "Published: August 18th, 2023",
+                                "publication": "Modeling self-propagating malware with epidemiological models",
+                                "link": "https://doi.org/10.1007/s41109-023-00578-z"
                             },
                             {
                                 "date": "Published: July 21st, 2023",
@@ -2028,7 +2126,39 @@
                             "MFA in Design, University of Utah",
                             "BFA in Multimedia, Pacific Northwest College of Art"
                         ],
-                        "Biography": "Lace Padilla is an assistant professor in the Khoury College of Computer Sciences and the College of Science at Northeastern University, based in Boston and Oakland."
+                        "Biography": "Lace Padilla is an assistant professor in the Khoury College of Computer Sciences and the College of Science at Northeastern University, based in Boston and Oakland.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: September 10th, 2024",
+                                "publication": "Impact of Vertical Scaling on Normal Probability Density Function Plots",
+                                "link": "https://doi.org/10.1109/TVCG.2024.3456396"
+                            },
+                            {
+                                "date": "Published: September 9th, 2024",
+                                "publication": "Mind Drifts, Data Shifts: Utilizing Mind Wandering to Track the Evolution of User Experience with Data Visualizations",
+                                "link": "https://doi.org/10.1109/TVCG.2024.3456344"
+                            },
+                            {
+                                "date": "Published: May 11th, 2024",
+                                "publication": "Rethinking Human-AI Collaboration in Complex Medical Decision Making: A Case Study in Sepsis Diagnosis",
+                                "link": "https://doi.org/10.1145/3613904.3642343"
+                            },
+                            {
+                                "date": "Published: March 4th, 2024",
+                                "publication": "Examining Limits of Small Multiples: Frame Quantity Impacts Judgments With Line Graphs",
+                                "link": "https://doi.org/10.1109/TVCG.2024.3372620"
+                            },
+                            {
+                                "date": "Published: October 23rd, 2023",
+                                "publication": "Average Estimates in Line Graphs Are Biased Toward Areas of Higher Variability",
+                                "link": "https://doi.org/10.1109/TVCG.2023.3326589"
+                            },
+                            {
+                                "date": "Published: January 1st, 2023",
+                                "publication": "Multiple Forecast Visualizations (MFVs): Trade-offs in Trust and Performance in Multiple COVID-19 Forecast Visualizations",
+                                "link": "https://doi.org/10.1109/TVCG.2022.3209457"
+                            }
+                        ]
                     }
                 }
             },
@@ -2411,24 +2541,24 @@
                                 "link": "https://doi.org/10.48550/arXiv.2305.05003"
                             },
                             {
+                                "date": "Published: December 7th, 2022",
+                                "publication": "That\u2019s the Wrong Lung! Evaluating and Improving the Interpretability of Unsupervised Multimodal Encoders for Medical Data",
+                                "link": "https://aclanthology.org/2022.emnlp-main.238"
+                            },
+                            {
                                 "date": "Published: January 1st, 2022",
                                 "publication": "Evaluating Factuality in Text Simplification",
                                 "link": "https://doi.org/10.18653/v1/2022.acl-long.506"
                             },
                             {
                                 "date": "Published: January 1st, 2022",
-                                "publication": "That\u2019s the Wrong Lung! Evaluating and Improving the Interpretability of Unsupervised Multimodal Encoders for Medical Data",
-                                "link": "https://aclanthology.org/2022.emnlp-main.238"
-                            },
-                            {
-                                "date": "Published: January 1st, 2022",
-                                "publication": "That\u2019s the Wrong Lung! Evaluating and Improving the Interpretability of Unsupervised Multimodal Encoders for Medical Data",
-                                "link": "https://aclanthology.org/2022.emnlp-main.238"
-                            },
-                            {
-                                "date": "Published: January 1st, 2022",
                                 "publication": "PHEE: A Dataset for Pharmacovigilance Event Extraction from Text",
                                 "link": "https://aclanthology.org/2022.emnlp-main.376"
+                            },
+                            {
+                                "date": "Published: June 6th, 2021",
+                                "publication": "On the Impact of Random Seeds on the Fairness of Clinical Classifiers",
+                                "link": "https://doi.org/10.18653/v1/2021.naacl-main.299"
                             },
                             {
                                 "date": "Published: April 25th, 2017",
@@ -2507,6 +2637,11 @@
                                 "link": "https://openreview.net/pdf?id=P4MUGRM4Acu"
                             },
                             {
+                                "date": "Published: July 17th, 2022",
+                                "publication": "Toward Compositional Generalization in Object-Oriented World Modeling",
+                                "link": "https://proceedings.mlr.press/v162/zhao22b.html"
+                            },
+                            {
                                 "date": "Published: June 8th, 2022",
                                 "publication": "Integrating Symmetry into Differentiable Planning with Steerable Convolutions",
                                 "link": "https://openreview.net/pdf?id=n7CPzMPKQl"
@@ -2517,9 +2652,9 @@
                                 "link": "https://proceedings.mlr.press/v211/sun23a.html"
                             },
                             {
-                                "date": "Published: October 1st, 2020",
-                                "publication": "Trajectory Prediction using Equivariant Continuous Convolution",
-                                "link": "https://arxiv.org/abs/2010.11344"
+                                "date": "Published: January 1st, 2022",
+                                "publication": "Learning Symmetric Embeddings for Equivariant World Models",
+                                "link": "https://proceedings.mlr.press/v162/park22a.html"
                             }
                         ]
                     }
@@ -2546,6 +2681,11 @@
                         ],
                         "Biography": "Dakuo Wang is an associate professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston.",
                         "Recent publications": [
+                            {
+                                "date": "Published: February 6th, 2025",
+                                "publication": "More Modality, More AI: Exploring Design Opportunities of AI-Based Multi-modal Remote Monitoring Technologies for Early Detection of Mental Health Sequelae in Youth Concussion Patients",
+                                "link": "https://doi.org/10.48550/arXiv.2502.03732"
+                            },
                             {
                                 "date": "Published: November 1st, 2024",
                                 "publication": "StorySparkQA: Expert-Annotated QA Pairs with Real-World Knowledge for Children\u2019s Story-Based Learning",
@@ -2631,24 +2771,14 @@
                                 "link": "https://openreview.net/pdf?id=PYbe4MoHf32"
                             },
                             {
-                                "date": "Published: June 8th, 2022",
-                                "publication": "Integrating Symmetry into Differentiable Planning with Steerable Convolutions",
-                                "link": "https://openreview.net/pdf?id=n7CPzMPKQl"
-                            },
-                            {
-                                "date": "Published: June 8th, 2022",
-                                "publication": "Integrating Symmetry into Differentiable Planning with Steerable Convolutions",
-                                "link": "https://openreview.net/pdf?id=n7CPzMPKQl"
-                            },
-                            {
-                                "date": "Published: January 1st, 2022",
+                                "date": "Published: July 17th, 2022",
                                 "publication": "Toward Compositional Generalization in Object-Oriented World Modeling",
                                 "link": "https://proceedings.mlr.press/v162/zhao22b.html"
                             },
                             {
-                                "date": "Published: January 1st, 2022",
-                                "publication": "Toward Compositional Generalization in Object-Oriented World Modeling",
-                                "link": "https://proceedings.mlr.press/v162/zhao22b.html"
+                                "date": "Published: June 8th, 2022",
+                                "publication": "Integrating Symmetry into Differentiable Planning with Steerable Convolutions",
+                                "link": "https://openreview.net/pdf?id=n7CPzMPKQl"
                             },
                             {
                                 "date": "Published: November 18th, 2020",
@@ -2710,7 +2840,29 @@
                             "PhD in Computational Biology, National University of Singapore",
                             "BSc in Computer Engineering, Budapest University of Technology and Economics \u2014 Hungary"
                         ],
-                        "Biography": "Benjamin M. Gyori is an associate professor in the Khoury College of Computer Sciences and the College of Engineering at Northeastern University, based in Boston."
+                        "Biography": "Benjamin M. Gyori is an associate professor in the Khoury College of Computer Sciences and the College of Engineering at Northeastern University, based in Boston.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: November 7th, 2023",
+                                "publication": "A simple standard for ontological mappings 2023: updates on data model, collaborations and tooling",
+                                "link": "https://ceur-ws.org/Vol-3591/om2023_STpaper3.pdf"
+                            },
+                            {
+                                "date": "Published: March 14th, 2023",
+                                "publication": "Prediction and curation of missing biomedical identifier mappings with Biomappings",
+                                "link": "https://doi.org/10.1093/bioinformatics/btad130"
+                            },
+                            {
+                                "date": "Published: March 6th, 2023",
+                                "publication": "NDEx IQuery: a multi-method network gene set analysis leveraging the Network Data Exchange",
+                                "link": "https://doi.org/10.1093/bioinformatics/btad118"
+                            },
+                            {
+                                "date": "Published: August 14th, 2022",
+                                "publication": "ChemicalX: A Deep Learning Library for Drug Pair Scoring",
+                                "link": "https://doi.org/10.1145/3534678.3539023"
+                            }
+                        ]
                     }
                 }
             },
@@ -2726,7 +2878,29 @@
                         "Education": [
                             "PhD in Electrical Engineering and Computer Science, Massachusetts Institute of Technology"
                         ],
-                        "Biography": "Wengong Jin is an assistant professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston."
+                        "Biography": "Wengong Jin is an assistant professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: December 10th, 2024",
+                                "publication": "Protein-Nucleic Acid Complex Modeling with Frame Averaging Transformer",
+                                "link": "http://papers.nips.cc/paper_files/paper/2024/hash/e6114e62fdb36d6d91ff43334e763a0e-Abstract-Conference.html"
+                            },
+                            {
+                                "date": "Published: May 1st, 2024",
+                                "publication": "Generative Enzyme Design Guided by Functionally Important Sites and Small-Molecule Substrates",
+                                "link": "https://openreview.net/forum?id=ATvN9JnqZ8"
+                            },
+                            {
+                                "date": "Published: May 1st, 2024",
+                                "publication": "RNAFlow: RNA Structure & Sequence Design via Inverse Folding-Based Flow Matching",
+                                "link": "https://openreview.net/forum?id=jxvqvZLBuU"
+                            },
+                            {
+                                "date": "Published: May 1st, 2024",
+                                "publication": "SurfPro: Functional Protein Design Based on Continuous Surface",
+                                "link": "https://openreview.net/forum?id=a8QpoEJCRI"
+                            }
+                        ]
                     }
                 }
             },
@@ -2846,9 +3020,9 @@
                                 "link": "https://doi.org/10.1093/bioinformatics/btad067"
                             },
                             {
-                                "date": "Published: February 6th, 2023",
-                                "publication": "A noise-robust deep clustering of biomolecular ions improves interpretability of mass spectrometric images",
-                                "link": "https://doi.org/10.1093/bioinformatics/btad067"
+                                "date": "Published: August 12th, 2022",
+                                "publication": "Effective Use of Likert Scales in Visualization Evaluations: A Systematic Review",
+                                "link": "https://doi.org/10.1111/cgf.14521"
                             }
                         ]
                     }
@@ -2893,7 +3067,29 @@
                             "PhD in Computer Science, University of Nebraska\u2013Lincoln",
                             "BS in Computer Science, Montana State University"
                         ],
-                        "Biography": "Ryan Bockmon is an assistant teaching professor at the Khoury College of Computer Sciences at Northeastern University, based at the Roux Institute in Portland, Maine."
+                        "Biography": "Ryan Bockmon is an assistant teaching professor at the Khoury College of Computer Sciences at Northeastern University, based at the Roux Institute in Portland, Maine.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: December 5th, 2023",
+                                "publication": "Investigating Themes of Student-Generated Analogies",
+                                "link": "https://doi.org/10.1145/3576882.3617914"
+                            },
+                            {
+                                "date": "Published: December 5th, 2023",
+                                "publication": "Validating a Language-Independent CS1 Learning Outcomes Assessment",
+                                "link": "https://doi.org/10.1145/3576882.3617910"
+                            },
+                            {
+                                "date": "Published: March 3rd, 2023",
+                                "publication": "Validation of the Placement Skill Inventory: A CS0/CS1 Placement Exam",
+                                "link": "https://doi.org/10.1145/3545945.3569738"
+                            },
+                            {
+                                "date": "Published: September 21st, 2022",
+                                "publication": "What\u2019s your placebo?",
+                                "link": "https://doi.org/10.1145/3528085"
+                            }
+                        ]
                     }
                 }
             },
@@ -3051,6 +3247,11 @@
                                 "date": "Published: October 8th, 2024",
                                 "publication": "Knowledge Transfer from High-Resource to Low-Resource Programming Languages for Code LLMs",
                                 "link": "https://doi.org/10.1145/3689735"
+                            },
+                            {
+                                "date": "Published: March 25th, 2022",
+                                "publication": "Flexible and Optimal Dependency Management via Max-SMT",
+                                "link": "https://doi.org/10.1109/ICSE48619.2023.00124"
                             },
                             {
                                 "date": "Published: October 15th, 2021",
@@ -3362,11 +3563,6 @@
                                 "link": "https://doi.org/10.1145/3626252.3630806"
                             },
                             {
-                                "date": "Published: March 7th, 2024",
-                                "publication": "Collecting, Analyzing, and Acting on Intersectional, Longitudinal Data and Pass/Fail/Withdraw Rates in Computing Courses",
-                                "link": "https://doi.org/10.1145/3626252.3630806"
-                            },
-                            {
                                 "date": "Published: March 6th, 2023",
                                 "publication": "Ungrading with Empathy: An Experiment in Ungrading for Intermediate Data Science",
                                 "link": "https://doi.org/10.1145/3545947.3573258"
@@ -3505,7 +3701,24 @@
                             "MS in Computer Science, University of Southern California",
                             "BS in Computer Science, Yonsei University \u2014 South Korea"
                         ],
-                        "Biography": "Ilmi Yoon is a teaching professor and a director of computing programs in the Khoury College of Computer Sciences at Northeastern University, based in Silicon Valley."
+                        "Biography": "Ilmi Yoon is a teaching professor and a director of computing programs in the Khoury College of Computer Sciences at Northeastern University, based in Silicon Valley.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: March 7th, 2024",
+                                "publication": "Socially Responsible Computing in an Introductory Course",
+                                "link": "https://doi.org/10.1145/3626252.3630926"
+                            },
+                            {
+                                "date": "Published: December 10th, 2023",
+                                "publication": "Validated Image Caption Rating Dataset",
+                                "link": "http://papers.nips.cc/paper_files/paper/2023/hash/c0b91f9a3587bf35287f41dba5d20233-Abstract-Datasets_and_Benchmarks.html"
+                            },
+                            {
+                                "date": "Published: October 22nd, 2023",
+                                "publication": "The Potential of a Visual Dialogue Agent In a Tandem Automated Audio Description System for Videos",
+                                "link": "https://doi.org/10.1145/3597638.3608402"
+                            }
+                        ]
                     }
                 }
             }
@@ -3685,7 +3898,29 @@
                             "PhD in Computer Science, New York University",
                             "BS Computer Science, Pace University"
                         ],
-                        "Biography": "Laura Edelson is an assistant professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston."
+                        "Biography": "Laura Edelson is an assistant professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: June 6th, 2023",
+                                "publication": "Understanding the (In)Effectiveness of Content Moderation: A Case Study of Facebook in the Context of the U.S. Capitol Riot",
+                                "link": "https://doi.org/10.48550/arXiv.2301.02737"
+                            },
+                            {
+                                "date": "Published: April 30th, 2023",
+                                "publication": "Propaganda Pol\u00edtica Pagada: Exploring U.S. Political Facebook Ads en Espa\u00f1ol",
+                                "link": "https://doi.org/10.1145/3543507.3583425"
+                            },
+                            {
+                                "date": "Published: August 1st, 2022",
+                                "publication": "An Audit of Facebook\u2019s Political Ad Policy Enforcement",
+                                "link": "https://www.usenix.org/conference/usenixsecurity22/presentation/lepochat"
+                            },
+                            {
+                                "date": "Published: November 2nd, 2021",
+                                "publication": "Understanding engagement with U.S. (mis)information news sources on Facebook",
+                                "link": "https://doi.org/10.1145/3487552.3487859"
+                            }
+                        ]
                     }
                 }
             },
@@ -3745,7 +3980,29 @@
                             "PhD in Computer Science, Cornell University",
                             "BA in Mathematics, Reed College"
                         ],
-                        "Biography": "Joshua Gancher is an assistant professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston."
+                        "Biography": "Joshua Gancher is an assistant professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: October 8th, 2024",
+                                "publication": "FlowCert: Translation Validation for Asynchronous Dataflow via Dynamic Fractional Permissions",
+                                "link": "https://doi.org/10.1145/3689729"
+                            },
+                            {
+                                "date": "Published: September 20th, 2024",
+                                "publication": "Secure Synthesis of Distributed Cryptographic Applications",
+                                "link": "https://doi.org/10.1109/CSF61375.2024.00021"
+                            },
+                            {
+                                "date": "Published: January 11th, 2023",
+                                "publication": "A Core Calculus for Equational Proofs of Cryptographic Protocols",
+                                "link": "https://doi.org/10.1145/3571223"
+                            },
+                            {
+                                "date": "Published: June 18th, 2021",
+                                "publication": "Viaduct: an extensible, optimizing compiler for secure distributed programs",
+                                "link": "https://doi.org/10.1145/3453483.3454074"
+                            }
+                        ]
                     }
                 }
             },
@@ -3788,7 +4045,29 @@
                             "PhD in Computer Science, Johns Hopkins University",
                             "BS in Information and Computing Science, Fudan University \u2014 China"
                         ],
-                        "Biography": "Zhengzhong Jin is an assistant professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston. He is a member of the Cybersecurity and Privacy Institute."
+                        "Biography": "Zhengzhong Jin is an assistant professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston. He is a member of the Cybersecurity and Privacy Institute.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: June 11th, 2024",
+                                "publication": "SNARGs under LWE via Propositional Proofs",
+                                "link": "https://doi.org/10.1145/3618260.3649770"
+                            },
+                            {
+                                "date": "Published: November 21st, 2023",
+                                "publication": "Scalable Multiparty Garbling",
+                                "link": "https://doi.org/10.1145/3576915.3623132"
+                            },
+                            {
+                                "date": "Published: August 9th, 2023",
+                                "publication": "A Note on Non-interactive Zero-Knowledge from CDH",
+                                "link": "https://doi.org/10.1007/978-3-031-38551-3_23"
+                            },
+                            {
+                                "date": "Published: August 9th, 2023",
+                                "publication": "Correlation Intractability and SNARGs from Sub-exponential DDH",
+                                "link": "https://doi.org/10.1007/978-3-031-38551-3_20"
+                            }
+                        ]
                     }
                 }
             },
@@ -3810,6 +4089,11 @@
                         ],
                         "Biography": "Engin Kirda is a professor in the Khoury College of Computer Sciences and the College of Engineering at Northeastern University, based in Boston.",
                         "Recent publications": [
+                            {
+                                "date": "Published: February 24th, 2025",
+                                "publication": "Secure IP Address Allocation at Cloud Scale",
+                                "link": "https://www.ndss-symposium.org/ndss-paper/secure-ip-address-allocation-at-cloud-scale/"
+                            },
                             {
                                 "date": "Published: February 26th, 2024",
                                 "publication": "Untangle: Multi-Layer Web Server Fingerprinting",
@@ -4149,6 +4433,11 @@
                                 "link": "https://openreview.net/forum?id=4DoSULcfG6"
                             },
                             {
+                                "date": "Published: August 18th, 2023",
+                                "publication": "Modeling self-propagating malware with epidemiological models",
+                                "link": "https://doi.org/10.1007/s41109-023-00578-z"
+                            },
+                            {
                                 "date": "Published: July 21st, 2023",
                                 "publication": "SNAP: Efficient Extraction of Private Properties with Poisoning",
                                 "link": "https://doi.org/10.1109/SP46215.2023.10179334"
@@ -4346,7 +4635,29 @@
                             "MS in Computer Science, The University of Texas at Arlington",
                             "BTech in Computer Science and Engineering, Jaypee University of Information Technology \u2014 India"
                         ],
-                        "Biography": "Mohit Singhal is an assistant teaching professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston."
+                        "Biography": "Mohit Singhal is an assistant teaching professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: October 13th, 2023",
+                                "publication": "Impact of Stricter Content Moderation on Parler\u2019s Users\u2019 Discourse",
+                                "link": "https://doi.org/10.48550/arXiv.2310.08844"
+                            },
+                            {
+                                "date": "Published: August 4th, 2023",
+                                "publication": "Auditing Yelp\u2019s Business Ranking and Review Recommendation Through the Lens of Fairness",
+                                "link": "https://doi.org/10.48550/arXiv.2308.02129"
+                            },
+                            {
+                                "date": "Published: July 31st, 2023",
+                                "publication": "SoK: Content Moderation in Social Media, from Guidelines to Enforcement, and Research to Practice",
+                                "link": "https://doi.org/10.1109/EuroSP57164.2023.00056"
+                            },
+                            {
+                                "date": "Published: June 2nd, 2023",
+                                "publication": "Cybersecurity Misinformation Detection on Social Media: Case Studies on Phishing Reports and Zoom\u2019s Threat",
+                                "link": "https://doi.org/10.1609/icwsm.v17i1.22189"
+                            }
+                        ]
                     }
                 }
             },
@@ -4364,7 +4675,24 @@
                             "PhD in Math, UC Berkeley",
                             "BA in Applied Math, UC Berkeley"
                         ],
-                        "Biography": "Jessica Staddon is a professor of the practice in the Khoury College of Computer Sciences at Northeastern University, based in Oakland."
+                        "Biography": "Jessica Staddon is a professor of the practice in the Khoury College of Computer Sciences at Northeastern University, based in Oakland.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: November 21st, 2024",
+                                "publication": "Assessment of LLM Responses to End-user Security Questions",
+                                "link": "https://doi.org/10.48550/arXiv.2411.14571"
+                            },
+                            {
+                                "date": "Published: October 14th, 2024",
+                                "publication": "Can LLMs be Scammed? A Baseline Measurement Study",
+                                "link": "https://doi.org/10.48550/arXiv.2410.13893"
+                            },
+                            {
+                                "date": "Published: May 11th, 2024",
+                                "publication": "Shortchanged: Uncovering and Analyzing Intimate Partner Financial Abuse in Consumer Complaints",
+                                "link": "https://doi.org/10.1145/3613904.3642033"
+                            }
+                        ]
                     }
                 }
             },
@@ -4534,11 +4862,6 @@
                                 "date": "Published: June 2nd, 2023",
                                 "publication": "Boosting Batch Arguments and RAM Delegation",
                                 "link": "https://doi.org/10.1145/3564246.3585200"
-                            },
-                            {
-                                "date": "Published: April 16th, 2023",
-                                "publication": "Speak Much, Remember Little: Cryptography in the Bounded Storage Model, Revisited",
-                                "link": "https://doi.org/10.1007/978-3-031-30545-0_4"
                             },
                             {
                                 "date": "Published: April 16th, 2023",
@@ -4731,7 +5054,19 @@
                             "MSc in Network and Communications Engineering, Universiti Putra Malaysia \u2014 Malaysia",
                             "BSc in Software Engineering, Yazd University \u2014 Iran"
                         ],
-                        "Biography": "Maryam Tanha is an assistant teaching professor in the Khoury College of Computer Sciences at Northeastern University, based in Vancouver."
+                        "Biography": "Maryam Tanha is an assistant teaching professor in the Khoury College of Computer Sciences at Northeastern University, based in Vancouver.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: September 12th, 2024",
+                                "publication": "Revisiting Temporal Inconsistency and Feature Extraction for Android Malware Detection",
+                                "link": "https://doi.org/10.1109/CCECE59415.2024.10667123"
+                            },
+                            {
+                                "date": "Published: February 26th, 2024",
+                                "publication": "Interpretable Android Malware Detection Based on Dynamic Analysis",
+                                "link": "https://doi.org/10.5220/0012415800003648"
+                            }
+                        ]
                     }
                 }
             },
@@ -4749,7 +5084,34 @@
                             "MS in Cryptography, Beijing University of Posts and Telecommunications \u2014 China",
                             "BE in Automation, Beijing University of Posts and Telecommunications \u2014 China"
                         ],
-                        "Biography": "Ziming Zhao is an associate professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston."
+                        "Biography": "Ziming Zhao is an associate professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: February 24th, 2025",
+                                "publication": "Defending Against Membership Inference Attacks on Iteratively Pruned Deep Neural Networks",
+                                "link": "https://www.ndss-symposium.org/ndss-paper/defending-against-membership-inference-attacks-on-iteratively-pruned-deep-neural-networks/"
+                            },
+                            {
+                                "date": "Published: December 1st, 2024",
+                                "publication": "TokenScout: Early Detection of Ethereum Scam Tokens via Temporal Graph Learning",
+                                "link": "https://doi.org/10.1145/3658644.3690234"
+                            },
+                            {
+                                "date": "Published: June 26th, 2024",
+                                "publication": "InsectACIDE: Debugger-Based Holistic Asynchronous CFI for Embedded System",
+                                "link": "https://doi.org/10.1109/RTAS61025.2024.00036"
+                            },
+                            {
+                                "date": "Published: November 21st, 2023",
+                                "publication": "SHERLOC: Secure and Holistic Control-Flow Violation Detection on Embedded Systems",
+                                "link": "https://doi.org/10.1145/3576915.3623077"
+                            },
+                            {
+                                "date": "Published: September 15th, 2023",
+                                "publication": "Return-to-Non-Secure Vulnerabilities on ARM Cortex-M TrustZone: Attack and Defense",
+                                "link": "https://doi.org/10.1109/DAC56929.2023.10247972"
+                            }
+                        ]
                     }
                 }
             }
@@ -4774,6 +5136,11 @@
                         "Biography": "Ricardo Baeza-Yates is a professor of the practice and the director of research at Northeastern University's Institute for Experiential Artificial Intelligence, based in Silicon Valley.",
                         "Recent publications": [
                             {
+                                "date": "Published: February 17th, 2025",
+                                "publication": "A Comparison of Human and Machine Learning Errors in Face Recognition",
+                                "link": "https://doi.org/10.48550/arXiv.2502.11337"
+                            },
+                            {
                                 "date": "Published: February 7th, 2025",
                                 "publication": "Screening Dyslexia Using Visual Auditory Computer Games and Machine Learning",
                                 "link": "https://doi.org/10.1109/ACCESS.2025.3539719"
@@ -4792,6 +5159,11 @@
                                 "date": "Published: August 4th, 2023",
                                 "publication": "Fair Multilingual Vandalism Detection System for Wikipedia",
                                 "link": "https://doi.org/10.1145/3580305.3599823"
+                            },
+                            {
+                                "date": "Published: June 23rd, 2023",
+                                "publication": "Social AI and the Challenges of the Human-AI Ecosystem",
+                                "link": "https://doi.org/10.48550/arXiv.2306.13723"
                             },
                             {
                                 "date": "Published: May 14th, 2018",
@@ -4928,11 +5300,6 @@
                                 "link": "https://doi.org/10.1145/3584372.3588670"
                             },
                             {
-                                "date": "Published: June 18th, 2023",
-                                "publication": "Efficient Computation of Quantiles over Joins",
-                                "link": "https://doi.org/10.1145/3584372.3588670"
-                            },
-                            {
                                 "date": "Published: May 1st, 2023",
                                 "publication": "Why Not Yet: Fixing a Top-k Ranking that Is Not Fair to Individuals",
                                 "link": "https://www.vldb.org/pvldb/vol16/p2377-chen.pdf"
@@ -4951,11 +5318,6 @@
                                 "date": "Published: March 23rd, 2021",
                                 "publication": "DomainNet: Homograph Detection for Data Lake Disambiguation",
                                 "link": "https://doi.org/10.5441/002/edbt.2021.03"
-                            },
-                            {
-                                "date": "Published: January 1st, 2021",
-                                "publication": "Beyond Equi-joins: Ranking, Enumeration and Factorization",
-                                "link": "http://www.vldb.org/pvldb/vol14/p2599-tziavelis.pdf"
                             },
                             {
                                 "date": "Published: January 1st, 2021",
@@ -5145,6 +5507,11 @@
                         "Biography": "Ricardo Baeza-Yates is a professor of the practice and the director of research at Northeastern University's Institute for Experiential Artificial Intelligence, based in Silicon Valley.",
                         "Recent publications": [
                             {
+                                "date": "Published: February 17th, 2025",
+                                "publication": "A Comparison of Human and Machine Learning Errors in Face Recognition",
+                                "link": "https://doi.org/10.48550/arXiv.2502.11337"
+                            },
+                            {
                                 "date": "Published: February 7th, 2025",
                                 "publication": "Screening Dyslexia Using Visual Auditory Computer Games and Machine Learning",
                                 "link": "https://doi.org/10.1109/ACCESS.2025.3539719"
@@ -5163,6 +5530,11 @@
                                 "date": "Published: August 4th, 2023",
                                 "publication": "Fair Multilingual Vandalism Detection System for Wikipedia",
                                 "link": "https://doi.org/10.1145/3580305.3599823"
+                            },
+                            {
+                                "date": "Published: June 23rd, 2023",
+                                "publication": "Social AI and the Challenges of the Human-AI Ecosystem",
+                                "link": "https://doi.org/10.48550/arXiv.2306.13723"
                             },
                             {
                                 "date": "Published: May 14th, 2018",
@@ -5209,11 +5581,6 @@
                                 "date": "Published: October 24th, 2023",
                                 "publication": "Hidden Citations Obscure True Impact in Science",
                                 "link": "https://doi.org/10.48550/arXiv.2310.16181"
-                            },
-                            {
-                                "date": "Published: June 23rd, 2023",
-                                "publication": "Social AI and the Challenges of the Human-AI Ecosystem",
-                                "link": "https://doi.org/10.48550/arXiv.2306.13723"
                             },
                             {
                                 "date": "Published: June 23rd, 2023",
@@ -5301,7 +5668,29 @@
                             "PhD in Physics, University of La Laguna \u2014 Spain",
                             "BS in Physics, University of La Laguna \u2014 Spain"
                         ],
-                        "Biography": "Miguel Fuentes-Cabrera is an associate teaching professor in the Khoury College of Computer Sciences at Northeastern University, based in Oakland."
+                        "Biography": "Miguel Fuentes-Cabrera is an associate teaching professor in the Khoury College of Computer Sciences at Northeastern University, based in Oakland.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: May 3rd, 2023",
+                                "publication": "Predicting partner fitness based on spatial structuring in a light-driven microbial community",
+                                "link": "https://doi.org/10.1371/journal.pcbi.1011045"
+                            },
+                            {
+                                "date": "Published: April 5th, 2023",
+                                "publication": "Inferring assembly-curving trends of bacterial micro-compartment shell hexamers from crystal structure arrangements",
+                                "link": "https://doi.org/10.1371/journal.pcbi.1011038"
+                            },
+                            {
+                                "date": "Published: May 12th, 2022",
+                                "publication": "Performing Video Frame Prediction of Microbial Growth with a Recurrent Neural Network",
+                                "link": "https://doi.org/10.48550/arXiv.2205.05810"
+                            },
+                            {
+                                "date": "Published: February 22nd, 2020",
+                                "publication": "Self-Propulsion Enhances Polymerization",
+                                "link": "https://doi.org/10.3390/e22020251"
+                            }
+                        ]
                     }
                 }
             },
@@ -5470,7 +5859,29 @@
                             "MSc in Applied Mathematics, Shanghai Jiao Tong University \u2014 China",
                             "BSc in Applied Mathematics, Shanghai Jiao Tong University \u2014 China"
                         ],
-                        "Biography": "Yifan Hu is a professor of the practice in the Khoury College of Computer Sciences at Northeastern University, based in Seattle."
+                        "Biography": "Yifan Hu is a professor of the practice in the Khoury College of Computer Sciences at Northeastern University, based in Seattle.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: November 1st, 2021",
+                                "publication": "BERT-Beta: A Proactive Probabilistic Approach to Text Moderation",
+                                "link": "https://doi.org/10.18653/v1/2021.emnlp-main.682"
+                            },
+                            {
+                                "date": "Published: November 1st, 2020",
+                                "publication": "HABERTOR: An Efficient and Effective Deep Hatespeech Detector",
+                                "link": "https://doi.org/10.18653/v1/2020.emnlp-main.606"
+                            },
+                            {
+                                "date": "Published: November 1st, 2020",
+                                "publication": "Repulsive Attention: Rethinking Multi-head Attention as Bayesian Inference",
+                                "link": "https://doi.org/10.18653/v1/2020.emnlp-main.17"
+                            },
+                            {
+                                "date": "Published: November 1st, 2020",
+                                "publication": "TNT: Text Normalization based Pre-training of Transformers for Content Moderation",
+                                "link": "https://doi.org/10.18653/v1/2020.emnlp-main.383"
+                            }
+                        ]
                     }
                 }
             },
@@ -5731,11 +6142,6 @@
                                 "link": "https://doi.org/10.1145/3584372.3588670"
                             },
                             {
-                                "date": "Published: June 18th, 2023",
-                                "publication": "Efficient Computation of Quantiles over Joins",
-                                "link": "https://doi.org/10.1145/3584372.3588670"
-                            },
-                            {
                                 "date": "Published: May 1st, 2023",
                                 "publication": "Why Not Yet: Fixing a Top-k Ranking that Is Not Fair to Individuals",
                                 "link": "https://www.vldb.org/pvldb/vol16/p2377-chen.pdf"
@@ -5754,11 +6160,6 @@
                                 "date": "Published: March 23rd, 2021",
                                 "publication": "DomainNet: Homograph Detection for Data Lake Disambiguation",
                                 "link": "https://doi.org/10.5441/002/edbt.2021.03"
-                            },
-                            {
-                                "date": "Published: January 1st, 2021",
-                                "publication": "Beyond Equi-joins: Ranking, Enumeration and Factorization",
-                                "link": "http://www.vldb.org/pvldb/vol14/p2599-tziavelis.pdf"
                             },
                             {
                                 "date": "Published: January 1st, 2021",
@@ -5797,6 +6198,11 @@
                         ],
                         "Biography": "Christoph Riedl is a professor in the D\u2019Amore-McKim School of Business and the Khoury College of Computer Sciences at Northeastern University, based in Boston. He is a core faculty member at the Network Science Institute and an affiliate at Harvard Business School's Institute for Quantitative Social Science, where he completed his postdoctoral fellowship.",
                         "Recent publications": [
+                            {
+                                "date": "Published: November 12th, 2024",
+                                "publication": "When Randomness Beats Redundancy: Insights into the Diffusion of Complex Contagions",
+                                "link": "https://doi.org/10.48550/arXiv.2411.07907"
+                            },
                             {
                                 "date": "Published: April 26th, 2024",
                                 "publication": "Cooperation in the Gig Economy: Insights from Upwork Freelancers",
@@ -5969,9 +6375,9 @@
                                 "link": "https://doi.org/10.1093/bioinformatics/btad067"
                             },
                             {
-                                "date": "Published: February 6th, 2023",
-                                "publication": "A noise-robust deep clustering of biomolecular ions improves interpretability of mass spectrometric images",
-                                "link": "https://doi.org/10.1093/bioinformatics/btad067"
+                                "date": "Published: August 12th, 2022",
+                                "publication": "Effective Use of Likert Scales in Visualization Evaluations: A Systematic Review",
+                                "link": "https://doi.org/10.1111/cgf.14521"
                             }
                         ]
                     }
@@ -6108,11 +6514,6 @@
                                 "link": "https://doi.org/10.1145/3544549.3585649"
                             },
                             {
-                                "date": "Published: April 19th, 2023",
-                                "publication": "Exploratory Thematic Analysis of Crowdsourced Photosensitivity Warnings",
-                                "link": "https://doi.org/10.1145/3544549.3585649"
-                            },
-                            {
                                 "date": "Published: January 1st, 2023",
                                 "publication": "GenoREC: A Recommendation System for Interactive Genomics Data Visualization",
                                 "link": "https://doi.org/10.1109/TVCG.2022.3209407"
@@ -6159,9 +6560,24 @@
                         "Biography": "Michael Correll is an associate research professor in the Khoury College of Computer Sciences at Northeastern University, based at the Roux Institute in Portland, Maine.",
                         "Recent publications": [
                             {
+                                "date": "Published: January 24th, 2025",
+                                "publication": "The Many Tendrils of the Octopus Map",
+                                "link": "https://doi.org/10.48550/arXiv.2501.14903"
+                            },
+                            {
+                                "date": "Published: November 25th, 2024",
+                                "publication": "Tasks and Telephones: Threats to Experimental Validity due to Misunderstandings of Visualisation Tasks and Strategies Position Paper",
+                                "link": "https://doi.org/10.1109/BELIV64461.2024.00009"
+                            },
+                            {
                                 "date": "Published: October 26th, 2023",
                                 "publication": "Heuristics for Supporting Cooperative Dashboard Design",
                                 "link": "https://doi.org/10.1109/TVCG.2023.3327158"
+                            },
+                            {
+                                "date": "Published: July 18th, 2020",
+                                "publication": "VisuaLint: Sketchy In Situ Annotations of Chart Construction Errors",
+                                "link": "https://doi.org/10.1111/cgf.13975"
                             }
                         ]
                     }
@@ -6246,7 +6662,14 @@
                             "MS in Entertainment Technology, Carnegie Mellon University",
                             "BFA in Industrial Design, Carnegie Mellon University"
                         ],
-                        "Biography": "Clifton Forlines is an associate research professor in the Khoury College of Computer Sciences at Northeastern University, based in Portland, Maine."
+                        "Biography": "Clifton Forlines is an associate research professor in the Khoury College of Computer Sciences at Northeastern University, based in Portland, Maine.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: June 21st, 2023",
+                                "publication": "Cognitive and Emotional Monitoring with Inexpensive Wrist-Worn Consumer-Grade Wearables",
+                                "link": "https://doi.org/10.1109/PerComWorkshops56833.2023.10150338"
+                            }
+                        ]
                     }
                 }
             },
@@ -6313,7 +6736,29 @@
                             "MSc in Computer Science, University of Florida",
                             "BE in Information Technology (Computer Engineering), University of Tehran \u2014 Iran"
                         ],
-                        "Biography": "Mahsan Nourani is a research assistant professor in the Khoury College of Computer Sciences at Northeastern University, based at the Roux Institute in Portland, Maine."
+                        "Biography": "Mahsan Nourani is a research assistant professor in the Khoury College of Computer Sciences at Northeastern University, based at the Roux Institute in Portland, Maine.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: December 8th, 2023",
+                                "publication": "Explainable Activity Recognition in Videos using Deep Learning and Tractable Probabilistic Models",
+                                "link": "https://doi.org/10.1145/3626961"
+                            },
+                            {
+                                "date": "Published: March 17th, 2023",
+                                "publication": "An Evaluation of View Rotation Techniques for Seated Navigation in Virtual Reality",
+                                "link": "https://doi.org/10.1109/TVCG.2023.3258693"
+                            },
+                            {
+                                "date": "Published: December 12th, 2022",
+                                "publication": "On the Importance of User Backgrounds and Impressions: Lessons Learned from Interactive AI Applications",
+                                "link": "https://doi.org/10.1145/3531066"
+                            },
+                            {
+                                "date": "Published: August 24th, 2022",
+                                "publication": "DETOXER: A Visual Debugging Tool With Multiscope Explanations for Temporal Multilabel Classification",
+                                "link": "https://doi.org/10.1109/MCG.2022.3201465"
+                            }
+                        ]
                     }
                 }
             },
@@ -6328,7 +6773,39 @@
                             "MFA in Design, University of Utah",
                             "BFA in Multimedia, Pacific Northwest College of Art"
                         ],
-                        "Biography": "Lace Padilla is an assistant professor in the Khoury College of Computer Sciences and the College of Science at Northeastern University, based in Boston and Oakland."
+                        "Biography": "Lace Padilla is an assistant professor in the Khoury College of Computer Sciences and the College of Science at Northeastern University, based in Boston and Oakland.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: September 10th, 2024",
+                                "publication": "Impact of Vertical Scaling on Normal Probability Density Function Plots",
+                                "link": "https://doi.org/10.1109/TVCG.2024.3456396"
+                            },
+                            {
+                                "date": "Published: September 9th, 2024",
+                                "publication": "Mind Drifts, Data Shifts: Utilizing Mind Wandering to Track the Evolution of User Experience with Data Visualizations",
+                                "link": "https://doi.org/10.1109/TVCG.2024.3456344"
+                            },
+                            {
+                                "date": "Published: May 11th, 2024",
+                                "publication": "Rethinking Human-AI Collaboration in Complex Medical Decision Making: A Case Study in Sepsis Diagnosis",
+                                "link": "https://doi.org/10.1145/3613904.3642343"
+                            },
+                            {
+                                "date": "Published: March 4th, 2024",
+                                "publication": "Examining Limits of Small Multiples: Frame Quantity Impacts Judgments With Line Graphs",
+                                "link": "https://doi.org/10.1109/TVCG.2024.3372620"
+                            },
+                            {
+                                "date": "Published: October 23rd, 2023",
+                                "publication": "Average Estimates in Line Graphs Are Biased Toward Areas of Higher Variability",
+                                "link": "https://doi.org/10.1109/TVCG.2023.3326589"
+                            },
+                            {
+                                "date": "Published: January 1st, 2023",
+                                "publication": "Multiple Forecast Visualizations (MFVs): Trade-offs in Trust and Performance in Multiple COVID-19 Forecast Visualizations",
+                                "link": "https://doi.org/10.1109/TVCG.2022.3209457"
+                            }
+                        ]
                     }
                 }
             },
@@ -6402,6 +6879,11 @@
                         ],
                         "Biography": "Dakuo Wang is an associate professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston.",
                         "Recent publications": [
+                            {
+                                "date": "Published: February 6th, 2025",
+                                "publication": "More Modality, More AI: Exploring Design Opportunities of AI-Based Multi-modal Remote Monitoring Technologies for Early Detection of Mental Health Sequelae in Youth Concussion Patients",
+                                "link": "https://doi.org/10.48550/arXiv.2502.03732"
+                            },
                             {
                                 "date": "Published: November 1st, 2024",
                                 "publication": "StorySparkQA: Expert-Annotated QA Pairs with Real-World Knowledge for Children\u2019s Story-Based Learning",
@@ -6619,7 +7101,29 @@
                             "PhD in Computer Science, Cornell University",
                             "BA in Mathematics, Reed College"
                         ],
-                        "Biography": "Joshua Gancher is an assistant professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston."
+                        "Biography": "Joshua Gancher is an assistant professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: October 8th, 2024",
+                                "publication": "FlowCert: Translation Validation for Asynchronous Dataflow via Dynamic Fractional Permissions",
+                                "link": "https://doi.org/10.1145/3689729"
+                            },
+                            {
+                                "date": "Published: September 20th, 2024",
+                                "publication": "Secure Synthesis of Distributed Cryptographic Applications",
+                                "link": "https://doi.org/10.1109/CSF61375.2024.00021"
+                            },
+                            {
+                                "date": "Published: January 11th, 2023",
+                                "publication": "A Core Calculus for Equational Proofs of Cryptographic Protocols",
+                                "link": "https://doi.org/10.1145/3571223"
+                            },
+                            {
+                                "date": "Published: June 18th, 2021",
+                                "publication": "Viaduct: an extensible, optimizing compiler for secure distributed programs",
+                                "link": "https://doi.org/10.1145/3453483.3454074"
+                            }
+                        ]
                     }
                 }
             },
@@ -6649,11 +7153,6 @@
                                 "date": "Published: July 5th, 2024",
                                 "publication": "Ahead-of-time Compilation for Diverse Samplers of Constrained Design Spaces",
                                 "link": "https://doi.org/10.1145/3649921.3656986"
-                            },
-                            {
-                                "date": "Published: October 6th, 2023",
-                                "publication": "Probabilistic Logic Programming Semantics For Procedural Content Generation",
-                                "link": "https://doi.org/10.1609/aiide.v19i1.27525"
                             },
                             {
                                 "date": "Published: October 6th, 2023",
@@ -6933,13 +7432,12 @@
                 "info": {
                     "sections": {
                         "Research interests": [
+                            "Tools for assisting game design and development",
+                            "Interfaces for problem-solving",
                             "Scientific discovery games",
-                            "Serious games",
                             "Crowdsourcing games",
-                            "Citizen science",
-                            "Novel interfaces for problem-solving",
-                            "Automated tools for assisting game design and development",
-                            "Computational structural biochemistry"
+                            "Serious games",
+                            "Citizen science"
                         ],
                         "Education": [
                             "PhD in Computer Science and Engineering, University of Washington",
@@ -6985,8 +7483,8 @@
                             },
                             {
                                 "date": "Published: December 4th, 2023",
-                                "publication": "Segment-wise Level Generation using Iterative Constrained Extension",
-                                "link": "https://doi.org/10.1109/CoG57401.2023.10333222"
+                                "publication": "Game Level Blending using a Learned Level Representation",
+                                "link": "https://doi.org/10.1109/CoG57401.2023.10333227"
                             },
                             {
                                 "date": "Published: December 4th, 2023",
@@ -6995,8 +7493,8 @@
                             },
                             {
                                 "date": "Published: December 4th, 2023",
-                                "publication": "Game Level Blending using a Learned Level Representation",
-                                "link": "https://doi.org/10.1109/CoG57401.2023.10333227"
+                                "publication": "Segment-wise Level Generation using Iterative Constrained Extension",
+                                "link": "https://doi.org/10.1109/CoG57401.2023.10333222"
                             },
                             {
                                 "date": "Published: December 4th, 2023",
@@ -7190,6 +7688,11 @@
                                 "date": "Published: July 5th, 2024",
                                 "publication": "Authoring Games with Tile Rewrite Rule Behavior Trees",
                                 "link": "https://doi.org/10.1145/3649921.3656979"
+                            },
+                            {
+                                "date": "Published: October 6th, 2023",
+                                "publication": "Probabilistic Logic Programming Semantics For Procedural Content Generation",
+                                "link": "https://doi.org/10.1609/aiide.v19i1.27525"
                             }
                         ]
                     }
@@ -7301,6 +7804,11 @@
                         "Biography": "Dakuo Wang is an associate professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston.",
                         "Recent publications": [
                             {
+                                "date": "Published: February 6th, 2025",
+                                "publication": "More Modality, More AI: Exploring Design Opportunities of AI-Based Multi-modal Remote Monitoring Technologies for Early Detection of Mental Health Sequelae in Youth Concussion Patients",
+                                "link": "https://doi.org/10.48550/arXiv.2502.03732"
+                            },
+                            {
                                 "date": "Published: November 1st, 2024",
                                 "publication": "StorySparkQA: Expert-Annotated QA Pairs with Real-World Knowledge for Children\u2019s Story-Based Learning",
                                 "link": "https://aclanthology.org/2024.emnlp-main.961"
@@ -7361,6 +7869,11 @@
                         ],
                         "Biography": "Timothy Bickmore is a professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston. He served as the college's associate dean of research from 2017 to 2022.",
                         "Recent publications": [
+                            {
+                                "date": "Published: February 25th, 2025",
+                                "publication": "Scaffolding Empathy: Training Counselors with Simulated Patients and Utterance-level Performance Visualizations",
+                                "link": "https://doi.org/10.48550/arXiv.2502.18673"
+                            },
                             {
                                 "date": "Published: December 26th, 2024",
                                 "publication": "Exploring the Potential of Virtual Agents in Atrial Fibrillation Management: Insights from a Randomized Trial",
@@ -7425,11 +7938,6 @@
                                 "date": "Published: April 21st, 2020",
                                 "publication": "Investigating Opportunities for Crowdsourcing in Church-Based Health Interventions: A Participatory Design Study",
                                 "link": "https://doi.org/10.1145/3313831.3376833"
-                            },
-                            {
-                                "date": "Published: April 9th, 2020",
-                                "publication": "The Atrial Fibrillation Health Literacy Information Technology Trial: Pilot Trial of a Mobile Health App for Atrial Fibrillation",
-                                "link": "https://doi.org/10.2196/17162"
                             }
                         ]
                     }
@@ -7516,7 +8024,29 @@
                             "MS in technology and social behavior, Northwestern University",
                             "BS in computer science and engineering, Bangladesh University of Engineering and Technology"
                         ],
-                        "Biography": "Maitraye Das is an assistant professor in the Khoury College of Computer Sciences and the College of Arts, Media and Design at Northeastern University, based in Boston."
+                        "Biography": "Maitraye Das is an assistant professor in the Khoury College of Computer Sciences and the College of Arts, Media and Design at Northeastern University, based in Boston.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: October 27th, 2024",
+                                "publication": "\u201cI look at it as the king of knowledge\u201d: How Blind People Use and Understand Generative AI Tools",
+                                "link": "https://doi.org/10.1145/3663548.3675631"
+                            },
+                            {
+                                "date": "Published: August 30th, 2024",
+                                "publication": "Incloodle-Classroom: Technology for Inclusive Joint Media Engagement in a Neurodiverse Kindergarten Classroom",
+                                "link": "https://doi.org/10.1145/3674506"
+                            },
+                            {
+                                "date": "Published: May 11th, 2024",
+                                "publication": "From Provenance to Aberrations: Image Creator and Screen Reader User Perspectives on Alt Text for AI-Generated Images",
+                                "link": "https://doi.org/10.1145/3613904.3642325"
+                            },
+                            {
+                                "date": "Published: April 26th, 2024",
+                                "publication": "\u201cThat comes with a huge career cost:\u201d Understanding Collaborative Ideation Experiences of Disabled Professionals",
+                                "link": "https://doi.org/10.1145/3641018"
+                            }
+                        ]
                     }
                 }
             },
@@ -7674,6 +8204,11 @@
                         "Biography": "Matthew S. Goodwin is a professor in the Khoury College of Computer Sciences and the Bouv\u00e9 College of Health Sciences at Northeastern University, based in Boston.",
                         "Recent publications": [
                             {
+                                "date": "Published: March 25th, 2024",
+                                "publication": "Building an Open-Source Community to Enhance Autonomic Nervous System Signal Analysis: DBDP-Autonomic",
+                                "link": "https://doi.org/10.48550/arXiv.2403.17165"
+                            },
+                            {
                                 "date": "Published: December 21st, 2023",
                                 "publication": "Wearable biosensing to predict imminent aggressive behaviors in psychiatric inpatient youths with autism",
                                 "link": "https://doi.org/10.1001%2Fjamanetworkopen.2023.48898"
@@ -7788,6 +8323,11 @@
                         "Biography": "Stephen Intille is a professor in the Khoury College of Computer Sciences and the Bouv\u00e9 College of Health Sciences at Northeastern University, based in Boston.",
                         "Recent publications": [
                             {
+                                "date": "Published: February 6th, 2025",
+                                "publication": "More Modality, More AI: Exploring Design Opportunities of AI-Based Multi-modal Remote Monitoring Technologies for Early Detection of Mental Health Sequelae in Youth Concussion Patients",
+                                "link": "https://doi.org/10.48550/arXiv.2502.03732"
+                            },
+                            {
                                 "date": "Published: November 21st, 2024",
                                 "publication": "Ask Less, Learn More: Adapting Ecological Momentary Assessment Survey Length by Modeling Question-Answer Information Gain",
                                 "link": "https://doi.org/10.1145/3699735"
@@ -7862,7 +8402,29 @@
                             "BA in Communication, Huazhong University of Science and Technology \u2014 China",
                             "BA in English (dual degree), Wuhan University \u2014 China"
                         ],
-                        "Biography": "Chenyan Jia is an assistant professor in the Khoury College of Computer Sciences and the College of Arts, Media and Design at Northeastern University, based in Boston."
+                        "Biography": "Chenyan Jia is an assistant professor in the Khoury College of Computer Sciences and the College of Arts, Media and Design at Northeastern University, based in Boston.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: January 16th, 2024",
+                                "publication": "Training Socially Aligned Language Models on Simulated Social Interactions",
+                                "link": "https://openreview.net/forum?id=NddKiWtdUm"
+                            },
+                            {
+                                "date": "Published: October 21st, 2023",
+                                "publication": "Non-Parallel Text Style Transfer with Self-Parallel Supervision",
+                                "link": "https://openreview.net/forum?id=-TSe5o7STVR"
+                            },
+                            {
+                                "date": "Published: November 28th, 2022",
+                                "publication": "Second Thoughts are Best: Learning to Re-Align With Human Values from Text Edits",
+                                "link": "http://papers.nips.cc/paper_files/paper/2022/hash/01c4593d60a020fed5607944330106b1-Abstract-Conference.html"
+                            },
+                            {
+                                "date": "Published: May 18th, 2021",
+                                "publication": "Mitigating Political Bias in Language Models through Reinforced Calibration",
+                                "link": "https://doi.org/10.1609/aaai.v35i17.17744"
+                            }
+                        ]
                     }
                 }
             },
@@ -7960,7 +8522,29 @@
                             "PhD in Human-centered Computing, Georgia Institute of Technology",
                             "BS in Computer Engineering, University of Arizona"
                         ],
-                        "Biography": "Christopher Le Dantec is a professor and the director of digital civics in the Khoury College of Computer Sciences and the College of Arts, Media and Design at Northeastern University, based in Boston."
+                        "Biography": "Christopher Le Dantec is a professor and the director of digital civics in the Khoury College of Computer Sciences and the College of Arts, Media and Design at Northeastern University, based in Boston.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: November 8th, 2024",
+                                "publication": "Reimagining Meaningful Data Work through Citizen Science",
+                                "link": "https://doi.org/10.1145/3687049"
+                            },
+                            {
+                                "date": "Published: July 1st, 2024",
+                                "publication": "Embodied Traces: Multispecies Entanglement in Urban Spaces",
+                                "link": "https://doi.org/10.1145/3643834.3660746"
+                            },
+                            {
+                                "date": "Published: July 1st, 2024",
+                                "publication": "Tuning into the World: Designing Community Safety Technologies to Reduce Dysfunctional Fear of Crime",
+                                "link": "https://doi.org/10.1145/3643834.3661578"
+                            },
+                            {
+                                "date": "Published: May 11th, 2024",
+                                "publication": "Bitacora: A Toolkit for Supporting NonProfits to Critically Reflect on Social Media Data Use",
+                                "link": "https://doi.org/10.1145/3613904.3642673"
+                            }
+                        ]
                     }
                 }
             },
@@ -8118,6 +8702,11 @@
                                 "link": "https://doi.org/10.1145/3649921.3656986"
                             },
                             {
+                                "date": "Published: October 6th, 2023",
+                                "publication": "Probabilistic Logic Programming Semantics For Procedural Content Generation",
+                                "link": "https://doi.org/10.1609/aiide.v19i1.27525"
+                            },
+                            {
                                 "date": "Published: May 30th, 2023",
                                 "publication": "Agent-Based Modeling of Human Decision-makers Under Uncertain Information During Supply Chain Shortages",
                                 "link": "https://dl.acm.org/doi/10.5555/3545946.3598855"
@@ -8126,11 +8715,6 @@
                                 "date": "Published: May 30th, 2023",
                                 "publication": "Effectiveness of Teamwork-Level Interventions through Decision-Theoretic Reasoning in a Minecraft Search-and-Rescue Task",
                                 "link": "https://dl.acm.org/doi/10.5555/3545946.3598925"
-                            },
-                            {
-                                "date": "Published: January 30th, 2023",
-                                "publication": "Thought Bubbles: A Proxy into Players\u2019 Mental Model Development",
-                                "link": "https://doi.org/10.48550/arXiv.2301.13101"
                             },
                             {
                                 "date": "Published: January 30th, 2023",
@@ -8226,6 +8810,11 @@
                                 "date": "Published: August 7th, 2024",
                                 "publication": "Clinical Challenges and AI Opportunities in Decision-Making for Cancer Treatment-Induced Cardiotoxicity",
                                 "link": "https://doi.org/10.48550/arXiv.2408.03586"
+                            },
+                            {
+                                "date": "Published: March 25th, 2024",
+                                "publication": "Building an Open-Source Community to Enhance Autonomic Nervous System Signal Analysis: DBDP-Autonomic",
+                                "link": "https://doi.org/10.48550/arXiv.2403.17165"
                             },
                             {
                                 "date": "Published: March 11th, 2024",
@@ -8382,7 +8971,29 @@
                             "MSc in Computer Science, University of Florida",
                             "BE in Information Technology (Computer Engineering), University of Tehran \u2014 Iran"
                         ],
-                        "Biography": "Mahsan Nourani is a research assistant professor in the Khoury College of Computer Sciences at Northeastern University, based at the Roux Institute in Portland, Maine."
+                        "Biography": "Mahsan Nourani is a research assistant professor in the Khoury College of Computer Sciences at Northeastern University, based at the Roux Institute in Portland, Maine.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: December 8th, 2023",
+                                "publication": "Explainable Activity Recognition in Videos using Deep Learning and Tractable Probabilistic Models",
+                                "link": "https://doi.org/10.1145/3626961"
+                            },
+                            {
+                                "date": "Published: March 17th, 2023",
+                                "publication": "An Evaluation of View Rotation Techniques for Seated Navigation in Virtual Reality",
+                                "link": "https://doi.org/10.1109/TVCG.2023.3258693"
+                            },
+                            {
+                                "date": "Published: December 12th, 2022",
+                                "publication": "On the Importance of User Backgrounds and Impressions: Lessons Learned from Interactive AI Applications",
+                                "link": "https://doi.org/10.1145/3531066"
+                            },
+                            {
+                                "date": "Published: August 24th, 2022",
+                                "publication": "DETOXER: A Visual Debugging Tool With Multiscope Explanations for Temporal Multilabel Classification",
+                                "link": "https://doi.org/10.1109/MCG.2022.3201465"
+                            }
+                        ]
                     }
                 }
             },
@@ -8397,7 +9008,39 @@
                             "MFA in Design, University of Utah",
                             "BFA in Multimedia, Pacific Northwest College of Art"
                         ],
-                        "Biography": "Lace Padilla is an assistant professor in the Khoury College of Computer Sciences and the College of Science at Northeastern University, based in Boston and Oakland."
+                        "Biography": "Lace Padilla is an assistant professor in the Khoury College of Computer Sciences and the College of Science at Northeastern University, based in Boston and Oakland.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: September 10th, 2024",
+                                "publication": "Impact of Vertical Scaling on Normal Probability Density Function Plots",
+                                "link": "https://doi.org/10.1109/TVCG.2024.3456396"
+                            },
+                            {
+                                "date": "Published: September 9th, 2024",
+                                "publication": "Mind Drifts, Data Shifts: Utilizing Mind Wandering to Track the Evolution of User Experience with Data Visualizations",
+                                "link": "https://doi.org/10.1109/TVCG.2024.3456344"
+                            },
+                            {
+                                "date": "Published: May 11th, 2024",
+                                "publication": "Rethinking Human-AI Collaboration in Complex Medical Decision Making: A Case Study in Sepsis Diagnosis",
+                                "link": "https://doi.org/10.1145/3613904.3642343"
+                            },
+                            {
+                                "date": "Published: March 4th, 2024",
+                                "publication": "Examining Limits of Small Multiples: Frame Quantity Impacts Judgments With Line Graphs",
+                                "link": "https://doi.org/10.1109/TVCG.2024.3372620"
+                            },
+                            {
+                                "date": "Published: October 23rd, 2023",
+                                "publication": "Average Estimates in Line Graphs Are Biased Toward Areas of Higher Variability",
+                                "link": "https://doi.org/10.1109/TVCG.2023.3326589"
+                            },
+                            {
+                                "date": "Published: January 1st, 2023",
+                                "publication": "Multiple Forecast Visualizations (MFVs): Trade-offs in Trust and Performance in Multiple COVID-19 Forecast Visualizations",
+                                "link": "https://doi.org/10.1109/TVCG.2022.3209457"
+                            }
+                        ]
                     }
                 }
             },
@@ -8606,7 +9249,24 @@
                             "PhD in Math, UC Berkeley",
                             "BA in Applied Math, UC Berkeley"
                         ],
-                        "Biography": "Jessica Staddon is a professor of the practice in the Khoury College of Computer Sciences at Northeastern University, based in Oakland."
+                        "Biography": "Jessica Staddon is a professor of the practice in the Khoury College of Computer Sciences at Northeastern University, based in Oakland.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: November 21st, 2024",
+                                "publication": "Assessment of LLM Responses to End-user Security Questions",
+                                "link": "https://doi.org/10.48550/arXiv.2411.14571"
+                            },
+                            {
+                                "date": "Published: October 14th, 2024",
+                                "publication": "Can LLMs be Scammed? A Baseline Measurement Study",
+                                "link": "https://doi.org/10.48550/arXiv.2410.13893"
+                            },
+                            {
+                                "date": "Published: May 11th, 2024",
+                                "publication": "Shortchanged: Uncovering and Analyzing Intimate Partner Financial Abuse in Consumer Complaints",
+                                "link": "https://doi.org/10.1145/3613904.3642033"
+                            }
+                        ]
                     }
                 }
             },
@@ -8837,6 +9497,11 @@
                         "Biography": "Dakuo Wang is an associate professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston.",
                         "Recent publications": [
                             {
+                                "date": "Published: February 6th, 2025",
+                                "publication": "More Modality, More AI: Exploring Design Opportunities of AI-Based Multi-modal Remote Monitoring Technologies for Early Detection of Mental Health Sequelae in Youth Concussion Patients",
+                                "link": "https://doi.org/10.48550/arXiv.2502.03732"
+                            },
+                            {
                                 "date": "Published: November 1st, 2024",
                                 "publication": "StorySparkQA: Expert-Annotated QA Pairs with Real-World Knowledge for Children\u2019s Story-Based Learning",
                                 "link": "https://aclanthology.org/2024.emnlp-main.961"
@@ -8977,7 +9642,24 @@
                             "MS in Computer Science, University of Southern California",
                             "BS in Computer Science, Yonsei University \u2014 South Korea"
                         ],
-                        "Biography": "Ilmi Yoon is a teaching professor and a director of computing programs in the Khoury College of Computer Sciences at Northeastern University, based in Silicon Valley."
+                        "Biography": "Ilmi Yoon is a teaching professor and a director of computing programs in the Khoury College of Computer Sciences at Northeastern University, based in Silicon Valley.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: March 7th, 2024",
+                                "publication": "Socially Responsible Computing in an Introductory Course",
+                                "link": "https://doi.org/10.1145/3626252.3630926"
+                            },
+                            {
+                                "date": "Published: December 10th, 2023",
+                                "publication": "Validated Image Caption Rating Dataset",
+                                "link": "http://papers.nips.cc/paper_files/paper/2023/hash/c0b91f9a3587bf35287f41dba5d20233-Abstract-Datasets_and_Benchmarks.html"
+                            },
+                            {
+                                "date": "Published: October 22nd, 2023",
+                                "publication": "The Potential of a Visual Dialogue Agent In a Tandem Automated Audio Description System for Videos",
+                                "link": "https://doi.org/10.1145/3597638.3608402"
+                            }
+                        ]
                     }
                 }
             }
@@ -9177,6 +9859,11 @@
                         "Biography": "Divya Chaudhary is an assistant teaching professor in the Khoury College of Computer Sciences at Northeastern University, based in Seattle.",
                         "Recent publications": [
                             {
+                                "date": "Published: February 6th, 2025",
+                                "publication": "Leveraging Geolocation in Clinical Records to Improve Alzheimer\u2019s Disease Diagnosis Using DMV Framework",
+                                "link": "https://doi.org/10.48550/arXiv.2502.04288"
+                            },
+                            {
                                 "date": "Published: December 19th, 2024",
                                 "publication": "Northeastern Uni at Multilingual Counterspeech Generation: Enhancing Counter Speech Generation with LLM Alignment through Direct Preference Optimization",
                                 "link": "https://doi.org/10.48550/arXiv.2412.15453"
@@ -9230,11 +9917,6 @@
                                 "date": "Published: March 8th, 2018",
                                 "publication": "Improved Bee Swarm Optimization Algorithm for Load Scheduling in Cloud Computing Environment",
                                 "link": "https://doi.org/10.1007/978-981-10-8527-7_33"
-                            },
-                            {
-                                "date": "Published: February 13th, 2018",
-                                "publication": "A New Balanced Particle Swarm Optimisation for Load Scheduling in Cloud Computing",
-                                "link": "https://www.worldscientific.com/doi/10.1142/S0219649218500090"
                             }
                         ]
                     }
@@ -9257,7 +9939,24 @@
                             "MS in Electrical and Computer engineering, Purdue University",
                             "BS in Electrical Engineering, University of the Philippines"
                         ],
-                        "Biography": "Jennifer G. Dy is an associate professor in the College of Engineering at Northeastern University, with a courtesy appointment in the Khoury College of Computer Sciences."
+                        "Biography": "Jennifer G. Dy is an associate professor in the College of Engineering at Northeastern University, with a courtesy appointment in the Khoury College of Computer Sciences.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: March 28th, 2022",
+                                "publication": "Deep Layer-wise Networks Have Closed-Form Weights",
+                                "link": "https://proceedings.mlr.press/v151/tzu-wu22a.html"
+                            },
+                            {
+                                "date": "Published: February 23rd, 2021",
+                                "publication": "Using Undersampling with Ensemble Learning to Identify Factors Contributing to Preterm Birth",
+                                "link": "https://doi.org/10.1109/ICMLA51294.2020.00124"
+                            },
+                            {
+                                "date": "Published: December 1st, 2020",
+                                "publication": "Instance-wise Feature Grouping",
+                                "link": "https://proceedings.neurips.cc/paper/2020/hash/9b10a919ddeb07e103dc05ff523afe38-Abstract.html"
+                            }
+                        ]
                     }
                 }
             },
@@ -9417,6 +10116,11 @@
                                 "link": "https://doi.org/10.1007/s41109-023-00578-z"
                             },
                             {
+                                "date": "Published: June 23rd, 2023",
+                                "publication": "Social AI and the Challenges of the Human-AI Ecosystem",
+                                "link": "https://doi.org/10.48550/arXiv.2306.13723"
+                            },
+                            {
                                 "date": "Published: May 30th, 2023",
                                 "publication": "Defense Against Shortest Path Attacks",
                                 "link": "https://doi.org/10.48550/arXiv.2305.19083"
@@ -9444,7 +10148,29 @@
                             "PhD in Physics, University of La Laguna \u2014 Spain",
                             "BS in Physics, University of La Laguna \u2014 Spain"
                         ],
-                        "Biography": "Miguel Fuentes-Cabrera is an associate teaching professor in the Khoury College of Computer Sciences at Northeastern University, based in Oakland."
+                        "Biography": "Miguel Fuentes-Cabrera is an associate teaching professor in the Khoury College of Computer Sciences at Northeastern University, based in Oakland.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: May 3rd, 2023",
+                                "publication": "Predicting partner fitness based on spatial structuring in a light-driven microbial community",
+                                "link": "https://doi.org/10.1371/journal.pcbi.1011045"
+                            },
+                            {
+                                "date": "Published: April 5th, 2023",
+                                "publication": "Inferring assembly-curving trends of bacterial micro-compartment shell hexamers from crystal structure arrangements",
+                                "link": "https://doi.org/10.1371/journal.pcbi.1011038"
+                            },
+                            {
+                                "date": "Published: May 12th, 2022",
+                                "publication": "Performing Video Frame Prediction of Microbial Growth with a Recurrent Neural Network",
+                                "link": "https://doi.org/10.48550/arXiv.2205.05810"
+                            },
+                            {
+                                "date": "Published: February 22nd, 2020",
+                                "publication": "Self-Propulsion Enhances Polymerization",
+                                "link": "https://doi.org/10.3390/e22020251"
+                            }
+                        ]
                     }
                 }
             },
@@ -9465,7 +10191,29 @@
                             "MSc in Applied Mathematics, Shanghai Jiao Tong University \u2014 China",
                             "BSc in Applied Mathematics, Shanghai Jiao Tong University \u2014 China"
                         ],
-                        "Biography": "Yifan Hu is a professor of the practice in the Khoury College of Computer Sciences at Northeastern University, based in Seattle."
+                        "Biography": "Yifan Hu is a professor of the practice in the Khoury College of Computer Sciences at Northeastern University, based in Seattle.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: November 1st, 2021",
+                                "publication": "BERT-Beta: A Proactive Probabilistic Approach to Text Moderation",
+                                "link": "https://doi.org/10.18653/v1/2021.emnlp-main.682"
+                            },
+                            {
+                                "date": "Published: November 1st, 2020",
+                                "publication": "HABERTOR: An Efficient and Effective Deep Hatespeech Detector",
+                                "link": "https://doi.org/10.18653/v1/2020.emnlp-main.606"
+                            },
+                            {
+                                "date": "Published: November 1st, 2020",
+                                "publication": "Repulsive Attention: Rethinking Multi-head Attention as Bayesian Inference",
+                                "link": "https://doi.org/10.18653/v1/2020.emnlp-main.17"
+                            },
+                            {
+                                "date": "Published: November 1st, 2020",
+                                "publication": "TNT: Text Normalization based Pre-training of Transformers for Content Moderation",
+                                "link": "https://doi.org/10.18653/v1/2020.emnlp-main.383"
+                            }
+                        ]
                     }
                 }
             },
@@ -9701,6 +10449,11 @@
                         "Biography": "David A. Smith is an associate professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston. He is a founding member of the NULab for Texts, Maps, and Networks, Northeastern University\u2019s center for the digital humanities and computational social sciences.",
                         "Recent publications": [
                             {
+                                "date": "Published: February 21st, 2025",
+                                "publication": "Privacy Ripple Effects from Adding or Removing Personal Information in Language Model Training",
+                                "link": "https://doi.org/10.48550/arXiv.2502.15680"
+                            },
+                            {
                                 "date": "Published: September 11th, 2024",
                                 "publication": "MONSTERMASH: Multidirectional, Overlapping, Nested, Spiral Text Extraction for Recognition Models of Arabic-Script Handwriting",
                                 "link": "https://doi.org/10.1007/978-3-031-70642-4_6"
@@ -9842,6 +10595,11 @@
                                 "link": "https://openreview.net/pdf?id=P4MUGRM4Acu"
                             },
                             {
+                                "date": "Published: July 17th, 2022",
+                                "publication": "Toward Compositional Generalization in Object-Oriented World Modeling",
+                                "link": "https://proceedings.mlr.press/v162/zhao22b.html"
+                            },
+                            {
                                 "date": "Published: June 8th, 2022",
                                 "publication": "Integrating Symmetry into Differentiable Planning with Steerable Convolutions",
                                 "link": "https://openreview.net/pdf?id=n7CPzMPKQl"
@@ -9852,9 +10610,9 @@
                                 "link": "https://proceedings.mlr.press/v211/sun23a.html"
                             },
                             {
-                                "date": "Published: October 1st, 2020",
-                                "publication": "Trajectory Prediction using Equivariant Continuous Convolution",
-                                "link": "https://arxiv.org/abs/2010.11344"
+                                "date": "Published: January 1st, 2022",
+                                "publication": "Learning Symmetric Embeddings for Equivariant World Models",
+                                "link": "https://proceedings.mlr.press/v162/park22a.html"
                             }
                         ]
                     }
@@ -9881,6 +10639,11 @@
                         ],
                         "Biography": "Dakuo Wang is an associate professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston.",
                         "Recent publications": [
+                            {
+                                "date": "Published: February 6th, 2025",
+                                "publication": "More Modality, More AI: Exploring Design Opportunities of AI-Based Multi-modal Remote Monitoring Technologies for Early Detection of Mental Health Sequelae in Youth Concussion Patients",
+                                "link": "https://doi.org/10.48550/arXiv.2502.03732"
+                            },
                             {
                                 "date": "Published: November 1st, 2024",
                                 "publication": "StorySparkQA: Expert-Annotated QA Pairs with Real-World Knowledge for Children\u2019s Story-Based Learning",
@@ -9930,7 +10693,29 @@
                             "MS in Electrical Engineering, Northeastern University",
                             "BS in Electrical Engineering, Pennsylvania State University"
                         ],
-                        "Biography": "Chieh Wu is an associate professor at the Khoury College of Computer Sciences at Northeastern University, based in Boston."
+                        "Biography": "Chieh Wu is an associate professor at the Khoury College of Computer Sciences at Northeastern University, based in Boston.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: March 28th, 2022",
+                                "publication": "Deep Layer-wise Networks Have Closed-Form Weights",
+                                "link": "https://proceedings.mlr.press/v151/tzu-wu22a.html"
+                            },
+                            {
+                                "date": "Published: May 7th, 2021",
+                                "publication": "A Chinese-Language Validation of the Video Game Demand Scale (VGDS-C): Measuring the Cognitive, Emotional, Physical, and Social Demands of Video Games",
+                                "link": "https://doi.org/10.1145/3411764.3445348"
+                            },
+                            {
+                                "date": "Published: February 23rd, 2021",
+                                "publication": "Using Undersampling with Ensemble Learning to Identify Factors Contributing to Preterm Birth",
+                                "link": "https://doi.org/10.1109/ICMLA51294.2020.00124"
+                            },
+                            {
+                                "date": "Published: December 1st, 2020",
+                                "publication": "Instance-wise Feature Grouping",
+                                "link": "https://proceedings.neurips.cc/paper/2020/hash/9b10a919ddeb07e103dc05ff523afe38-Abstract.html"
+                            }
+                        ]
                     }
                 }
             },
@@ -10034,7 +10819,29 @@
                             "PhD in computer science, Rutgers University",
                             "Graduate certificate in cognitive science, Rutgers University"
                         ],
-                        "Biography": "Malihe Alikhani is an assistant professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston."
+                        "Biography": "Malihe Alikhani is an assistant professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: November 1st, 2024",
+                                "publication": "Studying and Mitigating Biases in Sign Language Understanding Models",
+                                "link": "https://aclanthology.org/2024.emnlp-main.17"
+                            },
+                            {
+                                "date": "Published: December 1st, 2023",
+                                "publication": "SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization",
+                                "link": "https://doi.org/10.18653/v1/2023.emnlp-main.799"
+                            },
+                            {
+                                "date": "Published: July 1st, 2023",
+                                "publication": "Learning to Generate Equitable Text in Dialogue from Biased Training Data",
+                                "link": "https://doi.org/10.18653/v1/2023.acl-long.163"
+                            },
+                            {
+                                "date": "Published: June 28th, 2022",
+                                "publication": "Cross-Modal Coherence for Text-to-Image Retrieval",
+                                "link": "https://doi.org/10.1609/aaai.v36i10.21285"
+                            }
+                        ]
                     }
                 }
             },
@@ -10102,14 +10909,14 @@
                                 "link": "https://doi.org/10.1145/3487553.3524879"
                             },
                             {
+                                "date": "Published: June 6th, 2021",
+                                "publication": "On the Impact of Random Seeds on the Fairness of Clinical Classifiers",
+                                "link": "https://doi.org/10.18653/v1/2021.naacl-main.299"
+                            },
+                            {
                                 "date": "Published: April 22nd, 2021",
                                 "publication": "Demographic Representation and Collective Storytelling in the Me Too Twitter Hashtag Activism Movement",
                                 "link": "https://doi.org/10.1145/3449181"
-                            },
-                            {
-                                "date": "Published: January 1st, 2021",
-                                "publication": "On the Impact of Random Seeds on the Fairness of Clinical Classifiers",
-                                "link": "https://doi.org/10.18653/v1/2021.naacl-main.299"
                             }
                         ]
                     }
@@ -10205,6 +11012,11 @@
                         "Biography": "Ricardo Baeza-Yates is a professor of the practice and the director of research at Northeastern University's Institute for Experiential Artificial Intelligence, based in Silicon Valley.",
                         "Recent publications": [
                             {
+                                "date": "Published: February 17th, 2025",
+                                "publication": "A Comparison of Human and Machine Learning Errors in Face Recognition",
+                                "link": "https://doi.org/10.48550/arXiv.2502.11337"
+                            },
+                            {
                                 "date": "Published: February 7th, 2025",
                                 "publication": "Screening Dyslexia Using Visual Auditory Computer Games and Machine Learning",
                                 "link": "https://doi.org/10.1109/ACCESS.2025.3539719"
@@ -10223,6 +11035,11 @@
                                 "date": "Published: August 4th, 2023",
                                 "publication": "Fair Multilingual Vandalism Detection System for Wikipedia",
                                 "link": "https://doi.org/10.1145/3580305.3599823"
+                            },
+                            {
+                                "date": "Published: June 23rd, 2023",
+                                "publication": "Social AI and the Challenges of the Human-AI Ecosystem",
+                                "link": "https://doi.org/10.48550/arXiv.2306.13723"
                             },
                             {
                                 "date": "Published: May 14th, 2018",
@@ -10474,6 +11291,11 @@
                         "Biography": "David A. Smith is an associate professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston. He is a founding member of the NULab for Texts, Maps, and Networks, Northeastern University\u2019s center for the digital humanities and computational social sciences.",
                         "Recent publications": [
                             {
+                                "date": "Published: February 21st, 2025",
+                                "publication": "Privacy Ripple Effects from Adding or Removing Personal Information in Language Model Training",
+                                "link": "https://doi.org/10.48550/arXiv.2502.15680"
+                            },
+                            {
                                 "date": "Published: September 11th, 2024",
                                 "publication": "MONSTERMASH: Multidirectional, Overlapping, Nested, Spiral Text Extraction for Recognition Models of Arabic-Script Handwriting",
                                 "link": "https://doi.org/10.1007/978-3-031-70642-4_6"
@@ -10662,24 +11484,24 @@
                                 "link": "https://doi.org/10.48550/arXiv.2305.05003"
                             },
                             {
+                                "date": "Published: December 7th, 2022",
+                                "publication": "That\u2019s the Wrong Lung! Evaluating and Improving the Interpretability of Unsupervised Multimodal Encoders for Medical Data",
+                                "link": "https://aclanthology.org/2022.emnlp-main.238"
+                            },
+                            {
                                 "date": "Published: January 1st, 2022",
                                 "publication": "Evaluating Factuality in Text Simplification",
                                 "link": "https://doi.org/10.18653/v1/2022.acl-long.506"
                             },
                             {
                                 "date": "Published: January 1st, 2022",
-                                "publication": "That\u2019s the Wrong Lung! Evaluating and Improving the Interpretability of Unsupervised Multimodal Encoders for Medical Data",
-                                "link": "https://aclanthology.org/2022.emnlp-main.238"
-                            },
-                            {
-                                "date": "Published: January 1st, 2022",
-                                "publication": "That\u2019s the Wrong Lung! Evaluating and Improving the Interpretability of Unsupervised Multimodal Encoders for Medical Data",
-                                "link": "https://aclanthology.org/2022.emnlp-main.238"
-                            },
-                            {
-                                "date": "Published: January 1st, 2022",
                                 "publication": "PHEE: A Dataset for Pharmacovigilance Event Extraction from Text",
                                 "link": "https://aclanthology.org/2022.emnlp-main.376"
+                            },
+                            {
+                                "date": "Published: June 6th, 2021",
+                                "publication": "On the Impact of Random Seeds on the Fairness of Clinical Classifiers",
+                                "link": "https://doi.org/10.18653/v1/2021.naacl-main.299"
                             },
                             {
                                 "date": "Published: April 25th, 2017",
@@ -10723,11 +11545,6 @@
                                 "date": "Published: October 24th, 2023",
                                 "publication": "Hidden Citations Obscure True Impact in Science",
                                 "link": "https://doi.org/10.48550/arXiv.2310.16181"
-                            },
-                            {
-                                "date": "Published: June 23rd, 2023",
-                                "publication": "Social AI and the Challenges of the Human-AI Ecosystem",
-                                "link": "https://doi.org/10.48550/arXiv.2306.13723"
                             },
                             {
                                 "date": "Published: June 23rd, 2023",
@@ -10830,6 +11647,11 @@
                                 "date": "Published: August 18th, 2023",
                                 "publication": "Modeling self-propagating malware with epidemiological models",
                                 "link": "https://doi.org/10.1007/s41109-023-00578-z"
+                            },
+                            {
+                                "date": "Published: June 23rd, 2023",
+                                "publication": "Social AI and the Challenges of the Human-AI Ecosystem",
+                                "link": "https://doi.org/10.48550/arXiv.2306.13723"
                             },
                             {
                                 "date": "Published: May 30th, 2023",
@@ -10936,6 +11758,11 @@
                         ],
                         "Biography": "Christoph Riedl is a professor in the D\u2019Amore-McKim School of Business and the Khoury College of Computer Sciences at Northeastern University, based in Boston. He is a core faculty member at the Network Science Institute and an affiliate at Harvard Business School's Institute for Quantitative Social Science, where he completed his postdoctoral fellowship.",
                         "Recent publications": [
+                            {
+                                "date": "Published: November 12th, 2024",
+                                "publication": "When Randomness Beats Redundancy: Insights into the Diffusion of Complex Contagions",
+                                "link": "https://doi.org/10.48550/arXiv.2411.07907"
+                            },
                             {
                                 "date": "Published: April 26th, 2024",
                                 "publication": "Cooperation in the Gig Economy: Insights from Upwork Freelancers",
@@ -11063,6 +11890,11 @@
                         "Biography": "Timothy Bickmore is a professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston. He served as the college's associate dean of research from 2017 to 2022.",
                         "Recent publications": [
                             {
+                                "date": "Published: February 25th, 2025",
+                                "publication": "Scaffolding Empathy: Training Counselors with Simulated Patients and Utterance-level Performance Visualizations",
+                                "link": "https://doi.org/10.48550/arXiv.2502.18673"
+                            },
+                            {
                                 "date": "Published: December 26th, 2024",
                                 "publication": "Exploring the Potential of Virtual Agents in Atrial Fibrillation Management: Insights from a Randomized Trial",
                                 "link": "https://doi.org/10.1145/3652988.3673955"
@@ -11126,11 +11958,6 @@
                                 "date": "Published: April 21st, 2020",
                                 "publication": "Investigating Opportunities for Crowdsourcing in Church-Based Health Interventions: A Participatory Design Study",
                                 "link": "https://doi.org/10.1145/3313831.3376833"
-                            },
-                            {
-                                "date": "Published: April 9th, 2020",
-                                "publication": "The Atrial Fibrillation Health Literacy Information Technology Trial: Pilot Trial of a Mobile Health App for Atrial Fibrillation",
-                                "link": "https://doi.org/10.2196/17162"
                             }
                         ]
                     }
@@ -11198,6 +12025,11 @@
                         ],
                         "Biography": "Matthew S. Goodwin is a professor in the Khoury College of Computer Sciences and the Bouv\u00e9 College of Health Sciences at Northeastern University, based in Boston.",
                         "Recent publications": [
+                            {
+                                "date": "Published: March 25th, 2024",
+                                "publication": "Building an Open-Source Community to Enhance Autonomic Nervous System Signal Analysis: DBDP-Autonomic",
+                                "link": "https://doi.org/10.48550/arXiv.2403.17165"
+                            },
                             {
                                 "date": "Published: December 21st, 2023",
                                 "publication": "Wearable biosensing to predict imminent aggressive behaviors in psychiatric inpatient youths with autism",
@@ -11275,6 +12107,11 @@
                         ],
                         "Biography": "Stephen Intille is a professor in the Khoury College of Computer Sciences and the Bouv\u00e9 College of Health Sciences at Northeastern University, based in Boston.",
                         "Recent publications": [
+                            {
+                                "date": "Published: February 6th, 2025",
+                                "publication": "More Modality, More AI: Exploring Design Opportunities of AI-Based Multi-modal Remote Monitoring Technologies for Early Detection of Mental Health Sequelae in Youth Concussion Patients",
+                                "link": "https://doi.org/10.48550/arXiv.2502.03732"
+                            },
                             {
                                 "date": "Published: November 21st, 2024",
                                 "publication": "Ask Less, Learn More: Adapting Ecological Momentary Assessment Survey Length by Modeling Question-Answer Information Gain",
@@ -11406,6 +12243,11 @@
                                 "date": "Published: August 7th, 2024",
                                 "publication": "Clinical Challenges and AI Opportunities in Decision-Making for Cancer Treatment-Induced Cardiotoxicity",
                                 "link": "https://doi.org/10.48550/arXiv.2408.03586"
+                            },
+                            {
+                                "date": "Published: March 25th, 2024",
+                                "publication": "Building an Open-Source Community to Enhance Autonomic Nervous System Signal Analysis: DBDP-Autonomic",
+                                "link": "https://doi.org/10.48550/arXiv.2403.17165"
                             },
                             {
                                 "date": "Published: March 11th, 2024",
@@ -11565,7 +12407,24 @@
                             "MS in Electrical Engineering, Stanford University",
                             "BS in Electrical Engineering, Polytechnic Institute of Brooklyn"
                         ],
-                        "Biography": "Misha Pavel is a research professor in the Khoury College of Computer Sciences and the Bouv\u00e9 College of Health Sciences at Northeastern University, based in Boston."
+                        "Biography": "Misha Pavel is a research professor in the Khoury College of Computer Sciences and the Bouv\u00e9 College of Health Sciences at Northeastern University, based in Boston.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: November 5th, 2024",
+                                "publication": "A Unified Dynamic Model for the Decomposition of Skin Conductance and the Inference of Sudomotor Nerve Activities",
+                                "link": "https://doi.org/10.1109/TBME.2024.3492112"
+                            },
+                            {
+                                "date": "Published: July 24th, 2018",
+                                "publication": "Designing and Evaluating mHealth Interventions for Vulnerable Populations: A Systematic Review",
+                                "link": "https://dl.acm.org/citation.cfm?id=3173589"
+                            },
+                            {
+                                "date": "Published: December 1st, 2015",
+                                "publication": "Behavioral Informatics and Computational Modeling in Support of Proactive Health Management and Care",
+                                "link": "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7283558"
+                            }
+                        ]
                     }
                 }
             },
@@ -11683,11 +12542,6 @@
                                 "link": "https://doi.org/10.48550/arXiv.2304.14853"
                             },
                             {
-                                "date": "Published: April 28th, 2023",
-                                "publication": "Topological Data Analysis of Electroencephalogram Signals for Pediatric Obstructive Sleep Apnea",
-                                "link": "https://doi.org/10.48550/arXiv.2304.14853"
-                            },
-                            {
                                 "date": "Published: June 6th, 2021",
                                 "publication": "Measuring the Effects of Sleep on Epileptogenicity with Multiscale Entropy",
                                 "link": "https://doi.org/10.1016/j.clinph.2021.06.001"
@@ -11742,6 +12596,11 @@
                         ],
                         "Biography": "Dakuo Wang is an associate professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston.",
                         "Recent publications": [
+                            {
+                                "date": "Published: February 6th, 2025",
+                                "publication": "More Modality, More AI: Exploring Design Opportunities of AI-Based Multi-modal Remote Monitoring Technologies for Early Detection of Mental Health Sequelae in Youth Concussion Patients",
+                                "link": "https://doi.org/10.48550/arXiv.2502.03732"
+                            },
                             {
                                 "date": "Published: November 1st, 2024",
                                 "publication": "StorySparkQA: Expert-Annotated QA Pairs with Real-World Knowledge for Children\u2019s Story-Based Learning",
@@ -11879,6 +12738,11 @@
                                 "link": "https://doi.org/10.1145/3597503.3639160"
                             },
                             {
+                                "date": "Published: September 24th, 2023",
+                                "publication": "\u201cAlways Nice and Confident, Sometimes wrong\u201d: Developer\u2019s Experiences Engaging Generative AI Chatbots Versus Human-Powered Q&A Platforms",
+                                "link": "https://doi.org/10.48550/arXiv.2309.13684"
+                            },
+                            {
                                 "date": "Published: November 9th, 2022",
                                 "publication": "A retrospective study of one decade of artifact evaluations",
                                 "link": "https://doi.org/10.1145/3540250.3549172"
@@ -11951,7 +12815,29 @@
                             "PhD in Computer Science, Cornell University",
                             "BA in Mathematics, Reed College"
                         ],
-                        "Biography": "Joshua Gancher is an assistant professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston."
+                        "Biography": "Joshua Gancher is an assistant professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: October 8th, 2024",
+                                "publication": "FlowCert: Translation Validation for Asynchronous Dataflow via Dynamic Fractional Permissions",
+                                "link": "https://doi.org/10.1145/3689729"
+                            },
+                            {
+                                "date": "Published: September 20th, 2024",
+                                "publication": "Secure Synthesis of Distributed Cryptographic Applications",
+                                "link": "https://doi.org/10.1109/CSF61375.2024.00021"
+                            },
+                            {
+                                "date": "Published: January 11th, 2023",
+                                "publication": "A Core Calculus for Equational Proofs of Cryptographic Protocols",
+                                "link": "https://doi.org/10.1145/3571223"
+                            },
+                            {
+                                "date": "Published: June 18th, 2021",
+                                "publication": "Viaduct: an extensible, optimizing compiler for secure distributed programs",
+                                "link": "https://doi.org/10.1145/3453483.3454074"
+                            }
+                        ]
                     }
                 }
             },
@@ -11978,6 +12864,11 @@
                                 "date": "Published: October 8th, 2024",
                                 "publication": "Knowledge Transfer from High-Resource to Low-Resource Programming Languages for Code LLMs",
                                 "link": "https://doi.org/10.1145/3689735"
+                            },
+                            {
+                                "date": "Published: March 25th, 2022",
+                                "publication": "Flexible and Optimal Dependency Management via Max-SMT",
+                                "link": "https://doi.org/10.1109/ICSE48619.2023.00124"
                             },
                             {
                                 "date": "Published: October 15th, 2021",
@@ -12066,11 +12957,6 @@
                                 "link": "https://doi.org/10.1609/aiide.v19i1.27525"
                             },
                             {
-                                "date": "Published: October 6th, 2023",
-                                "publication": "Probabilistic Logic Programming Semantics For Procedural Content Generation",
-                                "link": "https://doi.org/10.1609/aiide.v19i1.27525"
-                            },
-                            {
                                 "date": "Published: July 25th, 2023",
                                 "publication": "Scaling integer arithmetic in probabilistic programs",
                                 "link": "https://proceedings.mlr.press/v216/cao23b.html"
@@ -12124,6 +13010,11 @@
                                 "date": "Published: July 5th, 2024",
                                 "publication": "Authoring Games with Tile Rewrite Rule Behavior Trees",
                                 "link": "https://doi.org/10.1145/3649921.3656979"
+                            },
+                            {
+                                "date": "Published: October 6th, 2023",
+                                "publication": "Probabilistic Logic Programming Semantics For Procedural Content Generation",
+                                "link": "https://doi.org/10.1609/aiide.v19i1.27525"
                             }
                         ]
                     }
@@ -12264,23 +13155,8 @@
                             },
                             {
                                 "date": "Published: July 4th, 2023",
-                                "publication": "SEIL: Simulation-augmented Equivariant Imitation Learning",
-                                "link": "https://doi.org/10.1109/ICRA48891.2023.10161252"
-                            },
-                            {
-                                "date": "Published: July 4th, 2023",
                                 "publication": "Edge Grasp Network: A Graph-Based SE(3)-invariant Approach to Grasp Detection",
                                 "link": "https://doi.org/10.1109/ICRA48891.2023.10160728"
-                            },
-                            {
-                                "date": "Published: July 4th, 2023",
-                                "publication": "Edge Grasp Network: A Graph-Based SE(3)-invariant Approach to Grasp Detection",
-                                "link": "https://doi.org/10.1109/ICRA48891.2023.10160728"
-                            },
-                            {
-                                "date": "Published: February 27th, 2023",
-                                "publication": "Image to Sphere: Learning Equivariant Features for Efficient Pose Prediction",
-                                "link": "https://openreview.net/pdf?id=_2bDpAtr7PI"
                             },
                             {
                                 "date": "Published: February 27th, 2023",
@@ -12610,6 +13486,11 @@
                                 "link": "https://openreview.net/pdf?id=P4MUGRM4Acu"
                             },
                             {
+                                "date": "Published: July 17th, 2022",
+                                "publication": "Toward Compositional Generalization in Object-Oriented World Modeling",
+                                "link": "https://proceedings.mlr.press/v162/zhao22b.html"
+                            },
+                            {
                                 "date": "Published: June 8th, 2022",
                                 "publication": "Integrating Symmetry into Differentiable Planning with Steerable Convolutions",
                                 "link": "https://openreview.net/pdf?id=n7CPzMPKQl"
@@ -12620,9 +13501,9 @@
                                 "link": "https://proceedings.mlr.press/v211/sun23a.html"
                             },
                             {
-                                "date": "Published: October 1st, 2020",
-                                "publication": "Trajectory Prediction using Equivariant Continuous Convolution",
-                                "link": "https://arxiv.org/abs/2010.11344"
+                                "date": "Published: January 1st, 2022",
+                                "publication": "Learning Symmetric Embeddings for Equivariant World Models",
+                                "link": "https://proceedings.mlr.press/v162/park22a.html"
                             }
                         ]
                     }
@@ -12674,24 +13555,14 @@
                                 "link": "https://openreview.net/pdf?id=PYbe4MoHf32"
                             },
                             {
-                                "date": "Published: June 8th, 2022",
-                                "publication": "Integrating Symmetry into Differentiable Planning with Steerable Convolutions",
-                                "link": "https://openreview.net/pdf?id=n7CPzMPKQl"
-                            },
-                            {
-                                "date": "Published: June 8th, 2022",
-                                "publication": "Integrating Symmetry into Differentiable Planning with Steerable Convolutions",
-                                "link": "https://openreview.net/pdf?id=n7CPzMPKQl"
-                            },
-                            {
-                                "date": "Published: January 1st, 2022",
+                                "date": "Published: July 17th, 2022",
                                 "publication": "Toward Compositional Generalization in Object-Oriented World Modeling",
                                 "link": "https://proceedings.mlr.press/v162/zhao22b.html"
                             },
                             {
-                                "date": "Published: January 1st, 2022",
-                                "publication": "Toward Compositional Generalization in Object-Oriented World Modeling",
-                                "link": "https://proceedings.mlr.press/v162/zhao22b.html"
+                                "date": "Published: June 8th, 2022",
+                                "publication": "Integrating Symmetry into Differentiable Planning with Steerable Convolutions",
+                                "link": "https://openreview.net/pdf?id=n7CPzMPKQl"
                             },
                             {
                                 "date": "Published: November 18th, 2020",
@@ -12736,6 +13607,11 @@
                                 "date": "Published: April 12th, 2024",
                                 "publication": "Crossover in Parametric Fuzzing",
                                 "link": "https://doi.org/10.1145/3597503.3639160"
+                            },
+                            {
+                                "date": "Published: September 24th, 2023",
+                                "publication": "\u201cAlways Nice and Confident, Sometimes wrong\u201d: Developer\u2019s Experiences Engaging Generative AI Chatbots Versus Human-Powered Q&A Platforms",
+                                "link": "https://doi.org/10.48550/arXiv.2309.13684"
                             },
                             {
                                 "date": "Published: November 9th, 2022",
@@ -12819,6 +13695,11 @@
                                 "date": "Published: October 8th, 2024",
                                 "publication": "Knowledge Transfer from High-Resource to Low-Resource Programming Languages for Code LLMs",
                                 "link": "https://doi.org/10.1145/3689735"
+                            },
+                            {
+                                "date": "Published: March 25th, 2022",
+                                "publication": "Flexible and Optimal Dependency Management via Max-SMT",
+                                "link": "https://doi.org/10.1109/ICSE48619.2023.00124"
                             },
                             {
                                 "date": "Published: October 15th, 2021",
@@ -13092,6 +13973,11 @@
                         "Biography": "Dakuo Wang is an associate professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston.",
                         "Recent publications": [
                             {
+                                "date": "Published: February 6th, 2025",
+                                "publication": "More Modality, More AI: Exploring Design Opportunities of AI-Based Multi-modal Remote Monitoring Technologies for Early Detection of Mental Health Sequelae in Youth Concussion Patients",
+                                "link": "https://doi.org/10.48550/arXiv.2502.03732"
+                            },
+                            {
                                 "date": "Published: November 1st, 2024",
                                 "publication": "StorySparkQA: Expert-Annotated QA Pairs with Real-World Knowledge for Children\u2019s Story-Based Learning",
                                 "link": "https://aclanthology.org/2024.emnlp-main.961"
@@ -13332,6 +14218,11 @@
                         "Biography": "Engin Kirda is a professor in the Khoury College of Computer Sciences and the College of Engineering at Northeastern University, based in Boston.",
                         "Recent publications": [
                             {
+                                "date": "Published: February 24th, 2025",
+                                "publication": "Secure IP Address Allocation at Cloud Scale",
+                                "link": "https://www.ndss-symposium.org/ndss-paper/secure-ip-address-allocation-at-cloud-scale/"
+                            },
+                            {
                                 "date": "Published: February 26th, 2024",
                                 "publication": "Untangle: Multi-Layer Web Server Fingerprinting",
                                 "link": "https://www.ndss-symposium.org/ndss-paper/untangle-multi-layer-web-server-fingerprinting/"
@@ -13538,6 +14429,11 @@
                         ],
                         "Biography": "Guevara Noubir is a professor and the executive director of cybersecurity programs in the Khoury College of Computer Sciences at Northeastern University, based in Boston. He is also the principal investigator of Northeastern University\u2019s NSA/DHS-designated Center of Academic Excellence in Cybersecurity.",
                         "Recent publications": [
+                            {
+                                "date": "Published: February 12th, 2025",
+                                "publication": "Assumption-Free Fuzzy PSI via Predicate Encryption",
+                                "link": "https://eprint.iacr.org/2025/217"
+                            },
                             {
                                 "date": "Published: May 20th, 2024",
                                 "publication": "Establishing Trust in the Beyond-5G Core Network using Trusted Execution Environments",
@@ -13765,7 +14661,19 @@
                             "MSc in Network and Communications Engineering, Universiti Putra Malaysia \u2014 Malaysia",
                             "BSc in Software Engineering, Yazd University \u2014 Iran"
                         ],
-                        "Biography": "Maryam Tanha is an assistant teaching professor in the Khoury College of Computer Sciences at Northeastern University, based in Vancouver."
+                        "Biography": "Maryam Tanha is an assistant teaching professor in the Khoury College of Computer Sciences at Northeastern University, based in Vancouver.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: September 12th, 2024",
+                                "publication": "Revisiting Temporal Inconsistency and Feature Extraction for Android Malware Detection",
+                                "link": "https://doi.org/10.1109/CCECE59415.2024.10667123"
+                            },
+                            {
+                                "date": "Published: February 26th, 2024",
+                                "publication": "Interpretable Android Malware Detection Based on Dynamic Analysis",
+                                "link": "https://doi.org/10.5220/0012415800003648"
+                            }
+                        ]
                     }
                 }
             },
@@ -13822,7 +14730,34 @@
                             "MS in Cryptography, Beijing University of Posts and Telecommunications \u2014 China",
                             "BE in Automation, Beijing University of Posts and Telecommunications \u2014 China"
                         ],
-                        "Biography": "Ziming Zhao is an associate professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston."
+                        "Biography": "Ziming Zhao is an associate professor in the Khoury College of Computer Sciences at Northeastern University, based in Boston.",
+                        "Recent publications": [
+                            {
+                                "date": "Published: February 24th, 2025",
+                                "publication": "Defending Against Membership Inference Attacks on Iteratively Pruned Deep Neural Networks",
+                                "link": "https://www.ndss-symposium.org/ndss-paper/defending-against-membership-inference-attacks-on-iteratively-pruned-deep-neural-networks/"
+                            },
+                            {
+                                "date": "Published: December 1st, 2024",
+                                "publication": "TokenScout: Early Detection of Ethereum Scam Tokens via Temporal Graph Learning",
+                                "link": "https://doi.org/10.1145/3658644.3690234"
+                            },
+                            {
+                                "date": "Published: June 26th, 2024",
+                                "publication": "InsectACIDE: Debugger-Based Holistic Asynchronous CFI for Embedded System",
+                                "link": "https://doi.org/10.1109/RTAS61025.2024.00036"
+                            },
+                            {
+                                "date": "Published: November 21st, 2023",
+                                "publication": "SHERLOC: Secure and Holistic Control-Flow Violation Detection on Embedded Systems",
+                                "link": "https://doi.org/10.1145/3576915.3623077"
+                            },
+                            {
+                                "date": "Published: September 15th, 2023",
+                                "publication": "Return-to-Non-Secure Vulnerabilities on ARM Cortex-M TrustZone: Attack and Defense",
+                                "link": "https://doi.org/10.1109/DAC56929.2023.10247972"
+                            }
+                        ]
                     }
                 }
             }

@@ -1,6 +1,12 @@
 import json
-import requests
+import undetected_chromedriver as uc
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
+import time
+import requests
+import pandas as pd
 
 # Load metadata from JSON file
 with open("./metadata.json", 'r') as f:
@@ -11,14 +17,26 @@ base_url = metadata["Khoury College of Computer Science"]["Research_landing"]["b
 research_url = metadata["Khoury College of Computer Science"]["Research_areas"]["base_url"]
 institutes_and_centers_url = metadata["Khoury College of Computer Science"]["Institutes_and_centers"]["base_url"]
 
+# Initialize Chrome driver
+options = uc.ChromeOptions()
+options.headless = True  # Run in headless mode
+options.add_argument("--disable-blink-features=AutomationControlled")
+options.add_argument("--no-sandbox")
+options.add_argument("--disable-dev-shm-usage")
+driver = uc.Chrome(options=options)
+
 # Store the results
 data = {}
 
-# Function to get all research area URLs
+# Function to get all research area URLs (Using Selenium if JavaScript is required)
 def get_research_areas():
     print(f"Getting research areas")
-    response = requests.get(base_url)
-    soup = BeautifulSoup(response.text, 'html.parser')
+    
+    driver.get(base_url)
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "main")))
+    time.sleep(2)  # Allow JS to load
+
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
     
     research_area_urls = {}
     research_areas = soup.find_all('li', class_='wp-block-khoury-link-list-item')
@@ -31,60 +49,51 @@ def get_research_areas():
 
     return research_area_urls
 
-# Function to get institutes and centers
+# Function to get institutes and centers (Using Selenium)
 def get_institutes_and_centers():
     print(f"Getting institutes and centers")
     research_data = []
-    try:
-        # Fetch the page content
-        response = requests.get(institutes_and_centers_url)
-        if response.status_code != 200:
-            print("Failed to fetch page")
-            exit()
+    
+    driver.get(institutes_and_centers_url)
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "main")))
+    time.sleep(2)  # Allow JS to load
+    
+    soup = BeautifulSoup(driver.page_source, "html.parser")
 
-        # Parse HTML with BeautifulSoup
-        soup = BeautifulSoup(response.text, "html.parser")
+    institute_names = soup.select("main > div > div")
 
-        # Extract institute names (assumed to be in <h3>)
-        institute_names = soup.select("main > div > div")
+    if not institute_names:
+        print("No institute names found")
 
-        if not institute_names:
-            print("No institute names found")
-
-        # Loop through each h3 and extract its next <p> sibling as description
-        for name_tag in institute_names[1:]:
-            name = name_tag.find("h3").text.strip()
-            description_tag = name_tag.find("p")  # Get the paragraph next to h3
-            a_element = name_tag.find("a")
-            href = a_element['href'] if a_element and a_element.has_attr('href') else ""
-            institute_data = {
-                "name": name,
-                "description": description_tag.text.strip() if description_tag else "",
-                "href": href
-            }
-            research_data.append(institute_data)
-
-    except Exception as e:
-        print(f"Error: {e}")
+    for name_tag in institute_names[1:]:
+        name = name_tag.find("h3").text.strip()
+        description_tag = name_tag.find("p")  # Get the paragraph next to h3
+        a_element = name_tag.find("a")
+        href = a_element['href'] if a_element and a_element.has_attr('href') else ""
+        institute_data = {
+            "name": name,
+            "description": description_tag.text.strip() if description_tag else "",
+            "href": href
+        }
+        research_data.append(institute_data)
     
     return research_data
 
-
-
+# Function to get professor details (Using Selenium for expandable sections)
 def get_professor_details(prof_url):
     """Fetch and parse a professor's page to extract details from collapsible sections."""
-    # print(f'Fetching professor details: {prof_url}')
+    print(f'Fetching professor details: {prof_url}')
     
     try:
-        response = requests.get(prof_url)
-        soup = BeautifulSoup(response.text, 'html.parser')
+        driver.get(prof_url)
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "single-people__content")))
+        time.sleep(2)  # Allow JS to load
+        
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
 
-        # Locate the collapsible sections inside "single-people__content"
         content_sections = soup.select(".single-people__content div div div div div div")
 
-        prof_data = {
-            "sections": {}
-        }
+        prof_data = {"sections": {}}
 
         for section in content_sections:
             h2_tag = section.find("h2")
@@ -93,27 +102,23 @@ def get_professor_details(prof_url):
 
             section_name = h2_tag.text.strip()
 
-            if section_name == "Research interests" or section_name == "Education":
-                # Extract bullet points
+            if section_name in ["Research interests", "Education"]:
                 items = [li.text.strip() for li in section.select("ul li")]
                 prof_data["sections"][section_name] = items
 
             elif section_name == "Biography":
-                # Extract biography text
-                bio_text = section.find("p").text.strip() if section.find("p") else "No biography available"
+                bio_text = section.find("p").text.strip() if section.find("p") else ""
                 prof_data["sections"][section_name] = bio_text
 
             elif section_name == "Recent publications":
-                # Extract publication details
                 publications = []
                 for pub in section.select("ul li"):
                     time_tag = pub.find("time")
-                    date = time_tag.text.strip() if time_tag else "Unknown Date"
+                    date = time_tag.text.strip() if time_tag else ""
 
                     a_tag = pub.find("a")
                     pub_name = a_tag.text.strip() if a_tag else "Unknown Publication"
                     pub_link = a_tag["href"] if a_tag and a_tag.has_attr("href") else ""
-
                     publications.append({"date": date, "publication": pub_name, "link": pub_link})
 
                 prof_data["sections"][section_name] = publications
@@ -123,6 +128,40 @@ def get_professor_details(prof_url):
     except Exception as e:
         print(f"Error fetching professor details: {e}")
         return {}
+
+def save_publications_per_row(data, filename="professor_details.csv"):
+    rows = []
+
+    for area, profs in data.items():
+        for prof in profs:
+            name = prof.get("name", "")
+            url = prof.get("url", "")
+            sections = prof.get("info", {}).get("sections", {})
+
+            biography = sections.get("Biography", "")
+            interests = "; ".join(sections.get("Research interests", []))
+            education = "; ".join(sections.get("Education", []))
+            publications = sections.get("Recent publications", [])
+
+            # Create one row per publication
+            for pub in publications:
+                row = {
+                    "Research Area": area,
+                    "Professor Name": name,
+                    "Profile URL": url,
+                    "Biography": biography,
+                    "Research Interests": interests,
+                    "Education": education,
+                    "Publication Date": pub.get("date", "").split("Published: ")[1],
+                    "Publication Title": pub.get("publication", ""),
+                    "Publication Link": pub.get("link", "")
+                }
+                rows.append(row)
+
+    df = pd.DataFrame(rows)
+    df.drop_duplicates(inplace=True)
+    df.to_csv(filename, index=False)
+    # print(f"Saved {len(rows)} publication records to {filename}")
 
 
 # Function to get professors by research area
@@ -142,43 +181,38 @@ def get_professors_by_area(area_name, area_url):
     
     return profs_list
 
-# Function to get current research highlights
-import requests
-from bs4 import BeautifulSoup
-
 def get_current_research_highlights():
     print(f"Getting research highlights")
-    response = requests.get(base_url)  # Fetch the webpage
-    soup = BeautifulSoup(response.text, "html.parser")  # Parse HTML
+    
+    driver.get(base_url)
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "main")))
+    time.sleep(2)  # Allow JS to load
+    
+    soup = BeautifulSoup(driver.page_source, "html.parser")
 
-    # Locate all target divs under /html/body/main/div/div[6]/div[2]/div/div/div/div
     highlight_divs = soup.select("main > div > div:nth-of-type(5) > div:nth-of-type(2) > div > div > div > div")
-    # print(highlight_divs)
+
     data = []
 
     for div in highlight_divs:
         try:
-            # Extract H2 text (Research highlight title)
             h2_element = div.find("h2")
             h2_text = h2_element.text.strip() if h2_element else ""
         except:
             h2_text = ""
 
         try:
-            # Extract paragraph text (Research description)
             p_element = div.find("p")
             p_text = p_element.text.strip() if p_element else ""
         except:
             p_text = ""
 
         try:
-            # Extract the first hyperlink
             link_element = div.find("a")
             href = link_element["href"] if link_element and link_element.has_attr("href") else ""
         except:
             href = ""
 
-        # Append data in dictionary format
         data.append({
             "title": h2_text,
             "description": p_text,
@@ -196,9 +230,13 @@ try:
     data['research_profs'] = {}
     for area_name, area_url in data['research_areas'].items():
         data['research_profs'][area_name] = get_professors_by_area(area_name, area_url)
+    save_publications_per_row(data['research_profs'])
 
 except Exception as e:
     print('Error:', e)
+
+finally:
+    driver.quit()  # Close the browser when done
 
 # Save the organized data to a JSON file
 with open('data_dump.json', 'w') as outfile:
