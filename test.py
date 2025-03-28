@@ -239,9 +239,9 @@ try:
     data['research_highlights'] = get_current_research_highlights()
     
     data['research_profs'] = {}
-    # for area_name, area_url in data['research_areas'].items():
-    #     data['research_profs'][area_name] = get_professors_by_area(area_name, area_url)
-    # save_publications_per_row(data['research_profs'])
+    for area_name, area_url in data['research_areas'].items():
+        data['research_profs'][area_name] = get_professors_by_area(area_name, area_url)
+    save_publications_per_row(data['research_profs'])
 
 except Exception as e:
     print('Error:', e)
