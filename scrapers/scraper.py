@@ -7,21 +7,11 @@ from bs4 import BeautifulSoup
 import time
 import requests
 import pandas as pd
-
-import pandas as pd
-
-# Set up undetected ChromeDriver in headless mode
-options = uc.ChromeOptions()
-options.add_argument('--headless')  # Run in headless mode
-options.add_argument('--no-sandbox')
-options.add_argument('--disable-dev-shm-usage')
-
-driver = uc.Chrome(options=options)
+import os
 
 # Load metadata from JSON file
 with open("./metadata.json", 'r') as f:
     metadata = json.load(f)
-
 # Get base URLs from metadata
 base_url = metadata["Khoury College of Computer Science"]["Research_landing"]["base_url"]
 research_url = metadata["Khoury College of Computer Science"]["Research_areas"]["base_url"]
@@ -149,7 +139,7 @@ def get_professor_details(prof_url):
         print(f"Error fetching professor details: {e}")
         return {}
 
-def save_publications_per_row(data, filename="../modules/data/professor_details.csv"):
+def save_publications_per_row(data, filename="../modules/data/professor_info.csv"):
     rows = []
 
     for area, profs in data.items():
@@ -314,29 +304,61 @@ def get_labs_links():
 
 def main():
     try:
-        data['research_areas'] = get_research_areas()
-        data['institutes_and_centers'] = get_institutes_and_centers()
-        data['research_highlights'] = get_current_research_highlights()
-        
-        data['research_profs'] = {}
-        for area_name, area_url in data['research_areas'].items():
-            data['research_profs'][area_name] = get_professors_by_area(area_name, area_url)
-        save_publications_per_row(data['research_profs'])        
-        rs_df = get_research_spaces()
-        rs_df.to_csv("../modules/data/research_spaces.csv")
-        labs_df = get_labs_links()
+        # Research Areas
+        research_areas_file = "../modules/data/research_areas.csv"
+        if not os.path.exists(research_areas_file):
+            data['research_areas'] = get_research_areas()
+        else:
+            df = pd.read_csv(research_areas_file)
+            data['research_areas'] = dict(zip(df['Area'], df['URL']))
+
+        # Institutes and Centers
+        institutes_file = "../modules/data/institutes_and_centers.csv"
+        if not os.path.exists(institutes_file):
+            data['institutes_and_centers'] = get_institutes_and_centers()
+
+        # Research Highlights
+        highlights_file = "../modules/data/current_research_highlights.csv"
+        if not os.path.exists(highlights_file):
+            data['research_highlights'] = get_current_research_highlights()
+
+        # Professors and Publications
+        professor_info_file = "../modules/data/professor_info.csv"
+        if not os.path.exists(professor_info_file):
+            data['research_profs'] = {}
+            for area_name, area_url in data['research_areas'].items():
+                data['research_profs'][area_name] = get_professors_by_area(area_name, area_url)
+            save_publications_per_row(data['research_profs'])
+
+        # Research Spaces
+        research_spaces_file = "../modules/data/research_spaces.csv"
+        if not os.path.exists(research_spaces_file):
+            rs_df = get_research_spaces()
+            rs_df.to_csv(research_spaces_file, index=False)
+
+        # Labs
+        labs_file = "../modules/data/labs.csv"
+        if not os.path.exists(labs_file):
+            labs_df = get_labs_links()
+
+        # Optional: Clean up professor_info.csv to make a professors-only version
+        profs_file = "../modules/data/professors.csv"
+        if not os.path.exists(profs_file) and os.path.exists(professor_info_file):
+            df = pd.read_csv(professor_info_file)
+            df = df[df.columns[1:-4]]
+            df = df.drop_duplicates()
+            df.to_csv(profs_file, index=False)
 
     except Exception as e:
         print('Error:', e)
 
     finally:
-        # Close and quit the driver at the end
         driver.close()
         driver.quit()
 
-    # Save the organized data to a JSON file
     with open('../modules/data/data_dump.json', 'w') as outfile:
         json.dump(data, outfile, indent=4)
+
            
 if __name__ == "__main__":
     main()
