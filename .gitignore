@@ -8,6 +8,8 @@ __pycache__/
 *.csv
 research_area_professors.json
 /modules/module 1/word2vec.model
+/modules/data/*.json
+/modules/data/*.csv
 # Distribution / packaging
 .Python
 build/

@@ -6,23 +6,28 @@ nltk.download("punkt")
 
 # Load datasets
 def load_data():
-    professors = pd.read_csv("../data/professor_info.csv")
-    labs = pd.read_csv("../data/research_institutes.csv")
+    professors = pd.read_csv("../data/professors.csv")
+    labs = pd.read_csv("../data/labs_with_summaries.csv")
+    institutes = pd.read_csv("../data/research_institutes.csv")
     research = pd.read_csv("../data/professor_info.csv")
-    return professors, labs, research
+    return professors, labs, research, institutes
 
 # Preprocessing functions
 def preprocess_professors(df):
     df["Text"] = (df["Professor Name"].fillna("") + " " +
                    df["Research Interests"].fillna("") + " " +
                    df["Biography"].fillna("") + " " +
-                   df["Education"].fillna("") + " " +
-                   df["Research Area"].fillna(""))
+                   df["Education"].fillna(""))
+    return df
+
+def preprocess_institutes(df):
+    df["Text"] = (df["Institute Name"].fillna("") + " " +
+                   df["Description"].fillna(""))
     return df
 
 def preprocess_labs(df):
-    df["Text"] = (df["Institute Name"].fillna("") + " " +
-                   df["Description"].fillna(""))
+    df["Text"] = (df["Lab Name"].fillna("") + " " +
+                   df["Summary"].fillna(""))
     return df
 
 def preprocess_research(df):
@@ -45,29 +50,33 @@ def search(query, bm25_model, df, top_k=5):
 
 # Main integrated search
 def integrated_search(query, top_k=5):
-    prof_df, labs_df, res_df = load_data()
+    prof_df, labs_df, res_df, ins_df = load_data()
     prof_df = preprocess_professors(prof_df)
     labs_df = preprocess_labs(labs_df)
     res_df = preprocess_research(res_df)
+    ins_df = preprocess_institutes(ins_df)
 
     prof_bm25, _ = build_bm25(prof_df)
     labs_bm25, _ = build_bm25(labs_df)
     res_bm25, _ = build_bm25(res_df)
+    ins_bm25, _ = build_bm25(ins_df)
 
     prof_results, prof_scores = search(query, prof_bm25, prof_df, top_k)
     labs_results, labs_scores = search(query, labs_bm25, labs_df, top_k)
     res_results, res_scores = search(query, res_bm25, res_df, top_k)
+    ins_results, ins_scores = search(query, ins_bm25, ins_df, top_k)
 
     return {
         "Professors": list(zip(prof_results[["Professor Name", "Biography", "Education"]].to_dict("records"), prof_scores)),
-        "Labs": list(zip(labs_results[["Institute Name", "Description"]].to_dict("records"), labs_scores)),
-        "Research": list(zip(res_results[["Professor Name", "Publication Title", "Citation"]].to_dict("records"), res_scores))
+        "Labs": list(zip(labs_results[["Lab Name", "Summary", "Link"]].to_dict("records"), labs_scores)),
+        "Research": list(zip(res_results[["Professor Name", "Publication Title", "Citation"]].to_dict("records"), res_scores)),
+        "Institutes": list(zip(ins_results[["Institute Name", "Description"]].to_dict("records"), ins_scores))
     }
 
 # Example usage
 if __name__ == "__main__":
-    query = "feedback loops"
-    results = integrated_search(query, top_k=5)
+    query = "cybersecurity"
+    results = integrated_search(query, top_k=15)
 
     for category, items in results.items():
         print(f"\n--- Top {len(items)} {category} ---")
