@@ -1,0 +1,1088 @@
+{
+    "Algorithms and Theory": [
+        {
+            "name": "Soheil Behnezhad",
+            "url": "https://www.khoury.northeastern.edu/people/soheil-behnezhad/"
+        },
+        {
+            "name": "Mahsa Derakhshan",
+            "url": "https://www.khoury.northeastern.edu/people/mahsa-derakhshan/"
+        },
+        {
+            "name": "Wolfgang Gatterbauer",
+            "url": "https://www.khoury.northeastern.edu/people/wolfgang-gatterbauer/"
+        },
+        {
+            "name": "Paul Hand",
+            "url": "https://www.khoury.northeastern.edu/people/paul-hand/"
+        },
+        {
+            "name": "Zhengzhong Jin",
+            "url": "https://www.khoury.northeastern.edu/people/zhengzhong-jin/"
+        },
+        {
+            "name": "Huy L\u00ea Nguyen",
+            "url": "https://www.khoury.northeastern.edu/people/huy-le-nguyen/"
+        },
+        {
+            "name": "Rajmohan Rajaraman",
+            "url": "https://www.khoury.northeastern.edu/people/rajmohan-rajaraman/"
+        },
+        {
+            "name": "Abhi Shelat",
+            "url": "https://www.khoury.northeastern.edu/people/abhi-shelat/"
+        },
+        {
+            "name": "Ravi Sundaram",
+            "url": "https://www.khoury.northeastern.edu/people/ravi-sundaram/"
+        },
+        {
+            "name": "Jonathan Ullman",
+            "url": "https://www.khoury.northeastern.edu/people/jonathan-ullman/"
+        },
+        {
+            "name": "Emanuele Viola",
+            "url": "https://www.khoury.northeastern.edu/people/emanuele-viola/"
+        },
+        {
+            "name": "Daniel Wichs",
+            "url": "https://www.khoury.northeastern.edu/people/daniel-wichs/"
+        },
+        {
+            "name": "Hongyang Zhang",
+            "url": "https://www.khoury.northeastern.edu/people/hongyang-zhang/"
+        }
+    ],
+    "Artificial Intelligence": [
+        {
+            "name": "Malihe Alikhani",
+            "url": "https://www.khoury.northeastern.edu/people/malihe-alikhani/"
+        },
+        {
+            "name": "Christopher Amato",
+            "url": "https://www.khoury.northeastern.edu/people/chris-amato/"
+        },
+        {
+            "name": "Silvio Amir",
+            "url": "https://www.khoury.northeastern.edu/people/silvio-amir/"
+        },
+        {
+            "name": "Javed Aslam",
+            "url": "https://www.khoury.northeastern.edu/people/jay-javed-aslam/"
+        },
+        {
+            "name": "David Bau",
+            "url": "https://www.khoury.northeastern.edu/people/david-bau/"
+        },
+        {
+            "name": "Kenneth Church",
+            "url": "https://www.khoury.northeastern.edu/people/kenneth-church/"
+        },
+        {
+            "name": "Nate Derbinsky",
+            "url": "https://www.khoury.northeastern.edu/people/nate-derbinsky/"
+        },
+        {
+            "name": "Jennifer Dy",
+            "url": "https://www.khoury.northeastern.edu/people/jennifer-dy/"
+        },
+        {
+            "name": "Ehsan Elhamifar",
+            "url": "https://www.khoury.northeastern.edu/people/ehsan-elhamifar/"
+        },
+        {
+            "name": "Tina Eliassi-Rad",
+            "url": "https://www.khoury.northeastern.edu/people/tina-eliassi-rad/"
+        },
+        {
+            "name": "Usama Fayyad",
+            "url": "https://www.khoury.northeastern.edu/people/usama-fayyad/"
+        },
+        {
+            "name": "Sina Fazelpour",
+            "url": "https://www.khoury.northeastern.edu/people/sina-fazelpour/"
+        },
+        {
+            "name": "Yun Raymond Fu",
+            "url": "https://www.khoury.northeastern.edu/people/raymond-yun-fu/"
+        },
+        {
+            "name": "Wengong Jin",
+            "url": "https://www.khoury.northeastern.edu/people/wengong-jin/"
+        },
+        {
+            "name": "Tala Talaei Khoei",
+            "url": "https://www.khoury.northeastern.edu/people/tala-talaei-khoei/"
+        },
+        {
+            "name": "Bruce Maxwell",
+            "url": "https://www.khoury.northeastern.edu/people/bruce-maxwell/"
+        },
+        {
+            "name": "Varun Mishra",
+            "url": "https://www.khoury.northeastern.edu/people/varun-mishra/"
+        },
+        {
+            "name": "Mahsan Nourani",
+            "url": "https://www.khoury.northeastern.edu/people/mahsan-nourani/"
+        },
+        {
+            "name": "Alina Oprea",
+            "url": "https://www.khoury.northeastern.edu/people/alina-oprea/"
+        },
+        {
+            "name": "Lace Padilla",
+            "url": "https://www.khoury.northeastern.edu/people/lace-padilla/"
+        },
+        {
+            "name": "Jose Perea",
+            "url": "https://www.khoury.northeastern.edu/people/jose-perea/"
+        },
+        {
+            "name": "Ryan M. Rad",
+            "url": "https://www.khoury.northeastern.edu/people/ryan-m-rad/"
+        },
+        {
+            "name": "Rush Sanghrajka",
+            "url": "https://www.khoury.northeastern.edu/people/rush-sanghrajka/"
+        },
+        {
+            "name": "Saiph Savage",
+            "url": "https://www.khoury.northeastern.edu/people/saiph-savage/"
+        },
+        {
+            "name": "Weiyan Shi",
+            "url": "https://www.khoury.northeastern.edu/people/weiyan-shi/"
+        },
+        {
+            "name": "David Stein",
+            "url": "https://www.khoury.northeastern.edu/people/david-stein/"
+        },
+        {
+            "name": "Rajagopal Venkatesaramani",
+            "url": "https://www.khoury.northeastern.edu/people/rajagopal-venkatesaramani/"
+        },
+        {
+            "name": "Byron Wallace",
+            "url": "https://www.khoury.northeastern.edu/people/byron-wallace/"
+        },
+        {
+            "name": "Robin Walters",
+            "url": "https://www.khoury.northeastern.edu/people/robin-walters/"
+        },
+        {
+            "name": "Dakuo Wang",
+            "url": "https://www.khoury.northeastern.edu/people/dakuo-wang/"
+        },
+        {
+            "name": "Lawson Wong",
+            "url": "https://www.khoury.northeastern.edu/people/lawson-wong/"
+        }
+    ],
+    "Computational Biology": [
+        {
+            "name": "Kylie Ariel Bemis",
+            "url": "https://www.khoury.northeastern.edu/people/kylie-ariel-bemis/"
+        },
+        {
+            "name": "Benjamin Gyori",
+            "url": "https://www.khoury.northeastern.edu/people/benjamin-gyori/"
+        },
+        {
+            "name": "Wengong Jin",
+            "url": "https://www.khoury.northeastern.edu/people/wengong-jin/"
+        },
+        {
+            "name": "Prashant Pandey",
+            "url": "https://www.khoury.northeastern.edu/people/prashant-pandey/"
+        },
+        {
+            "name": "Predrag Radivojac",
+            "url": "https://www.khoury.northeastern.edu/people/predrag-radivojac/"
+        },
+        {
+            "name": "Olga Vitek",
+            "url": "https://www.khoury.northeastern.edu/people/olga-vitek/"
+        }
+    ],
+    "Computer Science Education": [
+        {
+            "name": "Adeel Bhutta",
+            "url": "https://www.khoury.northeastern.edu/people/adeel-bhutta/"
+        },
+        {
+            "name": "Ryan Bockmon",
+            "url": "https://www.khoury.northeastern.edu/people/ryan-bockmon/"
+        },
+        {
+            "name": "Carla E. Brodley",
+            "url": "https://www.khoury.northeastern.edu/people/carla-brodley/"
+        },
+        {
+            "name": "Nate Derbinsky",
+            "url": "https://www.khoury.northeastern.edu/people/nate-derbinsky/"
+        },
+        {
+            "name": "Arjun Guha",
+            "url": "https://www.khoury.northeastern.edu/people/arjun-guha/"
+        },
+        {
+            "name": "Lama Hamandi",
+            "url": "https://www.khoury.northeastern.edu/people/lama-hamandi/"
+        },
+        {
+            "name": "Youna Jung",
+            "url": "https://www.khoury.northeastern.edu/people/youna-jung/"
+        },
+        {
+            "name": "Jeongkyu Lee",
+            "url": "https://www.khoury.northeastern.edu/people/jeongkyu-lee/"
+        },
+        {
+            "name": "Benjamin Lerner",
+            "url": "https://www.khoury.northeastern.edu/people/benjamin-lerner/"
+        },
+        {
+            "name": "Albert Lionelle",
+            "url": "https://www.khoury.northeastern.edu/people/albert-lionelle/"
+        },
+        {
+            "name": "Joydeep Mitra",
+            "url": "https://www.khoury.northeastern.edu/people/joydeep-mitra/"
+        },
+        {
+            "name": "Felix Muzny",
+            "url": "https://www.khoury.northeastern.edu/people/felix-muzny/"
+        },
+        {
+            "name": "Vance Ricks",
+            "url": "https://www.khoury.northeastern.edu/people/vance-ricks/"
+        },
+        {
+            "name": "Sami Rollins",
+            "url": "https://www.khoury.northeastern.edu/people/sami-rollins/"
+        },
+        {
+            "name": "Logan Schmidt",
+            "url": "https://www.khoury.northeastern.edu/people/logan-schmidt/"
+        },
+        {
+            "name": "Sarita Singh",
+            "url": "https://www.khoury.northeastern.edu/people/sarita-singh/"
+        },
+        {
+            "name": "Ilmi Yoon",
+            "url": "https://www.khoury.northeastern.edu/people/ilmi-yoon/"
+        }
+    ],
+    "Cybersecurity and Privacy": [
+        {
+            "name": "Elettra Bietti",
+            "url": "https://www.khoury.northeastern.edu/people/elettra-bietti/"
+        },
+        {
+            "name": "Tamara Bonaci",
+            "url": "https://www.khoury.northeastern.edu/people/tamara-bonaci/"
+        },
+        {
+            "name": "David Choffnes",
+            "url": "https://www.khoury.northeastern.edu/people/david-choffnes/"
+        },
+        {
+            "name": "Michael Ann DeVito",
+            "url": "https://www.khoury.northeastern.edu/people/michael-ann-devito/"
+        },
+        {
+            "name": "Laura Edelson",
+            "url": "https://www.khoury.northeastern.edu/people/laura-edelson/"
+        },
+        {
+            "name": "Kevin Fu",
+            "url": "https://www.khoury.northeastern.edu/people/kevin-fu/"
+        },
+        {
+            "name": "Joshua Gancher",
+            "url": "https://www.khoury.northeastern.edu/people/joshua-gancher/"
+        },
+        {
+            "name": "Ariel Hamlin",
+            "url": "https://www.khoury.northeastern.edu/people/ariel-hamlin-2/"
+        },
+        {
+            "name": "Zhengzhong Jin",
+            "url": "https://www.khoury.northeastern.edu/people/zhengzhong-jin/"
+        },
+        {
+            "name": "Engin Kirda",
+            "url": "https://www.khoury.northeastern.edu/people/engin-kirda/"
+        },
+        {
+            "name": "Ada Lerner",
+            "url": "https://www.khoury.northeastern.edu/people/ada-lerner/"
+        },
+        {
+            "name": "Tianshi Li",
+            "url": "https://www.khoury.northeastern.edu/people/tianshi-li/"
+        },
+        {
+            "name": "Sakib Miazi",
+            "url": "https://www.khoury.northeastern.edu/people/sakib-miazi/"
+        },
+        {
+            "name": "Alan Mislove",
+            "url": "https://www.khoury.northeastern.edu/people/alan-mislove/"
+        },
+        {
+            "name": "Cristina Nita-Rotaru",
+            "url": "https://www.khoury.northeastern.edu/people/cristina-nita-rotaru/"
+        },
+        {
+            "name": "Alina Oprea",
+            "url": "https://www.khoury.northeastern.edu/people/alina-oprea/"
+        },
+        {
+            "name": "William Robertson",
+            "url": "https://www.khoury.northeastern.edu/people/william-robertson/"
+        },
+        {
+            "name": "Abhi Shelat",
+            "url": "https://www.khoury.northeastern.edu/people/abhi-shelat/"
+        },
+        {
+            "name": "Mohit Singhal",
+            "url": "https://www.khoury.northeastern.edu/people/mohit-singhal/"
+        },
+        {
+            "name": "Jessica Staddon",
+            "url": "https://www.khoury.northeastern.edu/people/jessica-staddon/"
+        },
+        {
+            "name": "David Stein",
+            "url": "https://www.khoury.northeastern.edu/people/david-stein/"
+        },
+        {
+            "name": "Jonathan Ullman",
+            "url": "https://www.khoury.northeastern.edu/people/jonathan-ullman/"
+        },
+        {
+            "name": "Daniel Wichs",
+            "url": "https://www.khoury.northeastern.edu/people/daniel-wichs/"
+        },
+        {
+            "name": "Christo Wilson",
+            "url": "https://www.khoury.northeastern.edu/people/christo-wilson/"
+        },
+        {
+            "name": "Cheng Tan",
+            "url": "https://www.khoury.northeastern.edu/people/cheng-tan/"
+        },
+        {
+            "name": "Maryam Tanha",
+            "url": "https://www.khoury.northeastern.edu/people/maryam-tanha/"
+        },
+        {
+            "name": "Ziming Zhao",
+            "url": "https://www.khoury.northeastern.edu/people/ziming-zhao/"
+        }
+    ],
+    "Data Management": [
+        {
+            "name": "Ricardo Baeza-Yates",
+            "url": "https://www.khoury.northeastern.edu/people/ricardo-baeza-yates/"
+        },
+        {
+            "name": "Wolfgang Gatterbauer",
+            "url": "https://www.khoury.northeastern.edu/people/wolfgang-gatterbauer/"
+        },
+        {
+            "name": "Mario Nascimento",
+            "url": "https://www.khoury.northeastern.edu/people/mario-nascimento/"
+        },
+        {
+            "name": "Prashant Pandey",
+            "url": "https://www.khoury.northeastern.edu/people/prashant-pandey/"
+        },
+        {
+            "name": "Mirek Riedewald",
+            "url": "https://www.khoury.northeastern.edu/people/mirek-riedewald/"
+        },
+        {
+            "name": "Cheng Tan",
+            "url": "https://www.khoury.northeastern.edu/people/cheng-tan/"
+        }
+    ],
+    "Data Science": [
+        {
+            "name": "Javed Aslam",
+            "url": "https://www.khoury.northeastern.edu/people/jay-javed-aslam/"
+        },
+        {
+            "name": "Ricardo Baeza-Yates",
+            "url": "https://www.khoury.northeastern.edu/people/ricardo-baeza-yates/"
+        },
+        {
+            "name": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
+            "url": "https://www.khoury.northeastern.edu/people/albert-laszlo-barabasi/"
+        },
+        {
+            "name": "Usama Fayyad",
+            "url": "https://www.khoury.northeastern.edu/people/usama-fayyad/"
+        },
+        {
+            "name": "Miguel Fuentes-Cabrera",
+            "url": "https://www.khoury.northeastern.edu/people/miguel-fuentes-cabrera/"
+        },
+        {
+            "name": "Wolfgang Gatterbauer",
+            "url": "https://www.khoury.northeastern.edu/people/wolfgang-gatterbauer/"
+        },
+        {
+            "name": "Eric Gerber",
+            "url": "https://www.khoury.northeastern.edu/people/eric-gerber/"
+        },
+        {
+            "name": "Fatemeh Ghoreishi",
+            "url": "https://www.khoury.northeastern.edu/people/fatemeh-ghoreishi/"
+        },
+        {
+            "name": "Yifan Hu",
+            "url": "https://www.khoury.northeastern.edu/people/yifan-hu/"
+        },
+        {
+            "name": "Tala Talaei Khoei",
+            "url": "https://www.khoury.northeastern.edu/people/tala-talaei-khoei/"
+        },
+        {
+            "name": "David Lazer",
+            "url": "https://www.khoury.northeastern.edu/people/david-lazer/"
+        },
+        {
+            "name": "Mario Nascimento",
+            "url": "https://www.khoury.northeastern.edu/people/mario-nascimento/"
+        },
+        {
+            "name": "Prashant Pandey",
+            "url": "https://www.khoury.northeastern.edu/people/prashant-pandey/"
+        },
+        {
+            "name": "Predrag Radivojac",
+            "url": "https://www.khoury.northeastern.edu/people/predrag-radivojac/"
+        },
+        {
+            "name": "Mirek Riedewald",
+            "url": "https://www.khoury.northeastern.edu/people/mirek-riedewald/"
+        },
+        {
+            "name": "Christoph Riedl",
+            "url": "https://www.khoury.northeastern.edu/people/christoph-riedl/"
+        },
+        {
+            "name": "Cheng Tan",
+            "url": "https://www.khoury.northeastern.edu/people/cheng-tan/"
+        },
+        {
+            "name": "Olga Vitek",
+            "url": "https://www.khoury.northeastern.edu/people/olga-vitek/"
+        },
+        {
+            "name": "Alessandro Vespignani",
+            "url": "https://www.khoury.northeastern.edu/people/alessandrovespignani/"
+        },
+        {
+            "name": "Shuo Zhang",
+            "url": "https://www.khoury.northeastern.edu/people/shuo-zhang/"
+        }
+    ],
+    "Data Visualization": [
+        {
+            "name": "Enrico Bertini",
+            "url": "https://www.khoury.northeastern.edu/people/enrico-bertini/"
+        },
+        {
+            "name": "Michelle Borkin",
+            "url": "https://www.khoury.northeastern.edu/people/michelle-borkin/"
+        },
+        {
+            "name": "Michael Correll",
+            "url": "https://www.khoury.northeastern.edu/people/michael-correll/"
+        },
+        {
+            "name": "Cody Dunne",
+            "url": "https://www.khoury.northeastern.edu/people/cody-dunne/"
+        },
+        {
+            "name": "Cliff Forlines",
+            "url": "https://www.khoury.northeastern.edu/people/cliff-forlines/"
+        },
+        {
+            "name": "John Alexis Guerra Gomez",
+            "url": "https://www.khoury.northeastern.edu/people/john-alexis-guerra-gomez/"
+        },
+        {
+            "name": "Mahsan Nourani",
+            "url": "https://www.khoury.northeastern.edu/people/mahsan-nourani/"
+        },
+        {
+            "name": "Lace Padilla",
+            "url": "https://www.khoury.northeastern.edu/people/lace-padilla/"
+        },
+        {
+            "name": "Melanie Tory",
+            "url": "https://www.khoury.northeastern.edu/people/melanie-tory/"
+        },
+        {
+            "name": "Dakuo Wang",
+            "url": "https://www.khoury.northeastern.edu/people/dakuo-wang/"
+        },
+        {
+            "name": "Caglar Yildirim",
+            "url": "https://www.khoury.northeastern.edu/people/caglar-yildirim/"
+        }
+    ],
+    "Formal Methods": [
+        {
+            "name": "Gene Cooperman",
+            "url": "https://www.khoury.northeastern.edu/people/gene-cooperman/"
+        },
+        {
+            "name": "Joshua Gancher",
+            "url": "https://www.khoury.northeastern.edu/people/joshua-gancher/"
+        },
+        {
+            "name": "Steve Holtzen",
+            "url": "https://www.khoury.northeastern.edu/people/steve-holtzen/"
+        },
+        {
+            "name": "Panagiotis (Pete) Manolios",
+            "url": "https://www.khoury.northeastern.edu/people/panagiotis-manolios/"
+        },
+        {
+            "name": "Ji-Yong Shin",
+            "url": "https://www.khoury.northeastern.edu/people/ji-yong-shin/"
+        },
+        {
+            "name": "Stavros Tripakis",
+            "url": "https://www.khoury.northeastern.edu/people/stavros-tripakis/"
+        }
+    ],
+    "Games": [
+        {
+            "name": "Seth Cooper",
+            "url": "https://www.khoury.northeastern.edu/people/seth-cooper/"
+        },
+        {
+            "name": "Bob De Schutter",
+            "url": "https://www.khoury.northeastern.edu/people/bob-de-schutter/"
+        },
+        {
+            "name": "Brianna Dym",
+            "url": "https://www.khoury.northeastern.edu/people/brianna-dym/"
+        },
+        {
+            "name": "Wallace Lages",
+            "url": "https://www.khoury.northeastern.edu/people/wallace-lages/"
+        },
+        {
+            "name": "Chris Martens",
+            "url": "https://www.khoury.northeastern.edu/people/chris-martens/"
+        },
+        {
+            "name": "Rush Sanghrajka",
+            "url": "https://www.khoury.northeastern.edu/people/rush-sanghrajka/"
+        },
+        {
+            "name": "Alexandra To",
+            "url": "https://www.khoury.northeastern.edu/people/alexandra-to/"
+        },
+        {
+            "name": "Dakuo Wang",
+            "url": "https://www.khoury.northeastern.edu/people/dakuo-wang/"
+        }
+    ],
+    "Human-Centered Computing": [
+        {
+            "name": "Timothy W. Bickmore",
+            "url": "https://www.khoury.northeastern.edu/people/timothy-bickmore/"
+        },
+        {
+            "name": "Kathleen (Katie) Creel",
+            "url": "https://www.khoury.northeastern.edu/people/kathleen-katie-creel/"
+        },
+        {
+            "name": "Maitraye Das",
+            "url": "https://www.khoury.northeastern.edu/people/maitraye-das/"
+        },
+        {
+            "name": "Michael Ann DeVito",
+            "url": "https://www.khoury.northeastern.edu/people/michael-ann-devito/"
+        },
+        {
+            "name": "Brianna Dym",
+            "url": "https://www.khoury.northeastern.edu/people/brianna-dym/"
+        },
+        {
+            "name": "Mai ElSherief",
+            "url": "https://www.khoury.northeastern.edu/people/mai-elsherief/"
+        },
+        {
+            "name": "Don Fallis",
+            "url": "https://www.khoury.northeastern.edu/people/don-fallis/"
+        },
+        {
+            "name": "Matthew Goodwin",
+            "url": "https://www.khoury.northeastern.edu/people/matthew-goodwin/"
+        },
+        {
+            "name": "Megan Hofmann",
+            "url": "https://www.khoury.northeastern.edu/people/megan-hofmann/"
+        },
+        {
+            "name": "Stephen Intille",
+            "url": "https://www.khoury.northeastern.edu/people/stephen-intille/"
+        },
+        {
+            "name": "Chenyan Jia",
+            "url": "https://www.khoury.northeastern.edu/people/chenyan-jia/"
+        },
+        {
+            "name": "R\u00e9becca Kleinberger",
+            "url": "https://www.khoury.northeastern.edu/people/rebecca-kleinberger/"
+        },
+        {
+            "name": "Wallace Lages",
+            "url": "https://www.khoury.northeastern.edu/people/wallace-lages/"
+        },
+        {
+            "name": "Chris Le Dantec",
+            "url": "https://www.khoury.northeastern.edu/people/chris-le-dantec/"
+        },
+        {
+            "name": "Ada Lerner",
+            "url": "https://www.khoury.northeastern.edu/people/ada-lerner/"
+        },
+        {
+            "name": "Tianshi Li",
+            "url": "https://www.khoury.northeastern.edu/people/tianshi-li/"
+        },
+        {
+            "name": "Blair MacIntyre",
+            "url": "https://www.khoury.northeastern.edu/people/blair-macintyre/"
+        },
+        {
+            "name": "Stacy C. Marsella",
+            "url": "https://www.khoury.northeastern.edu/people/stacy-c-marsella/"
+        },
+        {
+            "name": "Sakib Miazi",
+            "url": "https://www.khoury.northeastern.edu/people/sakib-miazi/"
+        },
+        {
+            "name": "Varun Mishra",
+            "url": "https://www.khoury.northeastern.edu/people/varun-mishra/"
+        },
+        {
+            "name": "Elizabeth Mynatt",
+            "url": "https://www.khoury.northeastern.edu/people/elizabeth-mynatt/"
+        },
+        {
+            "name": "Mahsan Nourani",
+            "url": "https://www.khoury.northeastern.edu/people/mahsan-nourani/"
+        },
+        {
+            "name": "Lace Padilla",
+            "url": "https://www.khoury.northeastern.edu/people/lace-padilla/"
+        },
+        {
+            "name": "Rupal Patel",
+            "url": "https://www.khoury.northeastern.edu/people/rupal-patel/"
+        },
+        {
+            "name": "Herman Saksono",
+            "url": "https://www.khoury.northeastern.edu/people/herman-saksono/"
+        },
+        {
+            "name": "Saiph Savage",
+            "url": "https://www.khoury.northeastern.edu/people/saiph-savage/"
+        },
+        {
+            "name": "Jessica Staddon",
+            "url": "https://www.khoury.northeastern.edu/people/jessica-staddon/"
+        },
+        {
+            "name": "Zhi Tan",
+            "url": "https://www.khoury.northeastern.edu/people/zhi-tan/"
+        },
+        {
+            "name": "Alexandra To",
+            "url": "https://www.khoury.northeastern.edu/people/alexandra-to/"
+        },
+        {
+            "name": "Melanie Tory",
+            "url": "https://www.khoury.northeastern.edu/people/melanie-tory/"
+        },
+        {
+            "name": "Christo Wilson",
+            "url": "https://www.khoury.northeastern.edu/people/christo-wilson/"
+        },
+        {
+            "name": "Dakuo Wang",
+            "url": "https://www.khoury.northeastern.edu/people/dakuo-wang/"
+        },
+        {
+            "name": "Caglar Yildirim",
+            "url": "https://www.khoury.northeastern.edu/people/caglar-yildirim/"
+        },
+        {
+            "name": "Ilmi Yoon",
+            "url": "https://www.khoury.northeastern.edu/people/ilmi-yoon/"
+        }
+    ],
+    "Machine Learning": [
+        {
+            "name": "Christopher Amato",
+            "url": "https://www.khoury.northeastern.edu/people/chris-amato/"
+        },
+        {
+            "name": "David Bau",
+            "url": "https://www.khoury.northeastern.edu/people/david-bau/"
+        },
+        {
+            "name": "Divya Chaudhary",
+            "url": "https://www.khoury.northeastern.edu/people/divya-chaudhary/"
+        },
+        {
+            "name": "Jennifer Dy",
+            "url": "https://www.khoury.northeastern.edu/people/jennifer-dy/"
+        },
+        {
+            "name": "Ehsan Elhamifar",
+            "url": "https://www.khoury.northeastern.edu/people/ehsan-elhamifar/"
+        },
+        {
+            "name": "Tina Eliassi-Rad",
+            "url": "https://www.khoury.northeastern.edu/people/tina-eliassi-rad/"
+        },
+        {
+            "name": "Miguel Fuentes-Cabrera",
+            "url": "https://www.khoury.northeastern.edu/people/miguel-fuentes-cabrera/"
+        },
+        {
+            "name": "Yifan Hu",
+            "url": "https://www.khoury.northeastern.edu/people/yifan-hu/"
+        },
+        {
+            "name": "Huaizu Jiang",
+            "url": "https://www.khoury.northeastern.edu/people/huaizu-jiang/"
+        },
+        {
+            "name": "Huy L\u00ea Nguyen",
+            "url": "https://www.khoury.northeastern.edu/people/huy-le-nguyen/"
+        },
+        {
+            "name": "Jonathan Mwaura",
+            "url": "https://www.khoury.northeastern.edu/people/jonathan-mwaura/"
+        },
+        {
+            "name": "Ryan M. Rad",
+            "url": "https://www.khoury.northeastern.edu/people/ryan-m-rad/"
+        },
+        {
+            "name": "David Smith",
+            "url": "https://www.khoury.northeastern.edu/people/david-smith/"
+        },
+        {
+            "name": "Robin Walters",
+            "url": "https://www.khoury.northeastern.edu/people/robin-walters/"
+        },
+        {
+            "name": "Dakuo Wang",
+            "url": "https://www.khoury.northeastern.edu/people/dakuo-wang/"
+        },
+        {
+            "name": "Chieh Wu",
+            "url": "https://www.khoury.northeastern.edu/people/chieh-wu/"
+        },
+        {
+            "name": "Hongyang Zhang",
+            "url": "https://www.khoury.northeastern.edu/people/hongyang-zhang/"
+        }
+    ],
+    "Natural Language Processing": [
+        {
+            "name": "Malihe Alikhani",
+            "url": "https://www.khoury.northeastern.edu/people/malihe-alikhani/"
+        },
+        {
+            "name": "Silvio Amir",
+            "url": "https://www.khoury.northeastern.edu/people/silvio-amir/"
+        },
+        {
+            "name": "Javed Aslam",
+            "url": "https://www.khoury.northeastern.edu/people/jay-javed-aslam/"
+        },
+        {
+            "name": "Ricardo Baeza-Yates",
+            "url": "https://www.khoury.northeastern.edu/people/ricardo-baeza-yates/"
+        },
+        {
+            "name": "David Bau",
+            "url": "https://www.khoury.northeastern.edu/people/david-bau/"
+        },
+        {
+            "name": "Kenneth Church",
+            "url": "https://www.khoury.northeastern.edu/people/kenneth-church/"
+        },
+        {
+            "name": "Mai ElSherief",
+            "url": "https://www.khoury.northeastern.edu/people/mai-elsherief/"
+        },
+        {
+            "name": "Virgil Pavlu",
+            "url": "https://www.khoury.northeastern.edu/people/virgil-pavlu/"
+        },
+        {
+            "name": "David Smith",
+            "url": "https://www.khoury.northeastern.edu/people/david-smith/"
+        },
+        {
+            "name": "Weiyan Shi",
+            "url": "https://www.khoury.northeastern.edu/people/weiyan-shi/"
+        },
+        {
+            "name": "Byron Wallace",
+            "url": "https://www.khoury.northeastern.edu/people/byron-wallace/"
+        }
+    ],
+    "Network Science": [
+        {
+            "name": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
+            "url": "https://www.khoury.northeastern.edu/people/albert-laszlo-barabasi/"
+        },
+        {
+            "name": "Tina Eliassi-Rad",
+            "url": "https://www.khoury.northeastern.edu/people/tina-eliassi-rad/"
+        },
+        {
+            "name": "David Lazer",
+            "url": "https://www.khoury.northeastern.edu/people/david-lazer/"
+        },
+        {
+            "name": "Christoph Riedl",
+            "url": "https://www.khoury.northeastern.edu/people/christoph-riedl/"
+        },
+        {
+            "name": "Alessandro Vespignani",
+            "url": "https://www.khoury.northeastern.edu/people/alessandrovespignani/"
+        }
+    ],
+    "Personal Health Informatics": [
+        {
+            "name": "Timothy W. Bickmore",
+            "url": "https://www.khoury.northeastern.edu/people/timothy-bickmore/"
+        },
+        {
+            "name": "Kevin Fu",
+            "url": "https://www.khoury.northeastern.edu/people/kevin-fu/"
+        },
+        {
+            "name": "Matthew Goodwin",
+            "url": "https://www.khoury.northeastern.edu/people/matthew-goodwin/"
+        },
+        {
+            "name": "Stephen Intille",
+            "url": "https://www.khoury.northeastern.edu/people/stephen-intille/"
+        },
+        {
+            "name": "Holly Jimison",
+            "url": "https://www.khoury.northeastern.edu/people/holly-jimison/"
+        },
+        {
+            "name": "Varun Mishra",
+            "url": "https://www.khoury.northeastern.edu/people/varun-mishra/"
+        },
+        {
+            "name": "Elizabeth Mynatt",
+            "url": "https://www.khoury.northeastern.edu/people/elizabeth-mynatt/"
+        },
+        {
+            "name": "Misha Pavel",
+            "url": "https://www.khoury.northeastern.edu/people/misha-pavel/"
+        },
+        {
+            "name": "Herman Saksono",
+            "url": "https://www.khoury.northeastern.edu/people/herman-saksono/"
+        },
+        {
+            "name": "Aarti Sathyanarayana",
+            "url": "https://www.khoury.northeastern.edu/people/aarti-sathyanarayana/"
+        },
+        {
+            "name": "Dakuo Wang",
+            "url": "https://www.khoury.northeastern.edu/people/dakuo-wang/"
+        }
+    ],
+    "Programming Languages": [
+        {
+            "name": "Amal Ahmed",
+            "url": "https://www.khoury.northeastern.edu/people/amal-ahmed/"
+        },
+        {
+            "name": "Jonathan Bell",
+            "url": "https://www.khoury.northeastern.edu/people/jonathan-bell/"
+        },
+        {
+            "name": "Matthias Felleisen",
+            "url": "https://www.khoury.northeastern.edu/people/matthias-felleisen/"
+        },
+        {
+            "name": "Joshua Gancher",
+            "url": "https://www.khoury.northeastern.edu/people/joshua-gancher/"
+        },
+        {
+            "name": "Arjun Guha",
+            "url": "https://www.khoury.northeastern.edu/people/arjun-guha/"
+        },
+        {
+            "name": "Steve Holtzen",
+            "url": "https://www.khoury.northeastern.edu/people/steve-holtzen/"
+        },
+        {
+            "name": "Chris Martens",
+            "url": "https://www.khoury.northeastern.edu/people/chris-martens/"
+        },
+        {
+            "name": "Daniel Patterson",
+            "url": "https://www.khoury.northeastern.edu/people/daniel-patterson/"
+        },
+        {
+            "name": "Olin Shivers",
+            "url": "https://www.khoury.northeastern.edu/people/olin-shivers/"
+        },
+        {
+            "name": "Frank Tip",
+            "url": "https://www.khoury.northeastern.edu/people/frank-tip/"
+        }
+    ],
+    "Robotics": [
+        {
+            "name": "Robert Platt",
+            "url": "https://www.khoury.northeastern.edu/people/robert-platt/"
+        },
+        {
+            "name": "Michael Everett",
+            "url": "https://www.khoury.northeastern.edu/people/michael-everett/"
+        },
+        {
+            "name": "Christopher Amato",
+            "url": "https://www.khoury.northeastern.edu/people/chris-amato/"
+        },
+        {
+            "name": "Megan Hofmann",
+            "url": "https://www.khoury.northeastern.edu/people/megan-hofmann/"
+        },
+        {
+            "name": "Huaizu Jiang",
+            "url": "https://www.khoury.northeastern.edu/people/huaizu-jiang/"
+        },
+        {
+            "name": "Zhi Tan",
+            "url": "https://www.khoury.northeastern.edu/people/zhi-tan/"
+        },
+        {
+            "name": "Robin Walters",
+            "url": "https://www.khoury.northeastern.edu/people/robin-walters/"
+        },
+        {
+            "name": "Lawson Wong",
+            "url": "https://www.khoury.northeastern.edu/people/lawson-wong/"
+        }
+    ],
+    "Software Engineering": [
+        {
+            "name": "Jonathan Bell",
+            "url": "https://www.khoury.northeastern.edu/people/jonathan-bell/"
+        },
+        {
+            "name": "Ian Gorton",
+            "url": "https://www.khoury.northeastern.edu/people/ian-gorton/"
+        },
+        {
+            "name": "Arjun Guha",
+            "url": "https://www.khoury.northeastern.edu/people/arjun-guha/"
+        },
+        {
+            "name": "Karl Lieberherr",
+            "url": "https://www.khoury.northeastern.edu/people/karl-lieberherr/"
+        },
+        {
+            "name": "Olin Shivers",
+            "url": "https://www.khoury.northeastern.edu/people/olin-shivers/"
+        },
+        {
+            "name": "Frank Tip",
+            "url": "https://www.khoury.northeastern.edu/people/frank-tip/"
+        },
+        {
+            "name": "Jan Vitek",
+            "url": "https://www.khoury.northeastern.edu/people/jan-vitek/"
+        },
+        {
+            "name": "Dakuo Wang",
+            "url": "https://www.khoury.northeastern.edu/people/dakuo-wang/"
+        }
+    ],
+    "Systems and Networking": [
+        {
+            "name": "David Choffnes",
+            "url": "https://www.khoury.northeastern.edu/people/david-choffnes/"
+        },
+        {
+            "name": "Gene Cooperman",
+            "url": "https://www.khoury.northeastern.edu/people/gene-cooperman/"
+        },
+        {
+            "name": "Peter Desnoyers",
+            "url": "https://www.khoury.northeastern.edu/people/peter-desnoyers/"
+        },
+        {
+            "name": "Engin Kirda",
+            "url": "https://www.khoury.northeastern.edu/people/engin-kirda/"
+        },
+        {
+            "name": "Alan Mislove",
+            "url": "https://www.khoury.northeastern.edu/people/alan-mislove/"
+        },
+        {
+            "name": "Cristina Nita-Rotaru",
+            "url": "https://www.khoury.northeastern.edu/people/cristina-nita-rotaru/"
+        },
+        {
+            "name": "Guevara Noubir",
+            "url": "https://www.khoury.northeastern.edu/people/guevara-noubir/"
+        },
+        {
+            "name": "Prashant Pandey",
+            "url": "https://www.khoury.northeastern.edu/people/prashant-pandey/"
+        },
+        {
+            "name": "Ji-Yong Shin",
+            "url": "https://www.khoury.northeastern.edu/people/ji-yong-shin/"
+        },
+        {
+            "name": "Cheng Tan",
+            "url": "https://www.khoury.northeastern.edu/people/cheng-tan/"
+        },
+        {
+            "name": "Maryam Tanha",
+            "url": "https://www.khoury.northeastern.edu/people/maryam-tanha/"
+        },
+        {
+            "name": "Scott Valcourt",
+            "url": "https://www.khoury.northeastern.edu/people/scott-valcourt/"
+        },
+        {
+            "name": "Ziming Zhao",
+            "url": "https://www.khoury.northeastern.edu/people/ziming-zhao/"
+        }
+    ]
+}
