@@ -1,81 +1,77 @@
-from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 from rank_bm25 import BM25Okapi
-import nltk
 from nltk.tokenize import word_tokenize
-from gensim.models import Word2Vec
-import os
-
+import nltk
 nltk.download("punkt")
 
-def get_publication_data(path="../data/"):
-    return pd.read_csv(path + "professor_info.csv")
+# Load datasets
+def load_data():
+    professors = pd.read_csv("../data/professor_info.csv")
+    labs = pd.read_csv("../data/research_institutes.csv")
+    research = pd.read_csv("../data/professor_info.csv")
+    return professors, labs, research
 
-def preprocess_publication_text(df):
-    # Combine title + citation
-    df["Publication"] = df["Research Area"].fillna("") + " " + df["Publication Title"].fillna("") + " " + df["Citation"].fillna("")
+# Preprocessing functions
+def preprocess_professors(df):
+    df["Text"] = (df["Professor Name"].fillna("") + " " +
+                   df["Research Interests"].fillna("") + " " +
+                   df["Biography"].fillna("") + " " +
+                   df["Education"].fillna("") + " " +
+                   df["Research Area"].fillna(""))
     return df
 
-def build_tfidf(df):
-    vectorizer = TfidfVectorizer(stop_words='english')
-    tfidf_matrix = vectorizer.fit_transform(df["Publication"])
-    tfidf_df = pd.DataFrame(tfidf_matrix.toarray(), columns=vectorizer.get_feature_names_out())
-    return tfidf_df, vectorizer
+def preprocess_labs(df):
+    df["Text"] = (df["Institute Name"].fillna("") + " " +
+                   df["Description"].fillna(""))
+    return df
 
+def preprocess_research(df):
+    df["Text"] = (df["Publication Title"].fillna("") + " " +
+                   df["Citation"].fillna("") + " " +
+                   df["Research Area"].fillna(""))
+    return df
+
+# Build BM25
 def build_bm25(df):
-    tokenized_docs = [word_tokenize(doc.lower()) for doc in df["Publication"]]
-    bm25 = BM25Okapi(tokenized_docs)
-    return bm25, tokenized_docs
+    tokenized = [word_tokenize(text.lower()) for text in df["Text"]]
+    return BM25Okapi(tokenized), tokenized
 
-def train_word2vec(tokenized_docs, model_path="word2vec.model"):
-    if os.path.exists(model_path):
-        model = Word2Vec.load(model_path)
-    else:
-        model = Word2Vec(sentences=tokenized_docs, vector_size=100, window=5, min_count=2, workers=4)
-        model.save(model_path)
-    return model
+# Search function
+def search(query, bm25_model, df, top_k=5):
+    tokens = word_tokenize(query.lower())
+    scores = bm25_model.get_scores(tokens)
+    top_indices = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)[:top_k]
+    return df.iloc[top_indices], [scores[i] for i in top_indices]
 
-def expand_query(query, w2v_model, topn=3):
-    query_tokens = word_tokenize(query.lower())
-    expanded_query = query_tokens.copy()
+# Main integrated search
+def integrated_search(query, top_k=5):
+    prof_df, labs_df, res_df = load_data()
+    prof_df = preprocess_professors(prof_df)
+    labs_df = preprocess_labs(labs_df)
+    res_df = preprocess_research(res_df)
 
-    for token in query_tokens:
-        if token in w2v_model.wv:
-            similar_words = [word for word, sim in w2v_model.wv.most_similar(token, topn=topn)]
-            expanded_query.extend(similar_words)
-    print(expanded_query)
-    return expanded_query
+    prof_bm25, _ = build_bm25(prof_df)
+    labs_bm25, _ = build_bm25(labs_df)
+    res_bm25, _ = build_bm25(res_df)
 
-def search_bm25(bm25, query, df, top_k=5, w2v_model=None, expand=False, topn=3):
-    if expand and w2v_model:
-        tokenized_query = expand_query(query, w2v_model, topn=topn)
-        
-    else:
-        tokenized_query = word_tokenize(query.lower())
+    prof_results, prof_scores = search(query, prof_bm25, prof_df, top_k)
+    labs_results, labs_scores = search(query, labs_bm25, labs_df, top_k)
+    res_results, res_scores = search(query, res_bm25, res_df, top_k)
 
-    scores = bm25.get_scores(tokenized_query)
-    ranked_indices = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)[:top_k]
-    return df.iloc[ranked_indices], [scores[i] for i in ranked_indices]
+    return {
+        "Professors": list(zip(prof_results[["Professor Name", "Biography", "Education"]].to_dict("records"), prof_scores)),
+        "Labs": list(zip(labs_results[["Institute Name", "Description"]].to_dict("records"), labs_scores)),
+        "Research": list(zip(res_results[["Professor Name", "Publication Title", "Citation"]].to_dict("records"), res_scores))
+    }
 
+# Example usage
 if __name__ == "__main__":
-    df = get_publication_data()
-    df = preprocess_publication_text(df)
+    query = "feedback loops"
+    results = integrated_search(query, top_k=5)
 
-    # Build TF-IDF (optional use elsewhere)
-    tfidf_df, tfidf_vectorizer = build_tfidf(df)
-
-    # Build BM25 using same text
-    bm25_model, tokenized_docs = build_bm25(df)
-
-    # Train/load Word2Vec model
-    w2v_model = train_word2vec(tokenized_docs)
-
-    # Search with expanded query
-    query = "deep learning accelerator unit"
-    results, scores = search_bm25(bm25_model, query, df, top_k=10, w2v_model=w2v_model, expand=True, topn=10)
-
-    print("Top results for expanded query:", query)
-    for i, (index, row) in enumerate(results.iterrows()):
-        print(f"\nRank {i+1} (Score: {scores[i]:.2f})")
-        print("Title:", row["Publication Title"])
-        print("Citation:", row["Citation"])
+    for category, items in results.items():
+        print(f"\n--- Top {len(items)} {category} ---")
+        for i, (item, score) in enumerate(items):
+            print(f"\nRank {i+1} (Score: {score:.2f})")
+            for k, v in item.items():
+                print(f"{k}: {v}")
