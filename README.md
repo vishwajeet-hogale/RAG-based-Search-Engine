@@ -27,7 +27,7 @@ These milestones ensure steady progress while making an "A" grade realistically 
 
 ### Basic Search & Retrieval
 - Implement a BM25 keyword search to return multiple ranked results.
-- Retrieve relevant professors, labs, and research topics based on user queries.
+- Retrieve relevant professors, labs, and research based on user queries.
 
 ### Basic Evaluation
 - Define evaluation metrics (Precision@K, Recall@K).
