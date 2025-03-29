@@ -8,3 +8,62 @@ We will create a set of sample queries related to university research, such as "
 
 ## System Component Implementation
 Our implementation will focus on the query expansion component using the Contextual Concept Expansion (Using Scraped Data) - Hybrid Approach. We will scrape research-related data from the university’s website, such as faculty bios, lab descriptions, research abstracts and research topics, to create a knowledge base for contextual expansion. Using transformer-based models like BERT or RoBERTa, we will generate contextual embeddings for research terms and use them to expand user queries with related, semantically relevant terms. The hybrid approach will combine scraped data with contextual understanding from pre-trained models to enhance the queries and improve the retrieval process. The focus will be on ensuring that queries retrieve multiple ranked results that are contextually relevant to the original user query. Evaluation will be conducted using Precision@K, Recall@K, and NDCG, assessing how effectively expanded queries improve retrieval accuracy and relevance.
+
+## Simplified Milestones for Grading
+
+These milestones ensure steady progress while making an "A" grade realistically achievable without unnecessary complexity. Each tier builds upon the previous one, keeping the focus on query expansion and retrieval while reducing overhead.
+
+---
+
+## Milestones for a B (Basic System)
+
+### Scraping Research Data
+- Scrape faculty profiles, lab descriptions, and research topics from the Khoury website.
+- Store data in a structured format (CSV).
+
+### Basic Query Expansion
+- Implement simple keyword-based expansion using common synonyms.
+- Expand queries with relevant terms from the scraped data.
+
+### Basic Search & Retrieval
+- Implement a BM25 keyword search to return multiple ranked results.
+- Retrieve relevant professors, labs, and research based on user queries.
+
+### Basic Evaluation
+- Define evaluation metrics (Precision@K, Recall@K).
+- Annotate queries with expected relevant results for testing.
+
+---
+
+## Milestones for a B+ (Improved Expansion)
+
+### Contextual Query Expansion
+- Use SBERT embeddings to find semantically similar terms in the scraped research data.
+- Expand queries based on context, rather than just keywords.
+- Remove low-relevance expansion terms.
+
+### Evaluation Expansion
+- Expand number of queries with annotated relevance judgments.
+- Measure improvement in Precision@K and Recall@K.
+
+---
+
+## Milestones for an A- (Improved Ranking)
+
+### Enhanced Ranking
+- Implement hybrid retrieval (BM25 + semantic similarity search).
+- Rank results using both keyword relevance and semantic similarity.
+
+### Comprehensive Evaluation
+- Expand number of annotated queries for testing.
+- Introduce NDCG for better ranking evaluation.
+
+---
+
+## Milestones for an A (User Interface & Final Evaluation)
+
+### Simple Web Interface or API
+- Create a basic web page or API for user queries and ranked search results.
+
+### Final Evaluation & Comparison
+- Compare baseline vs. improved query expansion and show clear improvements.

@@ -8,6 +8,16 @@ import time
 import requests
 import pandas as pd
 
+import pandas as pd
+
+# Set up undetected ChromeDriver in headless mode
+options = uc.ChromeOptions()
+options.add_argument('--headless')  # Run in headless mode
+options.add_argument('--no-sandbox')
+options.add_argument('--disable-dev-shm-usage')
+
+driver = uc.Chrome(options=options)
+
 # Load metadata from JSON file
 with open("./metadata.json", 'r') as f:
     metadata = json.load(f)
