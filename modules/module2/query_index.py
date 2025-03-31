@@ -51,7 +51,7 @@ def query_vector_db(query_text, top_k=5):
 
     return hits
 
-# === CLI Entry Point (optional) ===
+# === CLI Entry Point ===
 if __name__ == "__main__":
     user_query = "Show me research in the field of NLP"
     results = query_vector_db(user_query, top_k=7)
