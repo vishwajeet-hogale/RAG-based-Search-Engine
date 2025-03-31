@@ -31,9 +31,11 @@ def preprocess_labs(df):
     return df
 
 def preprocess_research(df):
-    df["Text"] = (df["Publication Title"].fillna("") + " " +
+    df["Text"] = (df["Professor Name"].fillna("") + " " +  
+                   df["Publication Title"].fillna("") + " " +
                    df["Citation"].fillna("") + " " +
-                   df["Research Area"].fillna(""))
+                   df["Research Area"].fillna("") + " " +
+                   df["Publication Summary"].fillna(""))
     return df
 
 # Build BM25
@@ -67,16 +69,16 @@ def integrated_search(query, top_k=5):
     ins_results, ins_scores = search(query, ins_bm25, ins_df, top_k)
 
     return {
-        "Professors": list(zip(prof_results[["Professor Name", "Biography", "Education"]].to_dict("records"), prof_scores)),
+        "Professors": list(zip(prof_results[["Professor Name", "Biography", "Education", "Research Interests"]].to_dict("records"), prof_scores)),
         "Labs": list(zip(labs_results[["Lab Name", "Summary", "Link"]].to_dict("records"), labs_scores)),
-        "Research": list(zip(res_results[["Professor Name", "Publication Title", "Citation"]].to_dict("records"), res_scores)),
+        "Research": list(zip(res_results[["Professor Name", "Publication Title", "Citation", "Publication Summary"]].to_dict("records"), res_scores)),
         "Institutes": list(zip(ins_results[["Institute Name", "Description"]].to_dict("records"), ins_scores))
     }
 
 # Example usage
 if __name__ == "__main__":
-    query = "cybersecurity"
-    results = integrated_search(query, top_k=15)
+    query = "Low Rank Adaptation"
+    results = integrated_search(query, top_k=5)
 
     for category, items in results.items():
         print(f"\n--- Top {len(items)} {category} ---")
@@ -84,3 +86,7 @@ if __name__ == "__main__":
             print(f"\nRank {i+1} (Score: {score:.2f})")
             for k, v in item.items():
                 print(f"{k}: {v}")
+                
+                
+                
+   
