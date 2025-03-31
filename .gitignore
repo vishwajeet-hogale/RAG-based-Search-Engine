@@ -5,11 +5,9 @@ __pycache__/
 
 # C extensions
 *.so
-*.csv
 research_area_professors.json
 /modules/module 1/word2vec.model
 /modules/data/*.json
-/modules/data/*.csv
 # Distribution / packaging
 .Python
 build/
@@ -37,7 +35,6 @@ MANIFEST
 *.spec
 
 
-/modules/data/*.csv
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
