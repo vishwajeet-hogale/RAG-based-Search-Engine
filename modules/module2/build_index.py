@@ -56,7 +56,7 @@ def build_vector_db():
         for i, row in df.iterrows():
             print(f"  → Indexing doc {i}")
             doc_id = f"{name}_{row['doc_id']}"
-
+            print(df.columns)
             text_parts = [str(row[col]) for col in df.columns
                           if col not in ["doc_id", "link", "url", "Publication Link", "Profile URL"]]
 
