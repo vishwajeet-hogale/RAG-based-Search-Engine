@@ -2,11 +2,14 @@ import pandas as pd
 import re
 from gensim.models import Word2Vec
 from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
 import nltk
 import json
 
 nltk.download('punkt')
+nltk.download('stopwords')
 
+stop_words = set(stopwords.words('english'))
 
 
 df = pd.read_csv("modules/data/professor_details.csv")
@@ -17,7 +20,7 @@ def preprocess(df):
     df.columns = df.columns.str.strip()
     df['corpus'] = df['Research Area'].fillna("")+' '+df['Publication Title'].fillna("")
     df["corpus"] = df["corpus"].apply(lambda x: re.sub(r'[^a-zA-Z\s]', '', x).lower())
-    df["tokenized_corpus"] = df["corpus"].apply(word_tokenize)
+    df["tokenized_corpus"] = df["corpus"].apply(lambda x: [word for word in word_tokenize(x) if word not in stop_words])
     return df
 
 def train_word2vec(df):
