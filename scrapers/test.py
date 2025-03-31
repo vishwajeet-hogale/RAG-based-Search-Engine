@@ -1,4 +1,7 @@
+import base64
+import csv
 import json
+import re
 import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -7,6 +10,18 @@ from bs4 import BeautifulSoup
 import time
 import requests
 import pandas as pd
+from scrapers.helpers.lab_summarizer import summarize_labs
+from scrapers.helpers.paper_summarizer import process_publications
+import urllib3
+import torch
+from itertools import islice
+
+
+print(torch.cuda.is_available())           # Should be True
+print(torch.cuda.get_device_name(0)) 
+
+# Disable SSL warnings
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 import pandas as pd
 
@@ -281,8 +296,10 @@ def get_labs_links():
     lab_links = []
     names = []
     areas = []
+    html = []
 
     for area, url in data['research_areas'].items():
+    # for area, url in islice(data['research_areas'].items(), 2):
         try:
             response = requests.get(url)
             response.raise_for_status()
@@ -297,20 +314,60 @@ def get_labs_links():
                     lab_links.append(href)
                     names.append(text)
                     areas.append(area)  # Optionally store which research area this lab is under
+                    html.append(fetch_lab_html(href))
 
         except Exception as e:
             print(f"Error fetching for area '{area}': {e}")
 
+    html = [sanitize_html(h) for h in html]
+    encoded_html = [encode_html(h) for h in html]
     # Convert to DataFrame
     df = pd.DataFrame({
+        "Research Area": areas,
         "Lab Name": names,
         "Link": lab_links,
-        "Research Area": areas
+        "HTML": encoded_html
     })
 
     # Save to CSV
-    df.to_csv("../modules/data/labs.csv", index=False)
+    df.to_csv("../modules/data/labs_with_html.csv",
+        index=False,
+        quoting=csv.QUOTE_ALL,
+        escapechar='\\',
+        lineterminator='\n',
+        encoding='utf-8')
+    summarize_labs()
     return df
+
+def encode_html(html_string):
+    if not isinstance(html_string, str):
+        html_string = str(html_string)
+    return base64.b64encode(html_string.encode('utf-8')).decode('utf-8')
+
+def fetch_lab_html(lab_link):
+    print(f"Getting html for " + lab_link)
+    html = ""
+    try:
+        driver.get(lab_link)
+        time.sleep(2)  # let JS load
+        html = driver.page_source
+        return html
+    except Exception as e:
+        print(f"Undetected Selenium failed for {lab_link}: {e}")
+        return ""
+
+def sanitize_html(raw_html):
+    if not isinstance(raw_html, str):
+        raw_html = str(raw_html)
+
+    # Replace line breaks, tabs, multiple spaces
+    cleaned = raw_html.replace('\n', ' ').replace('\r', ' ').replace('\t', ' ')
+    cleaned = re.sub(' +', ' ', cleaned)
+
+    # Replace double quotes with single to avoid CSV quoting issues
+    cleaned = cleaned.replace('"', "'")
+
+    return cleaned.strip()
 
 def main():
     try:
@@ -321,7 +378,8 @@ def main():
         data['research_profs'] = {}
         for area_name, area_url in data['research_areas'].items():
             data['research_profs'][area_name] = get_professors_by_area(area_name, area_url)
-        save_publications_per_row(data['research_profs'])        
+        save_publications_per_row(data['research_profs'])    
+        process_publications()    
         rs_df = get_research_spaces()
         rs_df.to_csv("../modules/data/research_spaces.csv")
         labs_df = get_labs_links()
@@ -335,8 +393,8 @@ def main():
         driver.quit()
 
     # Save the organized data to a JSON file
-    with open('../modules/data/data_dump.json', 'w') as outfile:
-        json.dump(data, outfile, indent=4)
+    # with open('../modules/data/data_dump.json', 'w') as outfile:
+    #     json.dump(data, outfile, indent=4)
            
 if __name__ == "__main__":
     main()
