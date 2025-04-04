@@ -12,8 +12,10 @@ CHROMA_DIR = os.path.join(PROJECT_ROOT, "vectorstore", "chroma")
 def data_path(filename):
     return os.path.join(DATA_DIR, filename)
 
-# Set device
-device = "mps" if torch.backends.mps.is_available() else "cpu"
+# MAC
+# device = "mps" if torch.backends.mps.is_available() else "cpu"
+# Windows
+device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"🚀 Using device: {device}")
 
 # Fix Keras/TF issue
@@ -29,10 +31,10 @@ collection = client.get_or_create_collection("sbert_documents")
 
 # Data sources
 datasources = {
-    "Labs": data_path("labs_with_summaries.csv"),
-    "Research": data_path("professor_info.csv"),
-    "Professors": data_path("professors.csv"),
-    "Institutes": data_path("research_institutes.csv"),
+    "Labs": data_path("final_lab_summaries.csv"),
+    "Research": data_path("final_research_info.csv"),
+    "Professors": data_path("final_prof_details.csv"),
+    "Institutes": data_path("institutes_and_centers.csv"),
     "Research_current_highlights": data_path("current_research_highlights.csv")
 }
 
@@ -58,7 +60,7 @@ def build_vector_db():
             doc_id = f"{name}_{row['doc_id']}"
             print(df.columns)
             text_parts = [str(row[col]) for col in df.columns
-                          if col not in ["doc_id", "link", "url", "Publication Link", "Profile URL"]]
+                          if col not in ["doc_id", "link", "url", "Publication Link", "Profile URL", "href"]]
 
             content = "\n".join(text_parts).strip()
             if not content:

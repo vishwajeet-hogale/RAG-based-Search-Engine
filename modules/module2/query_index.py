@@ -13,8 +13,10 @@ CHROMA_DIR = os.path.join(PROJECT_ROOT, "vectorstore", "chroma")
 client = chromadb.PersistentClient(path=CHROMA_DIR)
 collection = client.get_or_create_collection("sbert_documents")
 
-# Use MPS or fallback
-device = "mps" if torch.backends.mps.is_available() else "cpu"
+# MAC
+# device = "mps" if torch.backends.mps.is_available() else "cpu"
+# Windows
+device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"🚀 Using device: {device}")
 
 # Use SBERT
@@ -54,9 +56,7 @@ def query_vector_db(query_text, top_k=5):
 # === CLI Entry Point ===
 if __name__ == "__main__":
     user_query = "Show me research in the field of NLP"
-    results = query_vector_db(user_query, top_k=7)
-
-
+    results = query_vector_db(user_query, top_k=10)
 
     print("\n📝 Top Matches:")
     for i, res in enumerate(results):
