@@ -6,7 +6,7 @@ nltk.download("punkt")
 
 # Load datasets
 def load_data():
-    professors = pd.read_csv("../data/professors.csv")
+    professors = pd.read_csv("../data/professor.csv")
     labs = pd.read_csv("../data/labs_with_summaries.csv")
     institutes = pd.read_csv("../data/research_institutes.csv")
     research = pd.read_csv("../data/professor_info.csv")
