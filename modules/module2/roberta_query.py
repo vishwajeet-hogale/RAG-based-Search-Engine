@@ -5,6 +5,7 @@ import torch
 import chromadb
 from sentence_transformers import SentenceTransformer
 from roberta_qe import expand_query
+from intent_classifier import detect_intent
 
 # === Paths ===
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../"))
@@ -17,18 +18,6 @@ model = SentenceTransformer("sentence-transformers/all-roberta-large-v1").to(dev
 # === ChromaDB client & collection ===
 client = chromadb.PersistentClient(path=CHROMA_DIR)
 doc_collection = client.get_or_create_collection("research_index")
-
-def detect_resource_type(query):
-    query = query.lower()
-    if "professor" in query or "faculty" in query:
-        return "Professors"
-    elif "lab" in query or "laboratory" in query:
-        return "Labs"
-    elif "institute" in query or "center" in query:
-        return "Institutes"
-    elif "paper" in query or "publication" in query or "research" in query:
-        return "Research"
-    return None  # general / unknown
 
 def search_expanded_query(query, top_k=15):
     # Step 1: Expand the query
@@ -51,7 +40,7 @@ def search_expanded_query(query, top_k=15):
 
     return results
 
-def print_ranked_results(results,pref_type=None):
+def print_ranked_results(results,preferred_type=None):
     docs = results["documents"][0]
     metas = results["metadatas"][0]
     distances = results["distances"][0]
@@ -59,7 +48,7 @@ def print_ranked_results(results,pref_type=None):
     # Convert to score and sort
     if preferred_type:
         # boost top-ranked items from the preferred source
-        scored = sorted(scored, key=lambda x: (x[1]["source"] == preferred_type, 1 / (1 + x[2])), reverse=True)
+        scored = sorted(zip(docs, metas, distances), key=lambda x: (x[1]["source"] == preferred_type, 1 / (1 + x[2])), reverse=True)
     else:
         scored = sorted(
             zip(docs, metas, distances),
@@ -83,5 +72,6 @@ if __name__ == '__main__':
             print("👋 Exiting. Goodbye!")
             break
         results = search_expanded_query(query)
-        preferred_type = detect_resource_type(query)
-        print_ranked_results(results,None)
+        preferred_type = detect_intent(query)
+        # print(f"Intent: {preferred_type}")
+        print_ranked_results(results,preferred_type)
