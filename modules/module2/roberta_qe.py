@@ -13,7 +13,7 @@ CHROMA_DIR = os.path.join(PROJECT_ROOT, "vectorstore", "chroma")
 
 # Load NLP & Model
 nlp = spacy.load("en_core_web_lg")
-device = "cuda" if torch.cuda.is_available() else "cpu"
+device = "cuda" if torch.cuda.is_available() else "mps"
 model = SentenceTransformer("sentence-transformers/all-roberta-large-v1").to(device)
 
 # Connect to ChromaDB

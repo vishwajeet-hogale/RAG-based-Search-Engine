@@ -40,7 +40,7 @@ def batch_upsert(collection, documents, embeddings, ids, metadatas, batch_size=5
 def build_indexes():
     print("🚀 Building document and term indexes...")
 
-    device = "cuda" if torch.cuda.is_available() else "cpu"
+    device = "cuda" if torch.cuda.is_available() else "mps"
     model = SentenceTransformer("sentence-transformers/all-roberta-large-v1").to(device)
     nlp = spacy.load("en_core_web_lg")
     client = chromadb.PersistentClient(path=CHROMA_DIR)

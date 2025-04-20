@@ -4,15 +4,17 @@ import os
 import torch
 import chromadb
 from sentence_transformers import SentenceTransformer
-from roberta_qe import expand_query
-from intent_classifier import detect_intent
+from modules.module2.roberta_qe import expand_query
+from modules.module2.intent_classifier import detect_intent
+# from roberta_qe import expand_query
+# from intent_classifier import detect_intent
 
 # === Paths ===
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../"))
 CHROMA_DIR = os.path.join(PROJECT_ROOT, "vectorstore", "chroma")
 
 # === Setup ===
-device = "cuda" if torch.cuda.is_available() else "cpu"
+device = "cuda" if torch.cuda.is_available() else "mps"
 model = SentenceTransformer("sentence-transformers/all-roberta-large-v1").to(device)
 
 # === ChromaDB client & collection ===
@@ -59,7 +61,7 @@ def print_ranked_results(results,preferred_type=None):
     print("\n📊 Top Results (Ranked by Semantic Score):")
     for i, (doc, meta, dist) in enumerate(scored, 1):
         score = round(1 / (1 + dist), 4)
-        print(f"\n🔹 Rank #{i} — Score: {score}")
+        print(f"\nRank #{i} — Score: {score}")
         print(f"Metadata: {meta}")
         print(f"Content Preview: {doc[:500]}...")
         print("-" * 80)

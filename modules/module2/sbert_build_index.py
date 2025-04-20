@@ -15,7 +15,7 @@ def data_path(filename):
 # MAC
 # device = "mps" if torch.backends.mps.is_available() else "cpu"
 # Windows
-device = "cuda" if torch.cuda.is_available() else "cpu"
+device = "cuda" if torch.cuda.is_available() else "mps"
 print(f"🚀 Using device: {device}")
 
 # Fix Keras/TF issue

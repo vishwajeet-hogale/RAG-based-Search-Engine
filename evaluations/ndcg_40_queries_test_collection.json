@@ -1,0 +1,1402 @@
+[
+  {
+    "query": "I'd like to know about the ongoing research projects in natural language processing across different departments. [v1]",
+    "intent": "Research",
+    "relevant_documents": [
+      {
+        "doc_id": 1000,
+        "relevance": 3,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 3,
+        "source": "Research"
+      },
+      {
+        "doc_id": 5000,
+        "relevance": 2,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 5001,
+        "relevance": 2,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI. [v6]",
+    "intent": "Institutes",
+    "relevant_documents": [
+      {
+        "doc_id": 4000,
+        "relevance": 3,
+        "source": "Institutes"
+      },
+      {
+        "doc_id": 3000,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning. [v4]",
+    "intent": "Labs",
+    "relevant_documents": [
+      {
+        "doc_id": 3000,
+        "relevance": 3,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 3,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 2,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 2,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 1,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 1,
+        "source": "Research"
+      }
+    ]
+  },
+  {
+    "query": "What are the most recent and impactful discoveries made by the Khoury College research community? [v4]",
+    "intent": "Research_current_highlights",
+    "relevant_documents": [
+      {
+        "doc_id": 5000,
+        "relevance": 3,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 5001,
+        "relevance": 3,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 2,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 2,
+        "source": "Research"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "What are the most recent and impactful discoveries made by the Khoury College research community? [v3]",
+    "intent": "Research_current_highlights",
+    "relevant_documents": [
+      {
+        "doc_id": 5000,
+        "relevance": 3,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 5001,
+        "relevance": 3,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 2,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 2,
+        "source": "Research"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "What are the most recent and impactful discoveries made by the Khoury College research community? [v0]",
+    "intent": "Research_current_highlights",
+    "relevant_documents": [
+      {
+        "doc_id": 5000,
+        "relevance": 3,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 5001,
+        "relevance": 3,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 2,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 2,
+        "source": "Research"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "What are the most recent and impactful discoveries made by the Khoury College research community? [v6]",
+    "intent": "Research_current_highlights",
+    "relevant_documents": [
+      {
+        "doc_id": 5000,
+        "relevance": 3,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 5001,
+        "relevance": 3,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 2,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 2,
+        "source": "Research"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI. [v0]",
+    "intent": "Institutes",
+    "relevant_documents": [
+      {
+        "doc_id": 4000,
+        "relevance": 3,
+        "source": "Institutes"
+      },
+      {
+        "doc_id": 3000,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning. [v3]",
+    "intent": "Labs",
+    "relevant_documents": [
+      {
+        "doc_id": 3000,
+        "relevance": 3,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 3,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 2,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 2,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 1,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 1,
+        "source": "Research"
+      }
+    ]
+  },
+  {
+    "query": "I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning. [v6]",
+    "intent": "Labs",
+    "relevant_documents": [
+      {
+        "doc_id": 3000,
+        "relevance": 3,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 3,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 2,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 2,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 1,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 1,
+        "source": "Research"
+      }
+    ]
+  },
+  {
+    "query": "Who are the leading faculty in the field of computer vision and where can I find their recent work? [v3]",
+    "intent": "Professors",
+    "relevant_documents": [
+      {
+        "doc_id": 2000,
+        "relevance": 3,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 3,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 3000,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 1,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 1,
+        "source": "Research"
+      }
+    ]
+  },
+  {
+    "query": "Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI. [v4]",
+    "intent": "Institutes",
+    "relevant_documents": [
+      {
+        "doc_id": 4000,
+        "relevance": 3,
+        "source": "Institutes"
+      },
+      {
+        "doc_id": 3000,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "I'd like to know about the ongoing research projects in natural language processing across different departments. [v6]",
+    "intent": "Research",
+    "relevant_documents": [
+      {
+        "doc_id": 1000,
+        "relevance": 3,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 3,
+        "source": "Research"
+      },
+      {
+        "doc_id": 5000,
+        "relevance": 2,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 5001,
+        "relevance": 2,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI. [v5]",
+    "intent": "Institutes",
+    "relevant_documents": [
+      {
+        "doc_id": 4000,
+        "relevance": 3,
+        "source": "Institutes"
+      },
+      {
+        "doc_id": 3000,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "Who are the leading faculty in the field of computer vision and where can I find their recent work? [v4]",
+    "intent": "Professors",
+    "relevant_documents": [
+      {
+        "doc_id": 2000,
+        "relevance": 3,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 3,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 3000,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 1,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 1,
+        "source": "Research"
+      }
+    ]
+  },
+  {
+    "query": "Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI. [v7]",
+    "intent": "Institutes",
+    "relevant_documents": [
+      {
+        "doc_id": 4000,
+        "relevance": 3,
+        "source": "Institutes"
+      },
+      {
+        "doc_id": 3000,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "I'd like to know about the ongoing research projects in natural language processing across different departments. [v4]",
+    "intent": "Research",
+    "relevant_documents": [
+      {
+        "doc_id": 1000,
+        "relevance": 3,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 3,
+        "source": "Research"
+      },
+      {
+        "doc_id": 5000,
+        "relevance": 2,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 5001,
+        "relevance": 2,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI. [v3]",
+    "intent": "Institutes",
+    "relevant_documents": [
+      {
+        "doc_id": 4000,
+        "relevance": 3,
+        "source": "Institutes"
+      },
+      {
+        "doc_id": 3000,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "I'd like to know about the ongoing research projects in natural language processing across different departments. [v2]",
+    "intent": "Research",
+    "relevant_documents": [
+      {
+        "doc_id": 1000,
+        "relevance": 3,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 3,
+        "source": "Research"
+      },
+      {
+        "doc_id": 5000,
+        "relevance": 2,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 5001,
+        "relevance": 2,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning. [v2]",
+    "intent": "Labs",
+    "relevant_documents": [
+      {
+        "doc_id": 3000,
+        "relevance": 3,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 3,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 2,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 2,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 1,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 1,
+        "source": "Research"
+      }
+    ]
+  },
+  {
+    "query": "Who are the leading faculty in the field of computer vision and where can I find their recent work? [v7]",
+    "intent": "Professors",
+    "relevant_documents": [
+      {
+        "doc_id": 2000,
+        "relevance": 3,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 3,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 3000,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 1,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 1,
+        "source": "Research"
+      }
+    ]
+  },
+  {
+    "query": "Who are the leading faculty in the field of computer vision and where can I find their recent work? [v6]",
+    "intent": "Professors",
+    "relevant_documents": [
+      {
+        "doc_id": 2000,
+        "relevance": 3,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 3,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 3000,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 1,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 1,
+        "source": "Research"
+      }
+    ]
+  },
+  {
+    "query": "What are the most recent and impactful discoveries made by the Khoury College research community? [v7]",
+    "intent": "Research_current_highlights",
+    "relevant_documents": [
+      {
+        "doc_id": 5000,
+        "relevance": 3,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 5001,
+        "relevance": 3,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 2,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 2,
+        "source": "Research"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning. [v0]",
+    "intent": "Labs",
+    "relevant_documents": [
+      {
+        "doc_id": 3000,
+        "relevance": 3,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 3,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 2,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 2,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 1,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 1,
+        "source": "Research"
+      }
+    ]
+  },
+  {
+    "query": "Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI. [v1]",
+    "intent": "Institutes",
+    "relevant_documents": [
+      {
+        "doc_id": 4000,
+        "relevance": 3,
+        "source": "Institutes"
+      },
+      {
+        "doc_id": 3000,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning. [v5]",
+    "intent": "Labs",
+    "relevant_documents": [
+      {
+        "doc_id": 3000,
+        "relevance": 3,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 3,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 2,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 2,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 1,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 1,
+        "source": "Research"
+      }
+    ]
+  },
+  {
+    "query": "What are the most recent and impactful discoveries made by the Khoury College research community? [v5]",
+    "intent": "Research_current_highlights",
+    "relevant_documents": [
+      {
+        "doc_id": 5000,
+        "relevance": 3,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 5001,
+        "relevance": 3,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 2,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 2,
+        "source": "Research"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning. [v1]",
+    "intent": "Labs",
+    "relevant_documents": [
+      {
+        "doc_id": 3000,
+        "relevance": 3,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 3,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 2,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 2,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 1,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 1,
+        "source": "Research"
+      }
+    ]
+  },
+  {
+    "query": "What are the most recent and impactful discoveries made by the Khoury College research community? [v1]",
+    "intent": "Research_current_highlights",
+    "relevant_documents": [
+      {
+        "doc_id": 5000,
+        "relevance": 3,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 5001,
+        "relevance": 3,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 2,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 2,
+        "source": "Research"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "Who are the leading faculty in the field of computer vision and where can I find their recent work? [v5]",
+    "intent": "Professors",
+    "relevant_documents": [
+      {
+        "doc_id": 2000,
+        "relevance": 3,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 3,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 3000,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 1,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 1,
+        "source": "Research"
+      }
+    ]
+  },
+  {
+    "query": "I'd like to know about the ongoing research projects in natural language processing across different departments. [v0]",
+    "intent": "Research",
+    "relevant_documents": [
+      {
+        "doc_id": 1000,
+        "relevance": 3,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 3,
+        "source": "Research"
+      },
+      {
+        "doc_id": 5000,
+        "relevance": 2,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 5001,
+        "relevance": 2,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "I'd like to know about the ongoing research projects in natural language processing across different departments. [v5]",
+    "intent": "Research",
+    "relevant_documents": [
+      {
+        "doc_id": 1000,
+        "relevance": 3,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 3,
+        "source": "Research"
+      },
+      {
+        "doc_id": 5000,
+        "relevance": 2,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 5001,
+        "relevance": 2,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "Who are the leading faculty in the field of computer vision and where can I find their recent work? [v1]",
+    "intent": "Professors",
+    "relevant_documents": [
+      {
+        "doc_id": 2000,
+        "relevance": 3,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 3,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 3000,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 1,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 1,
+        "source": "Research"
+      }
+    ]
+  },
+  {
+    "query": "I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning. [v7]",
+    "intent": "Labs",
+    "relevant_documents": [
+      {
+        "doc_id": 3000,
+        "relevance": 3,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 3,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 2,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 2,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 1,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 1,
+        "source": "Research"
+      }
+    ]
+  },
+  {
+    "query": "Who are the leading faculty in the field of computer vision and where can I find their recent work? [v2]",
+    "intent": "Professors",
+    "relevant_documents": [
+      {
+        "doc_id": 2000,
+        "relevance": 3,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 3,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 3000,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 1,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 1,
+        "source": "Research"
+      }
+    ]
+  },
+  {
+    "query": "Who are the leading faculty in the field of computer vision and where can I find their recent work? [v0]",
+    "intent": "Professors",
+    "relevant_documents": [
+      {
+        "doc_id": 2000,
+        "relevance": 3,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 3,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 3000,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 1,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 1,
+        "source": "Research"
+      }
+    ]
+  },
+  {
+    "query": "I'd like to know about the ongoing research projects in natural language processing across different departments. [v7]",
+    "intent": "Research",
+    "relevant_documents": [
+      {
+        "doc_id": 1000,
+        "relevance": 3,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 3,
+        "source": "Research"
+      },
+      {
+        "doc_id": 5000,
+        "relevance": 2,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 5001,
+        "relevance": 2,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI. [v2]",
+    "intent": "Institutes",
+    "relevant_documents": [
+      {
+        "doc_id": 4000,
+        "relevance": 3,
+        "source": "Institutes"
+      },
+      {
+        "doc_id": 3000,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 3001,
+        "relevance": 2,
+        "source": "Labs"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "What are the most recent and impactful discoveries made by the Khoury College research community? [v2]",
+    "intent": "Research_current_highlights",
+    "relevant_documents": [
+      {
+        "doc_id": 5000,
+        "relevance": 3,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 5001,
+        "relevance": 3,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 1000,
+        "relevance": 2,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 2,
+        "source": "Research"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  },
+  {
+    "query": "I'd like to know about the ongoing research projects in natural language processing across different departments. [v3]",
+    "intent": "Research",
+    "relevant_documents": [
+      {
+        "doc_id": 1000,
+        "relevance": 3,
+        "source": "Research"
+      },
+      {
+        "doc_id": 1001,
+        "relevance": 3,
+        "source": "Research"
+      },
+      {
+        "doc_id": 5000,
+        "relevance": 2,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 5001,
+        "relevance": 2,
+        "source": "Research_current_highlights"
+      },
+      {
+        "doc_id": 2000,
+        "relevance": 1,
+        "source": "Professors"
+      },
+      {
+        "doc_id": 2001,
+        "relevance": 1,
+        "source": "Professors"
+      }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+numpy==1.26.4
+scipy==1.13.0
+sentence-transformers
+scikit-learn
+faiss-cpu
+spacy
+chromadb
+streamlit
+torch
+transformers
+pandas
+accelerate
+datasets
+pandas
+
+
+
+# After installing, run: python -m spacy download en_core_web_lg

@@ -7,14 +7,16 @@ PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")
 MODELS_DIR = os.path.join(PROJECT_ROOT, "modules", "models")
 
 # ✅ Load on GPU if available
-device = 0 if torch.cuda.is_available() else -1
+device = "cuda" if torch.cuda.is_available() else "mps"
 
 # ✅ Load the zero-shot classification model
-classifier = pipeline("text-classification", model="./intent_model", tokenizer="./intent_model", device=0)
+classifier = pipeline("text-classification", model="./modules/module2/intent_model", tokenizer="./modules/module2/intent_model", device=0)
 
 # ✅ Core function: detects intent from a single query
 def detect_intent(query: str) -> str:
-    result = classifier(query)[0]
+    result = classifier(query)
+    print(result)
+    result = result[0]
     print("Predicted intent:", result["label"], "Score:", result["score"])
     return result["label"]
 

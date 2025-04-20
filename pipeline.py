@@ -1,5 +1,5 @@
 from scrapers import scraper
-from modules.module2.build_index import build_vector_db
+from modules.module2.sbert_build_index import build_vector_db
 import pandas as pd
 import os
 

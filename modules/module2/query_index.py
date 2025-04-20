@@ -16,7 +16,7 @@ collection = client.get_or_create_collection("sbert_documents")
 # MAC
 # device = "mps" if torch.backends.mps.is_available() else "cpu"
 # Windows
-device = "cuda" if torch.cuda.is_available() else "cpu"
+device = "cuda" if torch.cuda.is_available() else "mps"
 print(f"🚀 Using device: {device}")
 
 # Use SBERT
