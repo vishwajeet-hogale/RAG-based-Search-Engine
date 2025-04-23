@@ -1,0 +1,452 @@
+[
+  {
+    "query": "What are some key research highlights at Northeastern?",
+    "relevant_docs": {
+      "548": 3,
+      "795": 3,
+      "590": 3,
+      "597": 3,
+      "1872": 3,
+      "1502": 3,
+      "1226": 3,
+      "545": 3,
+      "3823": 3,
+      "3808": 3
+    }
+  },
+  {
+    "query": "Tell me about active labs at Northeastern University.",
+    "relevant_docs": {
+      "22": 3,
+      "32": 3,
+      "51": 3,
+      "21": 3,
+      "63": 3,
+      "68": 3,
+      "2": 3,
+      "81": 3,
+      "19": 3,
+      "33": 3
+    }
+  },
+  {
+    "query": "Which labs are working on data systems and data management?",
+    "relevant_docs": {
+      "3808": 3,
+      "21": 3,
+      "22": 3,
+      "51": 3,
+      "63": 3,
+      "81": 3,
+      "24": 3,
+      "2": 3,
+      "32": 3,
+      "28": 3
+    }
+  },
+  {
+    "query": "What research is being done in robotics and human interaction?",
+    "relevant_docs": {
+      "3887": 3,
+      "3866": 3,
+      "3806": 3,
+      "3857": 3,
+      "3870": 3,
+      "3892": 3,
+      "3833": 3,
+      "3795": 3,
+      "77": 3,
+      "76": 3
+    }
+  },
+  {
+    "query": "Who is studying computational modeling of human emotions?",
+    "relevant_docs": {
+      "3864": 3,
+      "3850": 3,
+      "3900": 3,
+      "3891": 3,
+      "1": 3,
+      "39": 3,
+      "47": 3,
+      "36": 3,
+      "75": 3,
+      "57": 3
+    }
+  },
+  {
+    "query": "Are there any research projects that received major grants?",
+    "relevant_docs": {
+      "1502": 3,
+      "795": 3,
+      "597": 3,
+      "538": 3,
+      "1557": 3,
+      "1120": 3,
+      "1063": 3,
+      "1128": 3,
+      "1553": 3,
+      "1127": 3
+    }
+  },
+  {
+    "query": "Which professors are working on perception and planning?",
+    "relevant_docs": {
+      "3887": 3,
+      "3795": 3,
+      "3806": 3,
+      "3857": 3,
+      "3854": 3,
+      "3870": 3,
+      "3836": 3,
+      "3797": 3,
+      "3911": 3,
+      "3906": 3
+    }
+  },
+  {
+    "query": "Tell me about research in sustainable risk reduction.",
+    "relevant_docs": {
+      "3894": 3,
+      "42": 3,
+      "3": 3,
+      "15": 3,
+      "1": 3,
+      "19": 3,
+      "65": 3,
+      "28": 3,
+      "39": 3,
+      "68": 3
+    }
+  },
+  {
+    "query": "What is the focus of the Helping Hands Lab?",
+    "relevant_docs": {
+      "3836": 3,
+      "3892": 3,
+      "3866": 3,
+      "3854": 3,
+      "4": 3,
+      "76": 3,
+      "43": 3,
+      "47": 3,
+      "39": 3,
+      "41": 3
+    }
+  },
+  {
+    "query": "Is anyone using alternate reality games in research?",
+    "relevant_docs": {
+      "3911": 3,
+      "3793": 3,
+      "3797": 3,
+      "3896": 3,
+      "36": 3,
+      "3": 3,
+      "42": 3,
+      "1269": 3,
+      "949": 3,
+      "1889": 3
+    }
+  },
+  {
+    "query": "What are the latest publications in computer vision?",
+    "relevant_docs": {
+      "1341": 3,
+      "1724": 3,
+      "1365": 3,
+      "576": 3,
+      "395": 3,
+      "394": 3,
+      "1289": 3,
+      "197": 3,
+      "325": 3,
+      "1240": 3
+    }
+  },
+  {
+    "query": "Who is working on nonverbal behavior in social interactions?",
+    "relevant_docs": {
+      "58": 3,
+      "8": 3,
+      "45": 3,
+      "79": 3,
+      "859": 3,
+      "1531": 3,
+      "1152": 3,
+      "1550": 3,
+      "1891": 3,
+      "1156": 3
+    }
+  },
+  {
+    "query": "Which institutes work on human-centered computing?",
+    "relevant_docs": {
+      "3802": 3,
+      "3860": 3,
+      "3800": 3,
+      "3893": 3,
+      "3818": 3,
+      "3794": 3,
+      "3836": 3,
+      "3900": 3,
+      "3859": 3,
+      "3786": 3
+    }
+  },
+  {
+    "query": "Are there research centers for smart city technologies?",
+    "relevant_docs": {
+      "3895": 3,
+      "3814": 3,
+      "3785": 3,
+      "3799": 3,
+      "3906": 3,
+      "3782": 3,
+      "3805": 3,
+      "3917": 3,
+      "28": 3,
+      "62": 3
+    }
+  },
+  {
+    "query": "What is the CESAR lab currently researching?",
+    "relevant_docs": {
+      "3988": 3,
+      "1120": 3,
+      "1127": 3,
+      "3894": 3,
+      "39": 3,
+      "1": 3,
+      "75": 3,
+      "36": 3,
+      "19": 3,
+      "32": 3
+    }
+  },
+  {
+    "query": "List labs focused on decision-making and emotion modeling.",
+    "relevant_docs": {
+      "369": 3,
+      "1054": 3,
+      "1547": 3,
+      "1051": 3,
+      "1151": 3,
+      "1067": 3,
+      "1891": 3,
+      "1299": 3,
+      "1152": 3,
+      "1269": 3
+    }
+  },
+  {
+    "query": "Any faculty researching intelligent systems at Northeastern?",
+    "relevant_docs": {
+      "3906": 3,
+      "3883": 3,
+      "3795": 3,
+      "3836": 3,
+      "3898": 3,
+      "3915": 3,
+      "3886": 3,
+      "3893": 3,
+      "3817": 3,
+      "3854": 3
+    }
+  },
+  {
+    "query": "Tell me about interdisciplinary research centers.",
+    "relevant_docs": {
+      "4060": 3,
+      "4059": 3,
+      "4058": 3,
+      "4061": 3,
+      "4062": 3,
+      "68": 3,
+      "28": 3,
+      "32": 3,
+      "15": 3,
+      "60": 3
+    }
+  },
+  {
+    "query": "Who works on uncertainty and inference over networks?",
+    "relevant_docs": {
+      "3784": 3,
+      "3785": 3,
+      "3815": 3,
+      "3805": 3,
+      "3906": 3,
+      "3858": 3,
+      "3816": 3,
+      "3914": 3,
+      "3825": 3,
+      "60": 3
+    }
+  },
+  {
+    "query": "Any labs involved in AI and education technologies?",
+    "relevant_docs": {
+      "3836": 3,
+      "3781": 3,
+      "3783": 3,
+      "3855": 3,
+      "3850": 3,
+      "47": 3,
+      "1": 3,
+      "30": 3,
+      "57": 3,
+      "43": 3
+    }
+  },
+  {
+    "query": "Are there labs on healthcare data analytics?",
+    "relevant_docs": {
+      "3778": 3,
+      "3820": 3,
+      "3808": 3,
+      "3817": 3,
+      "3874": 3,
+      "3902": 3,
+      "3831": 3,
+      "3909": 3,
+      "3891": 3,
+      "22": 3
+    }
+  },
+  {
+    "query": "Give me professors researching large-scale data lakes.",
+    "relevant_docs": {
+      "51": 3,
+      "21": 3,
+      "22": 3,
+      "63": 3,
+      "2": 3,
+      "81": 3,
+      "50": 3,
+      "28": 3,
+      "32": 3,
+      "31": 3
+    }
+  },
+  {
+    "query": "What robotics labs work with humans in real-world environments?",
+    "relevant_docs": {
+      "1715": 3,
+      "1280": 3,
+      "562": 3,
+      "1144": 3,
+      "295": 3,
+      "1740": 3,
+      "1705": 3,
+      "1768": 3,
+      "1678": 3,
+      "1734": 3
+    }
+  },
+  {
+    "query": "Who is researching scalable inference methods?",
+    "relevant_docs": {
+      "3816": 3,
+      "3872": 3,
+      "3847": 3,
+      "3801": 3,
+      "969": 3,
+      "1690": 3,
+      "811": 3,
+      "968": 3,
+      "964": 3,
+      "241": 3
+    }
+  },
+  {
+    "query": "What kind of research funding has Northeastern received?",
+    "relevant_docs": {
+      "1502": 3,
+      "795": 3,
+      "597": 3,
+      "548": 3,
+      "1553": 3,
+      "1557": 3,
+      "538": 3,
+      "1036": 3,
+      "1872": 3,
+      "1226": 3
+    }
+  },
+  {
+    "query": "Where is research on community resilience being done?",
+    "relevant_docs": {
+      "3785": 3,
+      "3784": 3,
+      "42": 3,
+      "3": 3,
+      "68": 3,
+      "60": 3,
+      "65": 3,
+      "28": 3,
+      "62": 3,
+      "32": 3
+    }
+  },
+  {
+    "query": "What kind of grants are awarded for risk analysis work?",
+    "relevant_docs": {
+      "42": 3,
+      "3": 3,
+      "24": 3,
+      "37": 3,
+      "66": 3,
+      "65": 3,
+      "15": 3,
+      "33": 3,
+      "795": 3,
+      "1502": 3
+    }
+  },
+  {
+    "query": "Are there research efforts involving public policy?",
+    "relevant_docs": {
+      "3815": 3,
+      "28": 3,
+      "60": 3,
+      "68": 3,
+      "32": 3,
+      "62": 3,
+      "19": 3,
+      "15": 3,
+      "38": 3,
+      "46": 3
+    }
+  },
+  {
+    "query": "Give me highlights from Northeastern's data science work.",
+    "relevant_docs": {
+      "21": 3,
+      "22": 3,
+      "24": 3,
+      "51": 3,
+      "63": 3,
+      "32": 3,
+      "2": 3,
+      "81": 3,
+      "28": 3,
+      "7": 3
+    }
+  },
+  {
+    "query": "List key collaborations between labs and institutions.",
+    "relevant_docs": {
+      "1498": 3,
+      "1502": 3,
+      "791": 3,
+      "795": 3,
+      "451": 3,
+      "1212": 3,
+      "1866": 3,
+      "1501": 3,
+      "1531": 3,
+      "859": 3
+    }
+  }
+]

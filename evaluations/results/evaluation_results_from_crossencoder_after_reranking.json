@@ -1,0 +1,166 @@
+[
+  {
+    "query": "As part of my research, I need to know: I'd like to know about the ongoing research projects in natural language processing across different departments.",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "I'm curious to know, Who are the leading faculty in the field of computer vision and where can I find their recent work?",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "Please help me with this: I'd like to know about the ongoing research projects in natural language processing across different departments.",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "Looking for info \u2014 I'd like to know about the ongoing research projects in natural language processing across different departments.",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "FYI, I'd like to know about the ongoing research projects in natural language processing across different departments.",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "FYI, Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "Looking for info \u2014 What are the most recent and impactful discoveries made by the Khoury College research community?",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "Could you assist with the following? Who are the leading professors in the field of computer vision and where can I find their recent work?",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "Looking for info \u2014 I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.",
+    "ndcg@10": 0.9656
+  },
+  {
+    "query": "FYI, What are the most recent and impactful discoveries made by the Khoury College research community?",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "Could you assist with the following? I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.",
+    "ndcg@10": 0.9532
+  },
+  {
+    "query": "As part of my research, I need to know: I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.",
+    "ndcg@10": 0.9772
+  },
+  {
+    "query": "Who are the leading professors in the field of computer vision and where can I find their recent work?",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "Could you assist with the following? What are the most recent and impactful discoveries made by the Khoury College research community?",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "As part of my research, I need to know: Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "Please help me with this: Who are the leading professors in the field of computer vision and where can I find their recent work?",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "I'm curious to know, I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.",
+    "ndcg@10": 0.9576
+  },
+  {
+    "query": "I'm curious to know, I'd like to know about the ongoing research projects in natural language processing across different departments.",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "As part of my research, I need to know: What are the most recent and impactful discoveries made by the Khoury College research community?",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "Looking for info \u2014 Who are the leading professors in the field of computer vision and where can I find their recent work?",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "FYI, I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.",
+    "ndcg@10": 0.9667
+  },
+  {
+    "query": "As part of my research, I need to know: Who are the leading professors in the field of computer vision and where can I find their recent work?",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "As part of my research, I need to know: Who are the leading faculty in the field of computer vision and where can I find their recent work?",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "I'm curious to know, Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "FYI, Who are the leading faculty in the field of computer vision and where can I find their recent work?",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "I'm curious to know, What are the most recent and impactful discoveries made by the Khoury College research community?",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "Could you assist with the following? Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "Looking for info \u2014 Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "Please help me with this: Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "Please help me with this: Who are the leading faculty in the field of computer vision and where can I find their recent work?",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "Could you assist with the following? I'd like to know about the ongoing research projects in natural language processing across different departments.",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "FYI, Who are the leading professors in the field of computer vision and where can I find their recent work?",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "Please help me with this: I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.",
+    "ndcg@10": 0.9481
+  },
+  {
+    "query": "Please help me with this: What are the most recent and impactful discoveries made by the Khoury College research community?",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "Looking for info \u2014 Who are the leading faculty in the field of computer vision and where can I find their recent work?",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "Could you assist with the following? Who are the leading faculty in the field of computer vision and where can I find their recent work?",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "Who are the leading faculty in the field of computer vision and where can I find their recent work?",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "I'm curious to know, Who are the leading professors in the field of computer vision and where can I find their recent work?",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "I'd like to know about the ongoing research projects in natural language processing across different departments.",
+    "ndcg@10": 0.0
+  },
+  {
+    "query": "What are the most recent and impactful discoveries made by the Khoury College research community?",
+    "ndcg@10": 0.0
+  }
+]

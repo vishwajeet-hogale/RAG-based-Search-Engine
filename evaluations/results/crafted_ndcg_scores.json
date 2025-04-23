@@ -1,0 +1,122 @@
+[
+  {
+    "query": "What are some key research highlights at Northeastern?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "Tell me about active labs at Northeastern University.",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "Which labs are working on data systems and data management?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "What research is being done in robotics and human interaction?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "Who is studying computational modeling of human emotions?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "Are there any research projects that received major grants?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "Which professors are working on perception and planning?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "Tell me about research in sustainable risk reduction.",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "What is the focus of the Helping Hands Lab?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "Is anyone using alternate reality games in research?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "What are the latest publications in computer vision?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "Who is working on nonverbal behavior in social interactions?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "Which institutes work on human-centered computing?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "Are there research centers for smart city technologies?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "What is the CESAR lab currently researching?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "List labs focused on decision-making and emotion modeling.",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "Any faculty researching intelligent systems at Northeastern?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "Tell me about interdisciplinary research centers.",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "Who works on uncertainty and inference over networks?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "Any labs involved in AI and education technologies?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "Are there labs on healthcare data analytics?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "Give me professors researching large-scale data lakes.",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "What robotics labs work with humans in real-world environments?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "Who is researching scalable inference methods?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "What kind of research funding has Northeastern received?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "Where is research on community resilience being done?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "What kind of grants are awarded for risk analysis work?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "Are there research efforts involving public policy?",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "Give me highlights from Northeastern's data science work.",
+    "ndcg@10": 1.0
+  },
+  {
+    "query": "List key collaborations between labs and institutions.",
+    "ndcg@10": 1.0
+  }
+]

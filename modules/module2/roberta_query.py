@@ -25,10 +25,10 @@ def search_expanded_query(query, top_k=15):
     # Step 1: Expand the query
     expanded_query, expansion_terms = expand_query(query)
 
-    print("\n🔎 Expanded Query:")
-    print(f"Original : {query}")
-    print(f"Expanded : {expanded_query}")
-    print(f"Terms    : {expansion_terms}")
+    # print("\n🔎 Expanded Query:")
+    # print(f"Original : {query}")
+    # print(f"Expanded : {expanded_query}")
+    # print(f"Terms    : {expansion_terms}")
 
     # Step 2: Embed the expanded query
     query_embedding = model.encode(expanded_query, convert_to_numpy=True, device=device)
