@@ -77,8 +77,8 @@ def evaluate(k):
         relevances = [relevance_dict.get(str(doc_id), 0) for doc_id in retrieved_ids]
 
         score = ndcg_score(relevances)
-        # if score > 0.0:
-        ndcg.append(score)
+        if score > 0.0:
+            ndcg.append(score)
         ndcg_scores.append((query, score))
         detailed_results.append({
             "query": query,
