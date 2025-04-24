@@ -1,101 +1,60 @@
 text,label,prediction,confidence
-Please help me with this: Who are the leading professors in the field of computer vision and where can I find their recent work?,Professors,Professors,0.5438860654830933
-Please help me with this: I'd like to know about the ongoing research projects in natural language processing across different departments.,Research,Research,0.5095342993736267
-Looking for info — Who are the leading professors in the field of computer vision and where can I find their recent work?,Professors,Professors,0.5341128706932068
-Please help me with this: Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.,Institutes,Institutes,0.5571614503860474
-Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.,Institutes,Institutes,0.5585068464279175
-Please help me with this: I'd like to know about the ongoing research projects in natural language processing across different departments.,Research,Research,0.5095342993736267
-"As part of my research, I need to know: I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.",Labs,Labs,0.501775860786438
-"I'm curious to know, Who are the leading professors in the field of computer vision and where can I find their recent work?",Professors,Professors,0.5486878156661987
-Looking for info — I'd like to know about the ongoing research projects in natural language processing across different departments.,Research,Research,0.5168009400367737
-"FYI, What are the most recent and impactful discoveries made by the Khoury College research community?",Research_current_highlights,Research_current_highlights,0.589776337146759
-"I'm curious to know, What are the most recent and impactful discoveries made by the Khoury College research community?",Research_current_highlights,Research_current_highlights,0.5960401892662048
-"I'm curious to know, I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.",Labs,Labs,0.5039068460464478
-"As part of my research, I need to know: I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.",Labs,Labs,0.501775860786438
-Please help me with this: I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.,Labs,Labs,0.5098620653152466
-Looking for info — What are the most recent and impactful discoveries made by the Khoury College research community?,Research_current_highlights,Research_current_highlights,0.5936415195465088
-"I'm curious to know, I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.",Labs,Labs,0.5039068460464478
-Could you assist with the following? I'd like to know about the ongoing research projects in natural language processing across different departments.,Research,Research,0.5096161961555481
-Looking for info — Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.,Institutes,Institutes,0.5535843968391418
-"I'm curious to know, What are the most recent and impactful discoveries made by the Khoury College research community?",Research_current_highlights,Research_current_highlights,0.5960401892662048
-Could you assist with the following? I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.,Labs,Labs,0.49784767627716064
-"As part of my research, I need to know: I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.",Labs,Labs,0.501775860786438
-"I'm curious to know, I'd like to know about the ongoing research projects in natural language processing across different departments.",Research,Research,0.5145896077156067
-Looking for info — I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.,Labs,Labs,0.5002853274345398
-Looking for info — Who are the leading professors in the field of computer vision and where can I find their recent work?,Professors,Professors,0.5341128706932068
-Could you assist with the following? I'd like to know about the ongoing research projects in natural language processing across different departments.,Research,Research,0.5096161961555481
-Please help me with this: Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.,Institutes,Institutes,0.5571614503860474
-Please help me with this: Who are the leading professors in the field of computer vision and where can I find their recent work?,Professors,Professors,0.5438860654830933
-"As part of my research, I need to know: I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.",Labs,Labs,0.501775860786438
-Could you assist with the following? Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.,Institutes,Institutes,0.5494693517684937
-Please help me with this: What are the most recent and impactful discoveries made by the Khoury College research community?,Research_current_highlights,Research_current_highlights,0.6001439690589905
-Could you assist with the following? What are the most recent and impactful discoveries made by the Khoury College research community?,Research_current_highlights,Research_current_highlights,0.5914306640625
-"I'm curious to know, What are the most recent and impactful discoveries made by the Khoury College research community?",Research_current_highlights,Research_current_highlights,0.5960401892662048
-Could you assist with the following? What are the most recent and impactful discoveries made by the Khoury College research community?,Research_current_highlights,Research_current_highlights,0.5914306640625
-Could you assist with the following? I'd like to know about the ongoing research projects in natural language processing across different departments.,Research,Research,0.5096161961555481
-"FYI, What are the most recent and impactful discoveries made by the Khoury College research community?",Research_current_highlights,Research_current_highlights,0.589776337146759
-Please help me with this: Who are the leading professors in the field of computer vision and where can I find their recent work?,Professors,Professors,0.5438860654830933
-"I'm curious to know, Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.",Institutes,Institutes,0.5514294505119324
-Please help me with this: Who are the leading professors in the field of computer vision and where can I find their recent work?,Professors,Professors,0.5438860654830933
-"FYI, I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.",Labs,Labs,0.5029070973396301
-Could you assist with the following? I'd like to know about the ongoing research projects in natural language processing across different departments.,Research,Research,0.5096161961555481
-"I'm curious to know, Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.",Institutes,Institutes,0.5514294505119324
-Please help me with this: I'd like to know about the ongoing research projects in natural language processing across different departments.,Research,Research,0.5095342993736267
-Looking for info — Who are the leading professors in the field of computer vision and where can I find their recent work?,Professors,Professors,0.5341128706932068
-Please help me with this: What are the most recent and impactful discoveries made by the Khoury College research community?,Research_current_highlights,Research_current_highlights,0.6001439690589905
-"FYI, Who are the leading professors in the field of computer vision and where can I find their recent work?",Professors,Professors,0.5428788661956787
-Looking for info — Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.,Institutes,Institutes,0.5535843968391418
-"As part of my research, I need to know: What are the most recent and impactful discoveries made by the Khoury College research community?",Research_current_highlights,Research_current_highlights,0.5870373249053955
-Could you assist with the following? Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.,Institutes,Institutes,0.5494693517684937
-"As part of my research, I need to know: I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.",Labs,Labs,0.501775860786438
-"FYI, I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.",Labs,Labs,0.5029070973396301
-Looking for info — Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.,Institutes,Institutes,0.5535843968391418
-Could you assist with the following? I'd like to know about the ongoing research projects in natural language processing across different departments.,Research,Research,0.5096161961555481
-Could you assist with the following? Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.,Institutes,Institutes,0.5494693517684937
-"As part of my research, I need to know: Who are the leading professors in the field of computer vision and where can I find their recent work?",Professors,Professors,0.5358419418334961
-"As part of my research, I need to know: Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.",Institutes,Institutes,0.5591048002243042
-"As part of my research, I need to know: Who are the leading professors in the field of computer vision and where can I find their recent work?",Professors,Professors,0.5358419418334961
-Could you assist with the following? What are the most recent and impactful discoveries made by the Khoury College research community?,Research_current_highlights,Research_current_highlights,0.5914306640625
-Please help me with this: What are the most recent and impactful discoveries made by the Khoury College research community?,Research_current_highlights,Research_current_highlights,0.6001439690589905
-"I'm curious to know, Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.",Institutes,Institutes,0.5514294505119324
-Please help me with this: Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.,Institutes,Institutes,0.5571614503860474
-Could you assist with the following? I'd like to know about the ongoing research projects in natural language processing across different departments.,Research,Research,0.5096161961555481
-"FYI, Who are the leading professors in the field of computer vision and where can I find their recent work?",Professors,Professors,0.5428788661956787
-"As part of my research, I need to know: I'd like to know about the ongoing research projects in natural language processing across different departments.",Research,Research,0.4963228702545166
-Could you assist with the following? I'd like to know about the ongoing research projects in natural language processing across different departments.,Research,Research,0.5096161961555481
-Looking for info — Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.,Institutes,Institutes,0.5535843968391418
-Could you assist with the following? Who are the leading professors in the field of computer vision and where can I find their recent work?,Professors,Professors,0.5437164902687073
-"I'm curious to know, Who are the leading professors in the field of computer vision and where can I find their recent work?",Professors,Professors,0.5486878156661987
-Looking for info — I'd like to know about the ongoing research projects in natural language processing across different departments.,Research,Research,0.5168009400367737
-Please help me with this: I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.,Labs,Labs,0.5098620653152466
-Could you assist with the following? Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.,Institutes,Institutes,0.5494693517684937
-Could you assist with the following? I'd like to know about the ongoing research projects in natural language processing across different departments.,Research,Research,0.5096161961555481
-Could you assist with the following? Who are the leading professors in the field of computer vision and where can I find their recent work?,Professors,Professors,0.5437164902687073
-Looking for info — What are the most recent and impactful discoveries made by the Khoury College research community?,Research_current_highlights,Research_current_highlights,0.5936415195465088
-Could you assist with the following? Who are the leading professors in the field of computer vision and where can I find their recent work?,Professors,Professors,0.5437164902687073
-"As part of my research, I need to know: I'd like to know about the ongoing research projects in natural language processing across different departments.",Research,Research,0.4963228702545166
-Looking for info — What are the most recent and impactful discoveries made by the Khoury College research community?,Research_current_highlights,Research_current_highlights,0.5936415195465088
-Could you assist with the following? What are the most recent and impactful discoveries made by the Khoury College research community?,Research_current_highlights,Research_current_highlights,0.5914306640625
-Looking for info — I'd like to know about the ongoing research projects in natural language processing across different departments.,Research,Research,0.5168009400367737
-Looking for info — Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.,Institutes,Institutes,0.5535843968391418
-Please help me with this: What are the most recent and impactful discoveries made by the Khoury College research community?,Research_current_highlights,Research_current_highlights,0.6001439690589905
-"FYI, I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.",Labs,Labs,0.5029070973396301
-Please help me with this: I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.,Labs,Labs,0.5098620653152466
-"FYI, I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.",Labs,Labs,0.5029070973396301
-Please help me with this: Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.,Institutes,Institutes,0.5571614503860474
-"I'm curious to know, Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.",Institutes,Institutes,0.5514294505119324
-"FYI, Who are the leading professors in the field of computer vision and where can I find their recent work?",Professors,Professors,0.5428788661956787
-"I'm curious to know, I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.",Labs,Labs,0.5039068460464478
-Looking for info — What are the most recent and impactful discoveries made by the Khoury College research community?,Research_current_highlights,Research_current_highlights,0.5936415195465088
-"FYI, I'd like to know about the ongoing research projects in natural language processing across different departments.",Research,Research,0.5181978940963745
-Could you assist with the following? I'd like to know about the ongoing research projects in natural language processing across different departments.,Research,Research,0.5096161961555481
-Looking for info — Tell me more about the institutes and interdisciplinary research centers associated with Northeastern University that work on AI.,Institutes,Institutes,0.5535843968391418
-Looking for info — What are the most recent and impactful discoveries made by the Khoury College research community?,Research_current_highlights,Research_current_highlights,0.5936415195465088
-Could you assist with the following? What are the most recent and impactful discoveries made by the Khoury College research community?,Research_current_highlights,Research_current_highlights,0.5914306640625
-"FYI, I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.",Labs,Labs,0.5029070973396301
-"I'm curious to know, I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.",Labs,Labs,0.5039068460464478
-Please help me with this: Who are the leading professors in the field of computer vision and where can I find their recent work?,Professors,Professors,0.5438860654830933
-I'm interested in learning about the various research labs at Northeastern University that are involved in artificial intelligence and machine learning.,Labs,Labs,0.49263080954551697
-Looking for info — I'd like to know about the ongoing research projects in natural language processing across different departments.,Research,Research,0.5168009400367737
-Looking for info — Who are the leading professors in the field of computer vision and where can I find their recent work?,Professors,Professors,0.5341128706932068
-"FYI, Who are the leading professors in the field of computer vision and where can I find their recent work?",Professors,Professors,0.5428788661956787
+What's new in recent publications?,Research_current_highlights,Research,0.21604853868484497
+List of professors working on data science.,Professors,Professors,0.22532451152801514
+What are the latest papers in networks?,Research,Research,0.22209341824054718
+Latest news about breakthroughs.,Research_current_highlights,Research_current_highlights,0.22951243817806244
+What are the latest papers in blockchain?,Research,Research,0.2245776355266571
+Labs related to cybersecurity in the northeast.,Labs,Labs,0.25334298610687256
+New research in computer vision by Khoury.,Research,Research,0.22800683975219727
+Show me labs working on robotics.,Labs,Research,0.21292203664779663
+Faculty experts in systems?,Professors,Labs,0.21898019313812256
+Ongoing causal inference research projects?,Research,Research,0.21298861503601074
+Which institute focuses on network science?,Institutes,Labs,0.2224387377500534
+Show me labs working on networks.,Labs,Labs,0.22463969886302948
+Which professor specializes in AI?,Professors,Labs,0.22037570178508759
+Show me labs working on cybersecurity.,Labs,Labs,0.21938017010688782
+Give me details on interdisciplinary research centres.,Institutes,Research,0.21216434240341187
+Labs involved in visual computing?,Labs,Labs,0.2418372631072998
+Show me the latest blockchain research in the northeast.,Research,Research,0.24240849912166595
+Show me recent machine learning research at Northeastern.,Research,Research,0.24711278080940247
+List Khoury labs for HCI research.,Labs,Labs,0.2346327304840088
+Who teaches privacy?,Professors,Professors,0.22157026827335358
+What's new in new research?,Research_current_highlights,Research,0.20752756297588348
+Which centre is responsible for data ethics?,Institutes,Institutes,0.21212460100650787
+What are the most recent research highlights published by Khoury College?,Research_current_highlights,Research,0.22019636631011963
+What are the latest papers in causal inference?,Research,Research,0.22548434138298035
+Show me the Faculty of Robotics.,Professors,Professors,0.22313416004180908
+Show me labs working on AI.,Labs,Labs,0.2147080898284912
+New research in the blockchain of Khoury.,Research,Research,0.22502833604812622
+Which labs focus on robotics?,Labs,Labs,0.2304168939590454
+What's new in faculty achievements?,Research_current_highlights,Research,0.20902366936206818
+Recent breakthroughs in faculty achievements research.,Research_current_highlights,Research_current_highlights,0.2220710963010788
+What center is responsible for cybersecurity?,Institutes,Institutes,0.21232877671718597
+Show me the Department of Privacy.,Professors,Research,0.23384344577789307
+Where does the action happen in machine learning in the northeast?,Labs,Labs,0.207442045211792
+What center is responsible for data ethics?,Institutes,Institutes,0.21271100640296936
+Latest news about recent publications.,Research_current_highlights,Research_current_highlights,0.224371075630188
+Which labs focus on networks?,Labs,Labs,0.23458850383758545
+List of Khoury laboratories for HCI research.,Labs,Labs,0.22441616654396057
+Faculty experts in formal methods?,Professors,Professors,0.2222469449043274
+New research in NLP by Khoury.,Research,Research,0.2275533527135849
+Which institute deals with data ethics?,Institutes,Institutes,0.21618621051311493
+What center is responsible for digital democracy?,Institutes,Institutes,0.21401366591453552
+List of institutes related to data ethics.,Institutes,Professors,0.21625778079032898
+Show me current generative models research in the northeast.,Research,Research,0.23428881168365479
+Show me faculty involved in robotics.,Professors,Professors,0.2191215455532074
+Find publications about networks.,Research,Research,0.22710223495960236
+List institutes related to generative AI.,Institutes,Labs,0.22176708281040192
+Recent breakthroughs in faculty research.,Research_current_highlights,Research_current_highlights,0.22135616838932037
+List professors working on formal methods.,Professors,Professors,0.22600845992565155
+Give me details on data ethics research centers.,Institutes,Labs,0.21993355453014374
+Faculty experts in data science?,Professors,Professors,0.2183089554309845
+Labs related to robotics at Northeastern.,Labs,Labs,0.2577754855155945
+I'm looking for research labs in the northeast working on artificial intelligence and deep learning.,Labs,Research,0.21292726695537567
+Which professor specializes in software engineering?,Professors,Labs,0.2227034717798233
+Show me recent deep learning research at Northeastern.,Research,Research,0.2499406784772873
+Current highlights in recent publications.,Research_current_highlights,Research_current_highlights,0.21630829572677612
+List of institutes in connection with interdisciplinary research.,Institutes,Professors,0.21411244571208954
+Give me access to a list of current research topics in computer vision.,Research,Professors,0.22481769323349
+Faculty experts in NLP?,Professors,Professors,0.21805880963802338
+Give me details on cybersecurity research centers.,Institutes,Labs,0.21986818313598633
