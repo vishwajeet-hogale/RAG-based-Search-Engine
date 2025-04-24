@@ -2,6 +2,8 @@
   {
     "query": "Show me labs working on HCI.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "940",
       "999",
@@ -30,6 +32,8 @@
   {
     "query": "List institutes related to interdisciplinary research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "461",
       "598",
@@ -58,6 +62,8 @@
   {
     "query": "How does Northeastern tackle interdisciplinary science?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "461",
       "458",
@@ -86,6 +92,8 @@
   {
     "query": "Recent updates on grants?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "339",
       "579",
@@ -114,6 +122,8 @@
   {
     "query": "Laboratories related to data science in the northeast.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1781",
       "1780",
@@ -142,6 +152,8 @@
   {
     "query": "Laboratories related to AI in the northeast.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1781",
       "1780",
@@ -170,6 +182,8 @@
   {
     "query": "Show me faculty involved in data science.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "465",
       "248",
@@ -198,6 +212,8 @@
   {
     "query": "Labs involved in HCI?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "365",
       "1126",
@@ -226,6 +242,8 @@
   {
     "query": "Which professor specializes in robotics?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1624",
       "1655",
@@ -254,6 +272,8 @@
   {
     "query": "Show me faculty involved in NLP.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "248",
       "465",
@@ -282,6 +302,8 @@
   {
     "query": "Give me details of the research centres for digital democracy.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "221",
       "1336",
@@ -310,6 +332,8 @@
   {
     "query": "Labs involved in AI?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "364",
       "1125",
@@ -338,6 +362,8 @@
   {
     "query": "List Khoury labs for data science research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "503",
       "454",
@@ -366,6 +392,8 @@
   {
     "query": "Which professor specializes in data science?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "496",
       "453",
@@ -394,6 +422,8 @@
   {
     "query": "New Research in Computer Vision by Khoury.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "530",
       "1473",
@@ -422,6 +452,8 @@
   {
     "query": "Any highlights in robotics recently?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1637",
       "1642",
@@ -450,6 +482,8 @@
   {
     "query": "Which institute focuses on sustainability?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1088",
       "1517",
@@ -478,6 +512,8 @@
   {
     "query": "New research in machine learning by Khoury.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "284",
       "981",
@@ -506,6 +542,8 @@
   {
     "query": "List professors working on robotics.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "372",
       "1133",
@@ -534,6 +572,8 @@
   {
     "query": "Show me the faculty involved in systems.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "248",
       "465",
@@ -562,6 +602,8 @@
   {
     "query": "What are the latest papers in machine learning?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1241",
       "310",
@@ -590,6 +632,8 @@
   {
     "query": "Give me details on Data Ethics Research Centers.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1839",
       "1058",
@@ -618,6 +662,8 @@
   {
     "query": "List professors working on AI.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "372",
       "1133",
@@ -646,6 +692,8 @@
   {
     "query": "Which professor specializes in systems?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "457",
       "1728",
@@ -674,6 +722,8 @@
   {
     "query": "Show me the faculty involved in formal methods.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "248",
       "465",
@@ -702,6 +752,8 @@
   {
     "query": "Recent updates on awards?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "339",
       "579",
@@ -730,6 +782,8 @@
   {
     "query": "What are the latest papers in generative models?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1135",
       "601",
@@ -758,6 +812,8 @@
   {
     "query": "Give me detailed information on human-computer interaction labs under the computer science department.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "464",
       "1058",
@@ -786,6 +842,8 @@
   {
     "query": "New research in causal inference by Khoury.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "445",
       "792",
@@ -814,6 +872,8 @@
   {
     "query": "Ongoing machine learning research projects?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "775",
       "1447",
@@ -842,6 +902,8 @@
   {
     "query": "Labs related to HCI at Northeastern.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "339",
       "579",
@@ -870,6 +932,8 @@
   {
     "query": "Show me labs working on bioinformatics.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1058",
       "221",
@@ -898,6 +962,8 @@
   {
     "query": "Recent updates on new research?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "339",
       "579",
@@ -926,6 +992,8 @@
   {
     "query": "Which institute focuses on cybersecurity?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1088",
       "1517",
@@ -954,6 +1022,8 @@
   {
     "query": "List of institutions related to generative AI.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "987",
       "319",
@@ -982,6 +1052,8 @@
   {
     "query": "Labs related to visual computing at Northeastern.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1045",
       "339",
@@ -1010,6 +1082,8 @@
   {
     "query": "List of institutes in connection with network science.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "521",
       "1720",
@@ -1038,6 +1112,8 @@
   {
     "query": "List of Khoury laboratories for AI research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1084",
       "1513",
@@ -1066,6 +1142,8 @@
   {
     "query": "Which center is responsible for cybersecurity?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "647",
       "1185",
@@ -1094,6 +1172,8 @@
   {
     "query": "Labs related to networks at Northeastern.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "339",
       "579",
@@ -1122,6 +1202,8 @@
   {
     "query": "Show me the Department of Software Engineering.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "824",
       "1058",
@@ -1150,6 +1232,8 @@
   {
     "query": "Faculty experts in robotics?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "247",
       "464",
@@ -1178,6 +1262,8 @@
   {
     "query": "What's new in media coverage?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1569",
       "1662",
@@ -1206,6 +1292,8 @@
   {
     "query": "Show me faculty involved in privacy.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "248",
       "465",
@@ -1234,6 +1322,8 @@
   {
     "query": "Show me faculty involved in formal methods.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "248",
       "465",
@@ -1262,6 +1352,8 @@
   {
     "query": "Show me current machine learning research in the northeast.",
     "ndcg@10": 0.8503,
+    "map@10": 0.7,
+    "recall@10": 0.6667,
     "top_docs": [
       "1781",
       "221",
@@ -1290,6 +1382,8 @@
   {
     "query": "Labs related to cybersecurity at Northeastern.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "543",
       "579",
@@ -1318,6 +1412,8 @@
   {
     "query": "Show me recent generative models research at Northeastern.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "339",
       "579",
@@ -1346,6 +1442,8 @@
   {
     "query": "Faculty experts in software engineering?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1672",
       "247",
@@ -1374,6 +1472,8 @@
   {
     "query": "Where's the action happening in machine learning at Northeastern?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1226",
       "339",
@@ -1402,6 +1502,8 @@
   {
     "query": "List professors working on NLP.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "219",
       "1334",
@@ -1430,6 +1532,8 @@
   {
     "query": "List Khoury labs for robotics research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "90",
       "1641",
@@ -1458,6 +1562,8 @@
   {
     "query": "Latest news about new research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "740",
       "1434",
@@ -1486,6 +1592,8 @@
   {
     "query": "List Khoury labs for visual computing research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1641",
       "1258",
@@ -1514,6 +1622,8 @@
   {
     "query": "Heard Khoury published something groundbreaking in AI?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "364",
       "1125",
@@ -1542,6 +1652,8 @@
   {
     "query": "Recent breakthroughs in awards research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "284",
       "511",
@@ -1570,6 +1682,8 @@
   {
     "query": "Please list the professors at Northeastern who are currently working on cybersecurity and data privacy.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "543",
       "579",
@@ -1598,6 +1712,8 @@
   {
     "query": "Find publications about deep learning.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1034",
       "803",
@@ -1626,6 +1742,8 @@
   {
     "query": "What center is responsible for sustainability?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "771",
       "1443",
@@ -1654,6 +1772,8 @@
   {
     "query": "What center is responsible for interdisciplinary research?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1034",
       "994",
@@ -1682,6 +1802,8 @@
   {
     "query": "Show me the faculty that's involved in AI.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "248",
       "465",
@@ -1710,6 +1832,8 @@
   {
     "query": "Recent breakthroughs in new research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "284",
       "773",
@@ -1738,6 +1862,8 @@
   {
     "query": "What are the ongoing research projects in natural language processing across departments at Northeastern?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "457",
       "1326",
@@ -1766,6 +1892,8 @@
   {
     "query": "Show me the current deep learning research in the northeast.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1781",
       "1855",
@@ -1794,6 +1922,8 @@
   {
     "query": "List of Khoury laboratories for data science research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "503",
       "454",
@@ -1822,6 +1952,8 @@
   {
     "query": "List of professors working on formal methods.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "372",
       "1133",
@@ -1850,6 +1982,8 @@
   {
     "query": "Ongoing blockchain research projects?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "555",
       "1737",
@@ -1878,6 +2012,8 @@
   {
     "query": "Show me labs working on data science.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1058",
       "505",
@@ -1906,6 +2042,8 @@
   {
     "query": "Laboratories related to networks in the northeast.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1781",
       "1780",
@@ -1934,6 +2072,8 @@
   {
     "query": "Show me recent computer vision research at Northeastern.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "489",
       "359",
@@ -1962,6 +2102,8 @@
   {
     "query": "Labs related to data science at Northeastern.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "339",
       "579",
@@ -1990,6 +2132,8 @@
   {
     "query": "List Khoury labs for networks research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "90",
       "503",
@@ -2018,6 +2162,8 @@
   {
     "query": "New research in blockchain by Khoury.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "555",
       "1737",
@@ -2046,6 +2192,8 @@
   {
     "query": "Show institutes working on interdisciplinary research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "461",
       "598",
@@ -2074,6 +2222,8 @@
   {
     "query": "Laboratories related to bioinformatics in the northeast.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1781",
       "1780",
@@ -2102,6 +2252,8 @@
   {
     "query": "Where can I find practical AI applications in the northeast?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1311",
       "188",
@@ -2130,6 +2282,8 @@
   {
     "query": "Which centre is responsible for digital democracy?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1185",
       "1787",
@@ -2158,6 +2312,8 @@
   {
     "query": "Is there an institute that focuses on democracy and the Internet?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "560",
       "1742",
@@ -2186,6 +2342,8 @@
   {
     "query": "What center is responsible for generative AI?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "364",
       "1125",
@@ -2214,6 +2372,8 @@
   {
     "query": "Give me details on digital democracy research centers.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "221",
       "1336",
@@ -2242,6 +2402,8 @@
   {
     "query": "Show me faculty involved in AI.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "248",
       "465",
@@ -2270,6 +2432,8 @@
   {
     "query": "Show me recent causal inference research at Northeastern.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "339",
       "579",
@@ -2298,6 +2462,8 @@
   {
     "query": "Current highlights in awards.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "511",
       "462",
@@ -2326,6 +2492,8 @@
   {
     "query": "Which professor specializes in privacy?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "572",
       "606",
@@ -2354,6 +2522,8 @@
   {
     "query": "Latest news about faculty achievements.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "248",
       "465",
@@ -2382,6 +2552,8 @@
   {
     "query": "Current highlights in breakthroughs.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "284",
       "967",
@@ -2410,6 +2582,8 @@
   {
     "query": "Give me details on network science research centers.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1058",
       "789",
@@ -2438,6 +2612,8 @@
   {
     "query": "New research in Khoury networks.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "445",
       "792",
@@ -2466,6 +2642,8 @@
   {
     "query": "Who teaches data science?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "496",
       "453",
@@ -2494,6 +2672,8 @@
   {
     "query": "Which centre is responsible for interdisciplinary research?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1185",
       "1787",
@@ -2522,6 +2702,8 @@
   {
     "query": "Show me current network research in the northeast.",
     "ndcg@10": 1.0,
+    "map@10": 1.0,
+    "recall@10": 1.0,
     "top_docs": [
       "1781",
       "221",
@@ -2550,6 +2732,8 @@
   {
     "query": "Which institute focuses on generative AI?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1088",
       "1517",
@@ -2578,6 +2762,8 @@
   {
     "query": "Give me detailed information about human-computer interaction laboratories under the Department of Computer Science.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "464",
       "824",
@@ -2606,6 +2792,8 @@
   {
     "query": "Which institutes in the northeast are dedicated to interdisciplinary research in computer science?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "461",
       "1781",
@@ -2634,6 +2822,8 @@
   {
     "query": "List Khoury laboratories for robotics research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "90",
       "1641",
@@ -2662,6 +2852,8 @@
   {
     "query": "Give me access to a list of current research topics in the computer vision.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "501",
       "481",
@@ -2690,6 +2882,8 @@
   {
     "query": "Current highlights in grants.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "709",
       "1416",
@@ -2718,6 +2912,8 @@
   {
     "query": "Is there any institute focusing on democracy and the internet?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "560",
       "1742",
@@ -2746,6 +2942,8 @@
   {
     "query": "Who teaches NLP?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "219",
       "1334",
@@ -2774,6 +2972,8 @@
   {
     "query": "I'm looking for research labs at Northeastern that are working on artificial intelligence and deep learning.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "372",
       "339",
@@ -2802,6 +3002,8 @@
   {
     "query": "Recent breakthroughs in new research research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "284",
       "773",
@@ -2830,6 +3032,8 @@
   {
     "query": "Find publications about computer vision.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1034",
       "489",
@@ -2858,6 +3062,8 @@
   {
     "query": "Labs related to AI at Northeastern.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "339",
       "579",
@@ -2886,6 +3092,8 @@
   {
     "query": "Recent breakthroughs in breakthroughs research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "284",
       "359",
@@ -2914,6 +3122,8 @@
   {
     "query": "Ongoing NLP research projects?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "219",
       "1334",
@@ -2942,6 +3152,8 @@
   {
     "query": "Show me the current NLP research in the northeast.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1781",
       "221",
@@ -2970,6 +3182,8 @@
   {
     "query": "Where can I find practical AI applications at Northeastern?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1311",
       "188",
@@ -2998,6 +3212,8 @@
   {
     "query": "Which centre is responsible for sustainability?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1185",
       "1787",
@@ -3026,6 +3242,8 @@
   {
     "query": "Which labs focus on HCI?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "365",
       "1126",
@@ -3054,6 +3272,8 @@
   {
     "query": "Recent updates on media coverage?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1569",
       "1662",
@@ -3082,6 +3302,8 @@
   {
     "query": "Show me a list of faculty members who are teaching or conducting research in AI.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "248",
       "465",
@@ -3110,6 +3332,8 @@
   {
     "query": "Who teaches formal methods?",
     "ndcg@10": 0.7316,
+    "map@10": 0.6083,
+    "recall@10": 0.5714,
     "top_docs": [
       "35",
       "2014",
@@ -3138,6 +3362,8 @@
   {
     "query": "Find publications about machine learning.",
     "ndcg@10": 0.6233,
+    "map@10": 0.525,
+    "recall@10": 0.3636,
     "top_docs": [
       "1034",
       "803",
@@ -3166,6 +3392,8 @@
   {
     "query": "Recent breakthroughs in recent publications research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "284",
       "1034",
@@ -3194,6 +3422,8 @@
   {
     "query": "Which labs focus on bioinformatics?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "440",
       "759",
@@ -3222,6 +3452,8 @@
   {
     "query": "Which professor specializes in formal methods?",
     "ndcg@10": 0.8773,
+    "map@10": 0.7049,
+    "recall@10": 0.6667,
     "top_docs": [
       "2014",
       "1959",
@@ -3250,6 +3482,8 @@
   {
     "query": "What are the latest papers in causal conclusion?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "310",
       "445",
@@ -3278,6 +3512,8 @@
   {
     "query": "Show me the latest causal inference research in the northeast.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1781",
       "221",
@@ -3306,6 +3542,8 @@
   {
     "query": "New research in networks by Khoury.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "445",
       "792",
@@ -3334,6 +3572,8 @@
   {
     "query": "Recent breakthroughs in grants research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "284",
       "709",
@@ -3362,6 +3602,8 @@
   {
     "query": "Labs involved in networks?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "739",
       "769",
@@ -3390,6 +3632,8 @@
   {
     "query": "What are the latest papers in Blockchain?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "555",
       "1737",
@@ -3418,6 +3662,8 @@
   {
     "query": "Find publications about generative models.",
     "ndcg@10": 0.3869,
+    "map@10": 0.2,
+    "recall@10": 1.0,
     "top_docs": [
       "1034",
       "803",
@@ -3446,6 +3692,8 @@
   {
     "query": "Labs involved in cybersecurity?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "602",
       "1091",
@@ -3474,6 +3722,8 @@
   {
     "query": "List Khoury labs for bioinformatics research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "425",
       "90",
@@ -3502,6 +3752,8 @@
   {
     "query": "Labs involved in robotics?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1624",
       "1655",
@@ -3530,6 +3782,8 @@
   {
     "query": "Show institutes working on digital democracy.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "372",
       "1133",
@@ -3558,6 +3812,8 @@
   {
     "query": "Which labs focus on visual computing?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1023",
       "1491",
@@ -3586,6 +3842,8 @@
   {
     "query": "Recent breakthroughs in media coverage research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "284",
       "1614",
@@ -3614,6 +3872,8 @@
   {
     "query": "What's new in breakthroughs?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "452",
       "273",
@@ -3642,6 +3902,8 @@
   {
     "query": "Which labs focus on data science?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "758",
       "1023",
@@ -3670,6 +3932,8 @@
   {
     "query": "Show institutes working on network science.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "505",
       "1416",
@@ -3698,6 +3962,8 @@
   {
     "query": "List institutes related to cybersecurity.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "599",
       "578",
@@ -3726,6 +3992,8 @@
   {
     "query": "List Khoury labs for network research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "90",
       "503",
@@ -3754,6 +4022,8 @@
   {
     "query": "What are the latest research highlights published by Khoury College?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "503",
       "454",
@@ -3782,6 +4052,8 @@
   {
     "query": "Show me labs working on visual computing.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1058",
       "1151",
@@ -3810,6 +4082,8 @@
   {
     "query": "Show institutes working on data ethics.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1839",
       "372",
@@ -3838,6 +4112,8 @@
   {
     "query": "Laboratories related to visual computing in the northeast.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1781",
       "1780",
@@ -3866,6 +4142,8 @@
   {
     "query": "What are the latest papers in Computer Vision?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "458",
       "310",
@@ -3894,6 +4172,8 @@
   {
     "query": "List institutes related to data ethics.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1839",
       "246",
@@ -3922,6 +4202,8 @@
   {
     "query": "Which institute focuses on digital democracy?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1088",
       "1517",
@@ -3950,6 +4232,8 @@
   {
     "query": "Give me details on interdisciplinary research research centers.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "461",
       "1034",
@@ -3978,6 +4262,8 @@
   {
     "query": "Faculty experts in privacy?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "247",
       "464",
@@ -4006,6 +4292,8 @@
   {
     "query": "What are the ongoing research projects in natural language processing across departments in the northeast?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "457",
       "1781",
@@ -4034,6 +4322,8 @@
   {
     "query": "What are the latest lectures in Deep Learning?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1241",
       "326",
@@ -4062,6 +4352,8 @@
   {
     "query": "List professors working on data science.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "480",
       "505",
@@ -4090,6 +4382,8 @@
   {
     "query": "Show me the faculty involved in NLP.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "248",
       "465",
@@ -4118,6 +4412,8 @@
   {
     "query": "Labs involved in data science?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "709",
       "1416",
@@ -4146,6 +4442,8 @@
   {
     "query": "Give me details on generative AI research centers.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1058",
       "319",
@@ -4174,6 +4472,8 @@
   {
     "query": "Who teaches software engineering?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1671",
       "1668",
@@ -4202,6 +4502,8 @@
   {
     "query": "What's new in grants?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "452",
       "273",
@@ -4230,6 +4532,8 @@
   {
     "query": "Which current projects or awards were awarded by the CS department?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "501",
       "496",
@@ -4258,6 +4562,8 @@
   {
     "query": "Find publications about NLP.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1034",
       "803",
@@ -4286,6 +4592,8 @@
   {
     "query": "Laboratories related to HCI in the northeast.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1781",
       "1780",
@@ -4314,6 +4622,8 @@
   {
     "query": "Recent breakthroughs in media reporting research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1034",
       "284",
@@ -4342,6 +4652,8 @@
   {
     "query": "Which center is responsible for generative AI?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "364",
       "1125",
@@ -4370,6 +4682,8 @@
   {
     "query": "List institutes related to sustainability.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1882",
       "491",
@@ -4398,6 +4712,8 @@
   {
     "query": "Latest news about grants.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "745",
       "1439",
@@ -4426,6 +4742,8 @@
   {
     "query": "Which labs focus on cybersecurity?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1023",
       "1491",
@@ -4454,6 +4772,8 @@
   {
     "query": "What are the latest posts in networks?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "939",
       "998",
@@ -4482,6 +4802,8 @@
   {
     "query": "List professors working on software engineering.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1667",
       "1675",
@@ -4510,6 +4832,8 @@
   {
     "query": "Recent updates on breakthroughs?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "284",
       "339",
@@ -4538,6 +4862,8 @@
   {
     "query": "List of Khoury laboratories for visual computer research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "503",
       "454",
@@ -4566,6 +4892,8 @@
   {
     "query": "Find publications about blockchain.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1034",
       "803",
@@ -4594,6 +4922,8 @@
   {
     "query": "Current highlights in media coverage.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1614",
       "1694",
@@ -4622,6 +4952,8 @@
   {
     "query": "Show institutes working on cybersecurity.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "526",
       "372",
@@ -4650,6 +4982,8 @@
   {
     "query": "How does the northeast deal with interdisciplinary science?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "461",
       "1781",
@@ -4678,6 +5012,8 @@
   {
     "query": "Who teaches AI?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1029",
       "364",
@@ -4706,6 +5042,8 @@
   {
     "query": "Current highlights in new research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "528",
       "1096",
@@ -4734,6 +5072,8 @@
   {
     "query": "Show institutes working on sustainability.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "372",
       "1133",
@@ -4762,6 +5102,8 @@
   {
     "query": "Show me a list of faculty members who teach or research in AI.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "247",
       "464",
@@ -4790,6 +5132,8 @@
   {
     "query": "List institutes related to digital democracy.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "481",
       "1001",
@@ -4818,6 +5162,8 @@
   {
     "query": "Recent updates on faculty achievements?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "248",
       "465",
@@ -4846,6 +5192,8 @@
   {
     "query": "Show me the latest computer vision research in the northeast.",
     "ndcg@10": 1.0,
+    "map@10": 1.0,
+    "recall@10": 1.0,
     "top_docs": [
       "1781",
       "489",
@@ -4874,6 +5222,8 @@
   {
     "query": "Give me details on sustainability research centers.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1058",
       "1824",
@@ -4902,6 +5252,8 @@
   {
     "query": "Show institutes working on generative AI.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "319",
       "1078",
@@ -4930,6 +5282,8 @@
   {
     "query": "Please show me institutes that emphasize privacy, digital democracy or cybersecurity.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "221",
       "1336",
@@ -4958,6 +5312,8 @@
   {
     "query": "Which institute focuses on data ethics?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "281",
       "1088",
@@ -4986,6 +5342,8 @@
   {
     "query": "List professors working on systems.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "372",
       "1133",
@@ -5014,6 +5372,8 @@
   {
     "query": "Which recent projects or awards have been recognized from the CS department?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "310",
       "457",
@@ -5042,6 +5402,8 @@
   {
     "query": "Laboratories related to robotics in the northeast.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1781",
       "1780",
@@ -5070,6 +5432,8 @@
   {
     "query": "Who teaches robotics?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1624",
       "1655",
@@ -5098,6 +5462,8 @@
   {
     "query": "List institutes related to network science.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "491",
       "147",
@@ -5126,6 +5492,8 @@
   {
     "query": "List Khoury labs for AI research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1084",
       "1513",
@@ -5154,6 +5522,8 @@
   {
     "query": "Which institute focuses on interdisciplinary research?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1088",
       "1517",
@@ -5182,6 +5552,8 @@
   {
     "query": "Current highlights in faculty achievements.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "248",
       "465",
@@ -5210,6 +5582,8 @@
   {
     "query": "New research in generative models by Khoury.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1846",
       "1874",
@@ -5238,6 +5612,8 @@
   {
     "query": "List of institutes in connection with digital democracy.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "947",
       "360",
@@ -5266,6 +5642,8 @@
   {
     "query": "Which center is leading innovation in HCI?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "775",
       "1447",
@@ -5294,6 +5672,8 @@
   {
     "query": "Show me recent networks research at Northeastern.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1058",
       "339",
@@ -5322,6 +5702,8 @@
   {
     "query": "Which laboratories focus on data science?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "758",
       "1023",
@@ -5350,6 +5732,8 @@
   {
     "query": "Which professor specializes in NLP?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "219",
       "1334",
@@ -5378,6 +5762,8 @@
   {
     "query": "Give me details about network research centers.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "221",
       "1336",
@@ -5406,6 +5792,8 @@
   {
     "query": "Show me recent blockchain research at Northeastern.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1058",
       "339",
@@ -5434,6 +5822,8 @@
   {
     "query": "Which institutes at Northeastern are dedicated to interdisciplinary research involving computer science?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "461",
       "1049",
@@ -5462,6 +5852,8 @@
   {
     "query": "Show me faculty involved in software engineering.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "248",
       "465",
@@ -5490,6 +5882,8 @@
   {
     "query": "Curious about who does big things in NLP.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "653",
       "1783",
@@ -5518,6 +5912,8 @@
   {
     "query": "New research in Khoury's causal conclusion.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "445",
       "792",
@@ -5546,6 +5942,8 @@
   {
     "query": "What are the latest papers in NLP?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "310",
       "458",
@@ -5574,6 +5972,8 @@
   {
     "query": "Latest news about awards.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "745",
       "1439",
@@ -5602,6 +6002,8 @@
   {
     "query": "Recent breakthroughs in research into new publications.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "284",
       "1034",
@@ -5630,6 +6032,8 @@
   {
     "query": "List professors working on privacy.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "372",
       "1133",
@@ -5658,6 +6062,8 @@
   {
     "query": "What are the latest papers in deep learning?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "310",
       "1241",
@@ -5686,6 +6092,8 @@
   {
     "query": "Faculty experts in AI?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "247",
       "464",
@@ -5714,6 +6122,8 @@
   {
     "query": "Who teaches systems?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1029",
       "310",
@@ -5742,6 +6152,8 @@
   {
     "query": "Recent updates on recent publications?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1270",
       "126",
@@ -5770,6 +6182,8 @@
   {
     "query": "Ongoing deep learning research projects?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "112",
       "775",
@@ -5798,6 +6212,8 @@
   {
     "query": "What center is responsible for network science?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "789",
       "683",
@@ -5826,6 +6242,8 @@
   {
     "query": "Which centre is responsible for network science?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1787",
       "1185",
@@ -5854,6 +6272,8 @@
   {
     "query": "Show me the Department of Data Science.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "824",
       "1058",
@@ -5882,6 +6302,8 @@
   {
     "query": "Please show me institutes that emphasize privacy, digital democracy, or cybersecurity.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "221",
       "1336",
@@ -5910,6 +6332,8 @@
   {
     "query": "Which labs focus on AI?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1084",
       "1513",
@@ -5938,6 +6362,8 @@
   {
     "query": "What are some active project areas in CS research?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "457",
       "458",
@@ -5966,6 +6392,8 @@
   {
     "query": "Show me recent NLP research at Northeastern.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1058",
       "339",
@@ -5994,6 +6422,8 @@
   {
     "query": "What are the latest papers in computer vision?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "458",
       "310",
@@ -6022,6 +6452,8 @@
   {
     "query": "Did you hear Khoury published something groundbreaking in AI?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1090",
       "1519",
@@ -6050,6 +6482,8 @@
   {
     "query": "Ongoing computer vision research projects?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1012",
       "1483",
@@ -6078,6 +6512,8 @@
   {
     "query": "Labs involved in bioinformatics?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "425",
       "1091",
@@ -6106,6 +6542,8 @@
   {
     "query": "Ongoing generative models research projects?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1135",
       "601",
@@ -6134,6 +6572,8 @@
   {
     "query": "Labs related to bioinformatics at Northeastern.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "339",
       "579",
@@ -6162,6 +6602,8 @@
   {
     "query": "Who's driving breakthroughs in cybersecurity?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "324",
       "1082",
@@ -6190,6 +6632,8 @@
   {
     "query": "Please list the professors of the Northeast who are currently working on cybersecurity and data protection.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "842",
       "1152",
@@ -6218,6 +6662,8 @@
   {
     "query": "List of professors working on software engineering.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1665",
       "481",
@@ -6246,6 +6692,8 @@
   {
     "query": "List Khoury labs for cybersecurity research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "90",
       "503",
@@ -6274,6 +6722,8 @@
   {
     "query": "Ongoing networks research projects?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "775",
       "1447",
@@ -6302,6 +6752,8 @@
   {
     "query": "List of Khoury laboratories for bioinformatics research.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "425",
       "440",
@@ -6330,6 +6782,8 @@
   {
     "query": "What's new in awards?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "452",
       "273",
@@ -6358,6 +6812,8 @@
   {
     "query": "Show me faculty involved in systems.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "248",
       "465",
@@ -6386,6 +6842,8 @@
   {
     "query": "Latest news about media coverage.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "745",
       "1439",
@@ -6414,6 +6872,8 @@
   {
     "query": "Which laboratories focus on visual computing?",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1023",
       "1491",
@@ -6442,6 +6902,8 @@
   {
     "query": "Curious about who's doing big things in NLP.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "317",
       "1076",
@@ -6470,6 +6932,8 @@
   {
     "query": "New research in deep learning by Khoury.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1551",
       "326",
@@ -6498,6 +6962,8 @@
   {
     "query": "Find publications about causal inference.",
     "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0,
     "top_docs": [
       "1034",
       "803",

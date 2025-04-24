@@ -1,9 +1,9 @@
 [
   {
     "query": "Show me labs working on HCI.",
-    "ndcg@10": 0.0,
-    "map@10": 0.0,
-    "recall@10": 0.0
+    "ndcg@10": 0.2398,
+    "map@10": 0.0588,
+    "recall@10": 1.0
   },
   {
     "query": "List institutes related to interdisciplinary research.",
@@ -25,8 +25,8 @@
   },
   {
     "query": "Laboratories related to data science in the northeast.",
-    "ndcg@10": 0.9961,
-    "map@10": 0.9599,
+    "ndcg@10": 0.9981,
+    "map@10": 0.9798,
     "recall@10": 0.6923
   },
   {
@@ -43,8 +43,8 @@
   },
   {
     "query": "Labs involved in HCI?",
-    "ndcg@10": 0.5,
-    "map@10": 0.3333,
+    "ndcg@10": 0.301,
+    "map@10": 0.1111,
     "recall@10": 1.0
   },
   {
@@ -67,15 +67,15 @@
   },
   {
     "query": "Labs involved in AI?",
-    "ndcg@10": 0.4307,
-    "map@10": 0.25,
+    "ndcg@10": 0.3155,
+    "map@10": 0.125,
     "recall@10": 0.3333
   },
   {
     "query": "List Khoury labs for data science research.",
-    "ndcg@10": 0.6619,
-    "map@10": 0.4561,
-    "recall@10": 0.8
+    "ndcg@10": 0.388,
+    "map@10": 0.1546,
+    "recall@10": 0.4
   },
   {
     "query": "Which professor specializes in data science?",
@@ -163,8 +163,8 @@
   },
   {
     "query": "Give me detailed information on human-computer interaction labs under the computer science department.",
-    "ndcg@10": 0.25,
-    "map@10": 0.0667,
+    "ndcg@10": 0.3333,
+    "map@10": 0.1429,
     "recall@10": 1.0
   },
   {
@@ -181,9 +181,9 @@
   },
   {
     "query": "Labs related to HCI at Northeastern.",
-    "ndcg@10": 0.8669,
-    "map@10": 0.683,
-    "recall@10": 0.5556
+    "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0
   },
   {
     "query": "Show me labs working on bioinformatics.",
@@ -211,8 +211,8 @@
   },
   {
     "query": "Labs related to visual computing at Northeastern.",
-    "ndcg@10": 0.9961,
-    "map@10": 0.9827,
+    "ndcg@10": 1.0,
+    "map@10": 1.0,
     "recall@10": 0.6071
   },
   {
@@ -223,9 +223,9 @@
   },
   {
     "query": "List of Khoury laboratories for AI research.",
-    "ndcg@10": 0.3006,
-    "map@10": 0.0885,
-    "recall@10": 0.6667
+    "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0
   },
   {
     "query": "Which center is responsible for cybersecurity?",
@@ -235,9 +235,9 @@
   },
   {
     "query": "Labs related to networks at Northeastern.",
-    "ndcg@10": 0.8901,
-    "map@10": 0.7447,
-    "recall@10": 0.55
+    "ndcg@10": 0.5829,
+    "map@10": 0.373,
+    "recall@10": 0.5
   },
   {
     "query": "Show me the Department of Software Engineering.",
@@ -277,9 +277,9 @@
   },
   {
     "query": "Labs related to cybersecurity at Northeastern.",
-    "ndcg@10": 0.6878,
-    "map@10": 0.4807,
-    "recall@10": 0.4667
+    "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0
   },
   {
     "query": "Show me recent generative models research at Northeastern.",
@@ -295,9 +295,9 @@
   },
   {
     "query": "Where's the action happening in machine learning at Northeastern?",
-    "ndcg@10": 0.8041,
-    "map@10": 0.5706,
-    "recall@10": 1.0
+    "ndcg@10": 0.328,
+    "map@10": 0.1047,
+    "recall@10": 0.5
   },
   {
     "query": "List professors working on NLP.",
@@ -307,9 +307,9 @@
   },
   {
     "query": "List Khoury labs for robotics research.",
-    "ndcg@10": 0.2314,
-    "map@10": 0.0526,
-    "recall@10": 0.3333
+    "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0
   },
   {
     "query": "Latest news about new research.",
@@ -319,9 +319,9 @@
   },
   {
     "query": "List Khoury labs for visual computing research.",
-    "ndcg@10": 0.9139,
-    "map@10": 0.7658,
-    "recall@10": 1.0
+    "ndcg@10": 0.3259,
+    "map@10": 0.1036,
+    "recall@10": 0.6
   },
   {
     "query": "Heard Khoury published something groundbreaking in AI?",
@@ -385,9 +385,9 @@
   },
   {
     "query": "List of Khoury laboratories for data science research.",
-    "ndcg@10": 0.4759,
-    "map@10": 0.2663,
-    "recall@10": 0.8333
+    "ndcg@10": 0.333,
+    "map@10": 0.1321,
+    "recall@10": 0.5
   },
   {
     "query": "List of professors working on formal methods.",
@@ -403,15 +403,15 @@
   },
   {
     "query": "Show me labs working on data science.",
-    "ndcg@10": 0.9408,
-    "map@10": 0.8436,
+    "ndcg@10": 0.6355,
+    "map@10": 0.4614,
     "recall@10": 0.9
   },
   {
     "query": "Laboratories related to networks in the northeast.",
-    "ndcg@10": 0.3753,
-    "map@10": 0.1548,
-    "recall@10": 0.6667
+    "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0
   },
   {
     "query": "Show me recent computer vision research at Northeastern.",
@@ -421,15 +421,15 @@
   },
   {
     "query": "Labs related to data science at Northeastern.",
-    "ndcg@10": 0.9972,
-    "map@10": 0.9889,
-    "recall@10": 0.3333
+    "ndcg@10": 0.986,
+    "map@10": 0.9456,
+    "recall@10": 0.4074
   },
   {
     "query": "List Khoury labs for networks research.",
-    "ndcg@10": 0.8121,
-    "map@10": 0.6019,
-    "recall@10": 0.5
+    "ndcg@10": 0.3302,
+    "map@10": 0.1059,
+    "recall@10": 0.375
   },
   {
     "query": "New research in blockchain by Khoury.",
@@ -553,8 +553,8 @@
   },
   {
     "query": "Give me detailed information about human-computer interaction laboratories under the Department of Computer Science.",
-    "ndcg@10": 0.2447,
-    "map@10": 0.0625,
+    "ndcg@10": 0.3155,
+    "map@10": 0.125,
     "recall@10": 1.0
   },
   {
@@ -595,9 +595,9 @@
   },
   {
     "query": "I'm looking for research labs at Northeastern that are working on artificial intelligence and deep learning.",
-    "ndcg@10": 0.8893,
-    "map@10": 0.7566,
-    "recall@10": 0.5333
+    "ndcg@10": 0.8807,
+    "map@10": 0.7252,
+    "recall@10": 0.6
   },
   {
     "query": "Recent breakthroughs in new research research.",
@@ -613,9 +613,9 @@
   },
   {
     "query": "Labs related to AI at Northeastern.",
-    "ndcg@10": 0.9558,
-    "map@10": 0.8669,
-    "recall@10": 0.3636
+    "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0
   },
   {
     "query": "Recent breakthroughs in breakthroughs research.",
@@ -637,8 +637,8 @@
   },
   {
     "query": "Where can I find practical AI applications at Northeastern?",
-    "ndcg@10": 1.0,
-    "map@10": 1.0,
+    "ndcg@10": 0.305,
+    "map@10": 0.1099,
     "recall@10": 1.0
   },
   {
@@ -649,9 +649,9 @@
   },
   {
     "query": "Which labs focus on HCI?",
-    "ndcg@10": 0.2789,
-    "map@10": 0.0909,
-    "recall@10": 0.3333
+    "ndcg@10": 0.3383,
+    "map@10": 0.1269,
+    "recall@10": 0.6667
   },
   {
     "query": "Recent updates on media coverage?",
@@ -721,8 +721,8 @@
   },
   {
     "query": "Labs involved in networks?",
-    "ndcg@10": 0.8608,
-    "map@10": 0.6417,
+    "ndcg@10": 0.5065,
+    "map@10": 0.2707,
     "recall@10": 0.6667
   },
   {
@@ -739,9 +739,9 @@
   },
   {
     "query": "Labs involved in cybersecurity?",
-    "ndcg@10": 0.9268,
-    "map@10": 0.8167,
-    "recall@10": 0.8
+    "ndcg@10": 0.2862,
+    "map@10": 0.0804,
+    "recall@10": 0.4
   },
   {
     "query": "List Khoury labs for bioinformatics research.",
@@ -751,8 +751,8 @@
   },
   {
     "query": "Labs involved in robotics?",
-    "ndcg@10": 0.8603,
-    "map@10": 0.6984,
+    "ndcg@10": 0.486,
+    "map@10": 0.2869,
     "recall@10": 0.5
   },
   {
@@ -763,9 +763,9 @@
   },
   {
     "query": "Which labs focus on visual computing?",
-    "ndcg@10": 0.4029,
-    "map@10": 0.1833,
-    "recall@10": 0.5
+    "ndcg@10": 0.4182,
+    "map@10": 0.1738,
+    "recall@10": 1.0
   },
   {
     "query": "Recent breakthroughs in media coverage research.",
@@ -781,8 +781,8 @@
   },
   {
     "query": "Which labs focus on data science?",
-    "ndcg@10": 0.9835,
-    "map@10": 0.9353,
+    "ndcg@10": 0.8473,
+    "map@10": 0.7743,
     "recall@10": 0.65
   },
   {
@@ -799,9 +799,9 @@
   },
   {
     "query": "List Khoury labs for network research.",
-    "ndcg@10": 0.5953,
-    "map@10": 0.3988,
-    "recall@10": 0.5
+    "ndcg@10": 0.3426,
+    "map@10": 0.1194,
+    "recall@10": 0.375
   },
   {
     "query": "What are the latest research highlights published by Khoury College?",
@@ -823,9 +823,9 @@
   },
   {
     "query": "Laboratories related to visual computing in the northeast.",
-    "ndcg@10": 0.9775,
-    "map@10": 0.9174,
-    "recall@10": 0.7143
+    "ndcg@10": 0.9779,
+    "map@10": 0.9109,
+    "recall@10": 0.7857
   },
   {
     "query": "What are the latest papers in Computer Vision?",
@@ -883,8 +883,8 @@
   },
   {
     "query": "Labs involved in data science?",
-    "ndcg@10": 0.9704,
-    "map@10": 0.9042,
+    "ndcg@10": 0.9721,
+    "map@10": 0.9106,
     "recall@10": 0.9091
   },
   {
@@ -919,8 +919,8 @@
   },
   {
     "query": "Laboratories related to HCI in the northeast.",
-    "ndcg@10": 0.3155,
-    "map@10": 0.125,
+    "ndcg@10": 0.256,
+    "map@10": 0.0714,
     "recall@10": 1.0
   },
   {
@@ -949,9 +949,9 @@
   },
   {
     "query": "Which labs focus on cybersecurity?",
-    "ndcg@10": 0.8815,
-    "map@10": 0.6878,
-    "recall@10": 1.0
+    "ndcg@10": 0.3849,
+    "map@10": 0.1536,
+    "recall@10": 0.5714
   },
   {
     "query": "What are the latest posts in networks?",
@@ -973,9 +973,9 @@
   },
   {
     "query": "List of Khoury laboratories for visual computer research.",
-    "ndcg@10": 0.5069,
-    "map@10": 0.2936,
-    "recall@10": 0.6
+    "ndcg@10": 0.0,
+    "map@10": 0.0,
+    "recall@10": 0.0
   },
   {
     "query": "Find publications about blockchain.",
@@ -1141,8 +1141,8 @@
   },
   {
     "query": "Which laboratories focus on data science?",
-    "ndcg@10": 0.9762,
-    "map@10": 0.9184,
+    "ndcg@10": 0.7452,
+    "map@10": 0.6254,
     "recall@10": 0.8333
   },
   {
@@ -1267,8 +1267,8 @@
   },
   {
     "query": "Which labs focus on AI?",
-    "ndcg@10": 0.9657,
-    "map@10": 0.8762,
+    "ndcg@10": 0.486,
+    "map@10": 0.2888,
     "recall@10": 0.625
   },
   {
@@ -1339,9 +1339,9 @@
   },
   {
     "query": "List Khoury labs for cybersecurity research.",
-    "ndcg@10": 0.7664,
-    "map@10": 0.5667,
-    "recall@10": 0.5
+    "ndcg@10": 0.2314,
+    "map@10": 0.0526,
+    "recall@10": 0.25
   },
   {
     "query": "Ongoing networks research projects?",
@@ -1375,8 +1375,8 @@
   },
   {
     "query": "Which laboratories focus on visual computing?",
-    "ndcg@10": 0.511,
-    "map@10": 0.3095,
+    "ndcg@10": 0.3816,
+    "map@10": 0.1714,
     "recall@10": 1.0
   },
   {
