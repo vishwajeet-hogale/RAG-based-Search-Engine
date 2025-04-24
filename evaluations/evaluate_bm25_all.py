@@ -109,9 +109,9 @@ def evaluate(k):
     avg_recall = sum(recall_scores) / len(recall_scores) if recall_scores else 0.0
     print(f"\n✅ Evaluation completed — Avg NDCG@{k}: {round(avg_ndcg, 4)} | Avg MAP@{k}: {round(avg_map, 4)} | Avg Recall@{k}: {round(avg_recall, 4)}")
     print(f"📁 Results saved to: {output_path}")
-
+    return detailed_results
 # -------------------------------
 # Entry Point
 # -------------------------------
 if __name__ == "__main__":
-    evaluate(10)
+    evaluate(7)

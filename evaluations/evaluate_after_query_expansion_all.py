@@ -77,7 +77,9 @@ def evaluate(k):
     avg_ndcg = sum(ndcg) / len(ndcg) if ndcg else 0.0
     avg_map = sum(map_scores) / len(map_scores) if map_scores else 0.0
     avg_recall = sum(recall_scores) / len(recall_scores) if recall_scores else 0.0
+    print("No. of queries : ", len(ndcg))
     print(f"\n✅ Evaluation (raw results) completed — Avg NDCG@10: {avg_ndcg:.4f} | Avg MAP@10: {avg_map:.4f} | Avg Recall@10: {avg_recall:.4f}")
+    return detailed_results
 
 if __name__ == "__main__":
-    evaluate(20)
+    evaluate(10)
