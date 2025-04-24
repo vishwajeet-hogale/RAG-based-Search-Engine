@@ -28,9 +28,9 @@ BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "evalua
 # }
 evaluations = {
     "bm25": {
-        "ndcg" :[0.9262, 0.7908, 0.7900, 0.7600],  # Added values for k = 2, 5, 7, 10
-        "map" :[0.9, 0.7095, 0.6900, 0.6700],      # Added values for k = 2, 5, 7, 10
-        "recall" :[0.5619, 0.6716, 0.6800, 0.6900],  # Added values for k = 2, 5, 7, 10
+        "ndcg" :[0.9262, 0.7908, 0.7900, 0.7600],  
+        "map" :[0.9, 0.7095, 0.6900, 0.6700],      
+        "recall" :[0.5619, 0.6716, 0.6800, 0.6900],  
     },
     "after_query_expansion" : {
         "ndcg" :[0.9460, 0.8500, 0.8200, 0.8000],
